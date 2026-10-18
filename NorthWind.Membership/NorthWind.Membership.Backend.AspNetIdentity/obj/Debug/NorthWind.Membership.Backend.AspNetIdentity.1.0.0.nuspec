@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Membership.Backend.AspNetIdentity</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Membership.Backend.AspNetIdentity</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.AspNetCore.Identity.EntityFrameworkCore" version="8.0.22" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="8.0.22" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Membership.Backend.Core" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Membership.Entities" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net8.0\NorthWind.Membership.Backend.AspNetIdentity.runtimeconfig.json" target="lib\net8.0\NorthWind.Membership.Backend.AspNetIdentity.runtimeconfig.json" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net8.0\NorthWind.Membership.Backend.AspNetIdentity.dll" target="lib\net8.0\NorthWind.Membership.Backend.AspNetIdentity.dll" />
+  </files>
+</package>

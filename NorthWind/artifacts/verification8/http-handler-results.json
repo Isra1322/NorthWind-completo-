@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Success unchanged",
+    "passed": true,
+    "status": 200
+  },
+  {
+    "name": "Unauthorized",
+    "passed": true,
+    "status": 401
+  },
+  {
+    "name": "Forbidden",
+    "passed": true,
+    "status": 403
+  },
+  {
+    "name": "Case-insensitive ProblemDetails and errors",
+    "passed": true,
+    "status": 400
+  },
+  {
+    "name": "Malformed JSON preserves body",
+    "passed": true,
+    "status": 400
+  },
+  {
+    "name": "Text preserves body",
+    "passed": true,
+    "status": 500
+  },
+  {
+    "name": "Missing content type",
+    "passed": true,
+    "status": 502
+  },
+  {
+    "name": "Empty content",
+    "passed": true,
+    "status": 502
+  },
+  {
+    "name": "Array instead of problem",
+    "passed": true,
+    "status": 400
+  },
+  {
+    "name": "Wrong prefix preserves body",
+    "passed": true,
+    "status": 400
+  },
+  {
+    "name": "JSON without problem media type",
+    "passed": true,
+    "status": 400
+  },
+  {
+    "name": "Missing instance",
+    "passed": true,
+    "status": 400
+  },
+  {
+    "name": "Update without validation errors",
+    "passed": true,
+    "status": 500
+  }
+]

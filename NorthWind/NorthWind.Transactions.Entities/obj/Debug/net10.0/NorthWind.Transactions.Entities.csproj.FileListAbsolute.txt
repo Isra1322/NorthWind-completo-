@@ -1,0 +1,30 @@
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Transactions.Entities\bin\Debug\net10.0\NorthWind.Transactions.Entities.deps.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Transactions.Entities\bin\Debug\net10.0\NorthWind.Transactions.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Transactions.Entities\bin\Debug\net10.0\NorthWind.Transactions.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\NorthWind.Transactions.Entities.csproj.AssemblyReference.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\NorthWind.Transactions.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\NorthWind.Transactions.Entities.AssemblyInfoInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\NorthWind.Transactions.Entities.AssemblyInfo.cs
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\NorthWind.Transactions.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\NorthWind.Transactions.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\refint\NorthWind.Transactions.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\NorthWind.Transactions.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\ref\NorthWind.Transactions.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\NorthWind.Transactions.Entities.deps.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\NorthWind.Transactions.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\NorthWind.Transactions.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check-edit\NorthWind.Transactions.Entities.deps.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check-edit\NorthWind.Transactions.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check-edit\NorthWind.Transactions.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Transactions.Entities\bin\Debug\net10.0\NorthWind.Transactions.Entities.deps.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Transactions.Entities\bin\Debug\net10.0\NorthWind.Transactions.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Transactions.Entities\bin\Debug\net10.0\NorthWind.Transactions.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\NorthWind.Transactions.Entities.csproj.AssemblyReference.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\NorthWind.Transactions.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\NorthWind.Transactions.Entities.AssemblyInfoInputs.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\NorthWind.Transactions.Entities.AssemblyInfo.cs
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\NorthWind.Transactions.Entities.csproj.CoreCompileInputs.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\NorthWind.Transactions.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\refint\NorthWind.Transactions.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\NorthWind.Transactions.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Transactions.Entities\obj\Debug\net10.0\ref\NorthWind.Transactions.Entities.dll

@@ -1,0 +1,51 @@
+@using System.Globalization
+@implements IDisposable
+
+<div class="current-clock" aria-label="Fecha y hora local">
+    <span class="current-clock-part">
+        <svg class="current-clock-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+            <path d="M3 2a1 1 0 0 1 2 0v1h6V2a1 1 0 1 1 2 0v1h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h1V2zm10 4H3v7h10V6zM4 8h2v2H4V8z" />
+        </svg>
+        <time datetime="@CurrentTime.ToString("O", CultureInfo.InvariantCulture)">@CurrentTime.ToString("dd MMM yyyy", SpanishCulture)</time>
+    </span>
+    <span class="current-clock-divider" aria-hidden="true"></span>
+    <span class="current-clock-part">
+        <svg class="current-clock-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+            <path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zm0 1.5a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11zM7.25 4h1.5v3.55l2.35 1.4-.77 1.28-3.08-1.85V4z" />
+        </svg>
+        <span class="current-clock-time">@CurrentTime.ToString("HH:mm:ss", CultureInfo.InvariantCulture)</span>
+    </span>
+</div>
+
+@code {
+    private static readonly CultureInfo SpanishCulture = CultureInfo.GetCultureInfo("es-EC");
+    private DateTime CurrentTime = DateTime.Now;
+    private Timer? ClockTimer;
+    private int UpdatePending;
+
+    protected override void OnInitialized()
+    {
+        ClockTimer = new Timer(_ => _ = UpdateTimeAsync(), null, TimeSpan.FromSeconds(1), TimeSpan.FromSeconds(1));
+    }
+
+    private async Task UpdateTimeAsync()
+    {
+        if (Interlocked.Exchange(ref UpdatePending, 1) != 0) return;
+        try
+        {
+            await InvokeAsync(() =>
+            {
+                CurrentTime = DateTime.Now;
+                StateHasChanged();
+            });
+        }
+        catch (ObjectDisposedException) { }
+        finally { Interlocked.Exchange(ref UpdatePending, 0); }
+    }
+
+    public void Dispose()
+    {
+        ClockTimer?.Dispose();
+        ClockTimer = null;
+    }
+}

@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E98F9E14-5957-307C-96FC-EAAECA1830EB}|NorthWind.Sales.WebApi\\NorthWind.Sales.WebApi.csproj|c:\\users\\asus tuf f16\\desktop\\michael\\universidad\\sexto semestre\\soporte de deciciones\\northwind\\northwind.sales.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E98F9E14-5957-307C-96FC-EAAECA1830EB}|NorthWind.Sales.WebApi\\NorthWind.Sales.WebApi.csproj|solutionrelative:northwind.sales.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E263C145-143F-34AE-D345-2AAC56FC728D}|NorthWind.Sales.BlazorClient\\NorthWind.Sales.BlazorClient.csproj|c:\\users\\asus tuf f16\\desktop\\michael\\universidad\\sexto semestre\\soporte de deciciones\\northwind\\northwind.sales.blazorclient\\northwind.sales.blazorclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E263C145-143F-34AE-D345-2AAC56FC728D}|NorthWind.Sales.BlazorClient\\NorthWind.Sales.BlazorClient.csproj|solutionrelative:northwind.sales.blazorclient\\northwind.sales.blazorclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98F9E14-5957-307C-96FC-EAAECA1830EB}|NorthWind.Sales.WebApi\\NorthWind.Sales.WebApi.csproj|c:\\users\\asus tuf f16\\desktop\\michael\\universidad\\sexto semestre\\soporte de deciciones\\northwind\\northwind.sales.webapi\\northwind.sales.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E98F9E14-5957-307C-96FC-EAAECA1830EB}|NorthWind.Sales.WebApi\\NorthWind.Sales.WebApi.csproj|solutionrelative:northwind.sales.webapi\\northwind.sales.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17772E0A-B28E-5509-C69C-50A5B8EEF7B6}|NorthWind.Sales.Frontend.IoC\\NorthWind.Sales.Frontend.IoC.csproj|c:\\users\\asus tuf f16\\desktop\\michael\\universidad\\sexto semestre\\soporte de deciciones\\northwind\\northwind.sales.frontend.ioc\\northwind.sales.frontend.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{17772E0A-B28E-5509-C69C-50A5B8EEF7B6}|NorthWind.Sales.Frontend.IoC\\NorthWind.Sales.Frontend.IoC.csproj|solutionrelative:northwind.sales.frontend.ioc\\northwind.sales.frontend.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DB317A8-C0FB-F965-9C6C-F71350EC6E99}|NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj|c:\\users\\asus tuf f16\\desktop\\michael\\universidad\\sexto semestre\\soporte de deciciones\\northwind\\northwind.sales.backend.ioc\\northwind.sales.backend.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8DB317A8-C0FB-F965-9C6C-F71350EC6E99}|NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj|solutionrelative:northwind.sales.backend.ioc\\northwind.sales.backend.ioc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083CC1F3-DE31-E805-30D7-28EB47D296F7}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|c:\\users\\asus tuf f16\\desktop\\michael\\universidad\\sexto semestre\\soporte de deciciones\\northwind\\northwind.sales.backend.controllers\\northwind.sales.backend.controllers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{083CC1F3-DE31-E805-30D7-28EB47D296F7}|NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj|solutionrelative:northwind.sales.backend.controllers\\northwind.sales.backend.controllers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7324434-AFB3-ED72-2776-E9B6F8270A98}|NorthWind.UserServices\\NorthWind.UserServices.csproj|c:\\users\\asus tuf f16\\desktop\\michael\\universidad\\sexto semestre\\soporte de deciciones\\northwind\\northwind.userservices\\northwind.userservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C7324434-AFB3-ED72-2776-E9B6F8270A98}|NorthWind.UserServices\\NorthWind.UserServices.csproj|solutionrelative:northwind.userservices\\northwind.userservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98F9E14-5957-307C-96FC-EAAECA1830EB}|NorthWind.Sales.WebApi\\NorthWind.Sales.WebApi.csproj|c:\\users\\asus tuf f16\\desktop\\michael\\universidad\\sexto semestre\\soporte de deciciones\\northwind\\northwind.sales.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98F9E14-5957-307C-96FC-EAAECA1830EB}|NorthWind.Sales.WebApi\\NorthWind.Sales.WebApi.csproj|solutionrelative:northwind.sales.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98F9E14-5957-307C-96FC-EAAECA1830EB}|NorthWind.Sales.WebApi\\NorthWind.Sales.WebApi.csproj|c:\\users\\asus tuf f16\\desktop\\michael\\universidad\\sexto semestre\\soporte de deciciones\\northwind\\northwind.sales.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98F9E14-5957-307C-96FC-EAAECA1830EB}|NorthWind.Sales.WebApi\\NorthWind.Sales.WebApi.csproj|solutionrelative:northwind.sales.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5559E638-EA77-9611-3358-5AC096B15B29}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|c:\\users\\asus tuf f16\\desktop\\michael\\universidad\\sexto semestre\\soporte de deciciones\\northwind\\northwind.sales.backend.usecases\\createorder\\createorderinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5559E638-EA77-9611-3358-5AC096B15B29}|NorthWind.Sales.Backend.UseCases\\NorthWind.Sales.Backend.UseCases.csproj|solutionrelative:northwind.sales.backend.usecases\\createorder\\createorderinteractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6081ED-6A26-6836-DA3F-9A730603BCF5}|NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj|c:\\users\\asus tuf f16\\desktop\\michael\\universidad\\sexto semestre\\soporte de deciciones\\northwind\\northwind.sales.entities\\dtos\\createorder\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6081ED-6A26-6836-DA3F-9A730603BCF5}|NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj|solutionrelative:northwind.sales.entities\\dtos\\createorder\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6081ED-6A26-6836-DA3F-9A730603BCF5}|NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj|c:\\users\\asus tuf f16\\desktop\\michael\\universidad\\sexto semestre\\soporte de deciciones\\northwind\\northwind.sales.entities\\dtos\\createorder\\createorderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6081ED-6A26-6836-DA3F-9A730603BCF5}|NorthWind.Sales.Entities\\NorthWind.Sales.Entities.csproj|solutionrelative:northwind.sales.entities\\dtos\\createorder\\createorderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NorthWind.Sales.Frontend.IoC.csproj",
+              "DocumentMoniker": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.Frontend.IoC\\NorthWind.Sales.Frontend.IoC.csproj",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Frontend.IoC\\NorthWind.Sales.Frontend.IoC.csproj",
+              "ToolTip": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.Frontend.IoC\\NorthWind.Sales.Frontend.IoC.csproj",
+              "RelativeToolTip": "NorthWind.Sales.Frontend.IoC\\NorthWind.Sales.Frontend.IoC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-15T19:37:42.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NorthWind.Sales.Backend.Controllers.csproj",
+              "DocumentMoniker": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj",
+              "ToolTip": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj",
+              "RelativeToolTip": "NorthWind.Sales.Backend.Controllers\\NorthWind.Sales.Backend.Controllers.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-15T15:54:40.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NorthWind.Sales.BlazorClient.csproj",
+              "DocumentMoniker": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.BlazorClient\\NorthWind.Sales.BlazorClient.csproj",
+              "RelativeDocumentMoniker": "NorthWind.Sales.BlazorClient\\NorthWind.Sales.BlazorClient.csproj",
+              "ToolTip": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.BlazorClient\\NorthWind.Sales.BlazorClient.csproj",
+              "RelativeToolTip": "NorthWind.Sales.BlazorClient\\NorthWind.Sales.BlazorClient.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-15T15:38:55.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NorthWind.Sales.WebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.WebApi\\NorthWind.Sales.WebApi.csproj",
+              "RelativeDocumentMoniker": "NorthWind.Sales.WebApi\\NorthWind.Sales.WebApi.csproj",
+              "ToolTip": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.WebApi\\NorthWind.Sales.WebApi.csproj",
+              "RelativeToolTip": "NorthWind.Sales.WebApi\\NorthWind.Sales.WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-12T00:00:42.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "NorthWind.Sales.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.WebApi\\appsettings.json",
+              "RelativeToolTip": "NorthWind.Sales.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-12T00:01:03.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NorthWind.Sales.Backend.IoC.csproj",
+              "DocumentMoniker": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj",
+              "ToolTip": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj",
+              "RelativeToolTip": "NorthWind.Sales.Backend.IoC\\NorthWind.Sales.Backend.IoC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-15T15:54:25.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NorthWind.UserServices.csproj",
+              "DocumentMoniker": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.UserServices\\NorthWind.UserServices.csproj",
+              "RelativeDocumentMoniker": "NorthWind.UserServices\\NorthWind.UserServices.csproj",
+              "ToolTip": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.UserServices\\NorthWind.UserServices.csproj",
+              "RelativeToolTip": "NorthWind.UserServices\\NorthWind.UserServices.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-15T15:54:16.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.WebApi\\Startup.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.WebApi\\Startup.cs",
+              "ToolTip": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.WebApi\\Startup.cs",
+              "RelativeToolTip": "NorthWind.Sales.WebApi\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T00:00:49.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.WebApi\\Program.cs",
+              "RelativeToolTip": "NorthWind.Sales.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T00:00:47.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateOrderInteractor.cs",
+              "DocumentMoniker": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.Backend.UseCases\\CreateOrder\\CreateOrderInteractor.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Backend.UseCases\\CreateOrder\\CreateOrderInteractor.cs",
+              "ToolTip": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.Backend.UseCases\\CreateOrder\\CreateOrderInteractor.cs",
+              "RelativeToolTip": "NorthWind.Sales.Backend.UseCases\\CreateOrder\\CreateOrderInteractor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T19:08:25.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.Entities\\Dtos\\CreateOrder\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\CreateOrder\\CreateOrderDto.cs",
+              "ToolTip": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.Entities\\Dtos\\CreateOrder\\CreateOrderDto.cs",
+              "RelativeToolTip": "NorthWind.Sales.Entities\\Dtos\\CreateOrder\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T17:49:51.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateOrderDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.Entities\\Dtos\\CreateOrder\\CreateOrderDetailDto.cs",
+              "RelativeDocumentMoniker": "NorthWind.Sales.Entities\\Dtos\\CreateOrder\\CreateOrderDetailDto.cs",
+              "ToolTip": "C:\\Users\\Asus Tuf F16\\Desktop\\Michael\\UNIVERSIDAD\\Sexto Semestre\\Soporte de deciciones\\NorthWind\\NorthWind.Sales.Entities\\Dtos\\CreateOrder\\CreateOrderDetailDto.cs",
+              "RelativeToolTip": "NorthWind.Sales.Entities\\Dtos\\CreateOrder\\CreateOrderDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T17:49:49.856Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

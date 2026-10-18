@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="ProductIdGreaterThanZero" xml:space="preserve"><value>Debe especificar el identificador del producto.</value></data>
+  <data name="QuantityGreaterThanZero" xml:space="preserve"><value>Debe especificar la cantidad ordenada del producto.</value></data>
+  <data name="UnitPriceGreaterThanZero" xml:space="preserve"><value>Debe especificarse el precio del producto.</value></data>
+  <data name="CustomerIdRequired" xml:space="preserve"><value>Debe especificar el identificador del cliente.</value></data>
+  <data name="CustomerIdRequiredLength" xml:space="preserve"><value>El identificador del cliente debe tener 5 caracteres.</value></data>
+  <data name="ShipAddressRequired" xml:space="preserve"><value>Debe especificar la dirección de envío.</value></data>
+  <data name="ShipAddressMaximumLength" xml:space="preserve"><value>La longitud máxima de la dirección es 60.</value></data>
+  <data name="ShipCityRequired" xml:space="preserve"><value>Debe especificar la ciudad de envío.</value></data>
+  <data name="ShipCityMinimumLength" xml:space="preserve"><value>Debe especificar al menos 3 caracteres del nombre de la ciudad.</value></data>
+  <data name="ShipCityMaximumLength" xml:space="preserve"><value>La longitud máxima de la ciudad es 15.</value></data>
+  <data name="ShipCountryRequired" xml:space="preserve"><value>Debe especificar el país de envío.</value></data>
+  <data name="ShipCountryMinimumLength" xml:space="preserve"><value>Debe especificar al menos 3 caracteres del nombre del País.</value></data>
+  <data name="ShipCountryMaximumLength" xml:space="preserve"><value>La longitud máxima del país es 15.</value></data>
+  <data name="ShipPostalCodeMaximumLength" xml:space="preserve"><value>La longitud máxima del código postal es 10.</value></data>
+  <data name="OrderDetailsRequired" xml:space="preserve"><value>Debe especificar los productos de la orden.</value></data>
+  <data name="OrderDetailsNotEmpty" xml:space="preserve"><value>Debe especificar al menos un producto de la orden.</value></data>
+</root>

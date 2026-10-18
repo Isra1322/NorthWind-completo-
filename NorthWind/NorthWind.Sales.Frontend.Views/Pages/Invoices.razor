@@ -1,0 +1,12 @@
+@page "/invoices"
+@attribute [Authorize]
+
+<PageTitle>Consultar facturas</PageTitle>
+<h1>Consultar facturas</h1>
+<InvoiceList Selected="ShowInvoiceAsync" />
+<InvoiceViewer @ref="Viewer" />
+
+@code {
+    private InvoiceViewer? Viewer;
+    private Task ShowInvoiceAsync(int id) => Viewer!.ShowInvoiceAsync(id);
+}

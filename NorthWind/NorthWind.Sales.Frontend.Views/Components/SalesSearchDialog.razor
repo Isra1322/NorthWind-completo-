@@ -1,0 +1,154 @@
+@using NorthWind.Sales.Entities.Dtos
+@implements IDisposable
+
+<div class="modal d-block" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="searchTitle" @onkeydown="OnKeyDown">
+    <div class="modal-dialog modal-lg"><div class="modal-content">
+        <div class="modal-header">
+            <h2 id="searchTitle" class="modal-title fs-5">Buscar @(Products ? "producto" : "cliente")</h2>
+            <button type="button" class="btn-close" aria-label="Cerrar búsqueda" @onclick="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="row g-3">
+                <div class="col-sm-4"><label for="searchId" class="form-label">@(Products ? "Código" : "Cédula")</label>
+                    <input id="searchId" class="form-control" maxlength="10" inputmode="numeric" pattern="[0-9]*"
+                           @bind:get="SearchId" @bind:set="IdChanged" @bind:event="oninput" autofocus aria-describedby="searchIdError" />
+                    @if (IdError.Length > 0) { <div id="searchIdError" class="text-danger small" role="alert">@IdError</div> }</div>
+                <div class="col-sm-8"><label for="searchName" class="form-label">Nombre</label>
+                    <input id="searchName" class="form-control" maxlength="50" data-input-rule="@(Products ? "product" : "customerName")" @bind:get="SearchName" @bind:set="NameChanged" @bind:event="oninput" aria-describedby="searchNameError" />
+                    @if (NameError.Length > 0) { <div id="searchNameError" class="text-danger small" role="alert">@NameError</div> }</div>
+            </div>
+            @if (Busy) { <p role="status" class="mt-3">Buscando…</p> }
+            @if (!string.IsNullOrEmpty(Error)) { <p role="alert" class="text-danger mt-3">@Error</p> }
+            @if (!string.IsNullOrEmpty(Order.ErrorMessage)) { <p role="alert" class="text-danger mt-3">@Order.ErrorMessage</p> }
+            <div class="table-responsive mt-3"><table class="table">
+                <thead><tr><th class="@(Products ? "text-end" : "text-start")">@(Products ? "Código" : "Cédula")</th><th class="text-start">Nombre</th>@if (Products) { <th class="text-end">Precio</th><th class="text-end">Stock</th> }<th>Acción</th></tr></thead>
+                <tbody>
+                    @foreach (var item in Result.Items)
+                    {
+                        <tr @key="item.Id">
+                            <td class="@(Products ? "text-end" : "text-start")">
+                                @if (Products)
+                                {
+                                    <HighlightText Text="@item.Id" SearchTerm="@SearchId" />
+                                }
+                                else
+                                {
+                                    <HighlightText Text="@(item.Identification ?? "No disponible")" SearchTerm="@SearchId" />
+                                }
+                            </td>
+                            <td class="text-start">
+                                <HighlightText Text="@item.Name" SearchTerm="@SearchName" />
+                            </td>
+                            @if (Products) { <td class="text-end">@item.UnitPrice.ToString("N2")</td><td class="text-end">@item.UnitsInStock</td> }
+                            <td><button type="button" class="btn btn-primary btn-sm" disabled="@(Busy || Order.IsSelectingCustomer || (Products && item.UnitsInStock <= 0))" @onclick="() => Selected.InvokeAsync(item)">Seleccionar</button></td>
+                        </tr>
+                    }
+                </tbody>
+            </table></div>
+            @if (!Busy && Result.Items.Count == 0) { <p>No hay resultados disponibles.</p> }
+            <div class="d-flex justify-content-between align-items-center">
+                <button type="button" class="btn btn-outline-secondary" disabled="@(Busy || Result.Page <= 1)" @onclick="() => Search(Result.Page - 1)">Anterior</button>
+                <span role="status">Página @Result.Page de @Result.TotalPages</span>
+                <button type="button" class="btn btn-outline-secondary" disabled="@(Busy || Result.Page >= Result.TotalPages)" @onclick="() => Search(Result.Page + 1)">Siguiente</button>
+            </div>
+        </div>
+        <div class="modal-footer"><button type="button" class="btn btn-secondary" @onclick="Close">Cerrar</button></div>
+    </div></div>
+</div>
+<div class="modal-backdrop show"></div>
+
+@code {
+    [Parameter] public bool Products { get; set; }
+    [Parameter, EditorRequired] public CreateOrderViewModel Order { get; set; } = null!;
+    [Parameter] public EventCallback<LookupItem> Selected { get; set; }
+    [Parameter] public EventCallback Close { get; set; }
+    private string SearchId = "", SearchName = "", Error = "";
+    private string IdError = "", NameError = "";
+    private SearchPage Result = new([], 1, 1);
+    private bool Busy;
+    private int Revision;
+    private CancellationTokenSource? Debounce;
+    private CancellationTokenSource? Request;
+    protected override Task OnInitializedAsync() => Search(1);
+    private Task IdChanged(string value)
+    {
+        string constrained = Products ? SearchInputRules.NumericCode(value, SearchId) : SearchInputRules.CustomerCedula(value);
+        IdError = "";
+        SearchId = constrained;
+        return ScheduleSearch();
+    }
+    private Task NameChanged(string value)
+    {
+        string constrained = Products ? SearchInputRules.Name(value) : CleanCustomerName(value);
+        if (Products && value.Length <= 50 && (constrained == SearchName || (value.Length > 0 && constrained.Length == 0)))
+            return Task.CompletedTask;
+        if (!Products && (constrained == SearchName || (value.Length > 0 && constrained.Length == 0)))
+            return Task.CompletedTask;
+        SearchName = constrained;
+        NameError = value.Length > 50 ? "El nombre admite un máximo de 50 caracteres." : "";
+        return ScheduleSearch();
+    }
+    private static string CleanCustomerName(string value)
+    {
+        var result = new System.Text.StringBuilder();
+        foreach (char character in value.Normalize())
+        {
+            char previous = result.Length > 0 ? result[result.Length - 1] : '\0';
+            if (TextInputRules.IsLetter(character) || (TextInputRules.IsNameCharacter(character) &&
+                (TextInputRules.IsLetter(previous) || (character == ' ' && previous == '.'))))
+                result.Append(character);
+            if (result.Length == 50) break;
+        }
+        return result.ToString();
+    }
+    private async Task ScheduleSearch()
+    {
+        Debounce?.Cancel();
+        Debounce?.Dispose();
+        Debounce = new();
+        var token = Debounce.Token;
+        Revision++;
+        Request?.Cancel();
+        Result = new([], 1, 1);
+        Busy = true;
+        try { await Task.Delay(300, token); await Search(1); }
+        catch (OperationCanceledException) { }
+    }
+    private async Task Search(int page)
+    {
+        int revision = ++Revision;
+        Request?.Cancel();
+        Request?.Dispose();
+        Request = new(TimeSpan.FromSeconds(30));
+        var token = Request.Token;
+        Busy = true;
+        Error = "";
+        Result = new([], 1, 1);
+        try
+        {
+            if (!Products && SearchName.Length > 0 &&
+                (SearchName != CleanCustomerName(SearchName) || SearchName.TrimEnd().EndsWith('-') ||
+                 SearchName.TrimEnd().EndsWith('\'') || SearchName.TrimEnd().EndsWith('’')))
+            {
+                Error = "Complete el nombre después del guion o apóstrofe; use separadores entre letras.";
+                return;
+            }
+            if (IdError.Length > 0 || NameError.Length > 0)
+            {
+                Error = "Corrija los campos de búsqueda antes de continuar.";
+                return;
+            }
+            var errors = Products
+                ? SearchInputRules.ValidateLookup(true, SearchId, SearchName)
+                : SearchInputRules.ValidateCustomerCedulaLookup(SearchId, SearchName);
+            if (errors.Count > 0) { Error = string.Join(" ", errors.Values); return; }
+            var result = await Order.SearchAsync(Products, SearchId.Trim(), SearchName.Trim(), page, token);
+            if (revision == Revision) Result = result;
+        }
+        catch (Exception exception) when (exception is HttpRequestException or OperationCanceledException or TimeoutException)
+        { if (revision == Revision) Error = "No se pudo completar la búsqueda. Intente nuevamente."; }
+        finally { if (revision == Revision) Busy = false; }
+    }
+    private Task OnKeyDown(KeyboardEventArgs args) => args.Key == "Escape" ? Close.InvokeAsync() : Task.CompletedTask;
+    public void Dispose() { Revision++; Debounce?.Cancel(); Debounce?.Dispose(); Request?.Cancel(); Request?.Dispose(); }
+}

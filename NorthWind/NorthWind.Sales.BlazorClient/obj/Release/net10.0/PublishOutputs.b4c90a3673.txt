@@ -1,0 +1,3 @@
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\net10-publish\blazor\NorthWind.Sales.BlazorClient.runtimeconfig.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\net10-publish\blazor\dotnet.js
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\net10-publish\blazor\web.config

@@ -1,0 +1,39 @@
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.deps.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.runtimeconfig.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.csproj.AssemblyReference.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.AssemblyInfoInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.AssemblyInfo.cs
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.csproj.CoreCompileInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\refint\NorthWind.Membership.Backend.AspNetIdentity.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.genruntimeconfig.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\ref\NorthWind.Membership.Backend.AspNetIdentity.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.deps.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.runtimeconfig.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.csproj.AssemblyReference.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.AssemblyInfoInputs.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.AssemblyInfo.cs
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.csproj.CoreCompileInputs.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\refint\NorthWind.Membership.Backend.AspNetIdentity.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.genruntimeconfig.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\ref\NorthWind.Membership.Backend.AspNetIdentity.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Membership.Backend.Core.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Membership.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Result.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Validation.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.ValidationService.FluentValidation.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Membership.Backend.Core.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Membership.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Result.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.Validation.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\bin\Debug\net10.0\NorthWind.ValidationService.FluentValidation.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.AspNetIdentity\obj\Debug\net10.0\NorthWin.9281C06D.Up2Date

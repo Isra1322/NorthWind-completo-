@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\stali\\Documents\\NorthWind-main\\NorthWind-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E2AFF75-B0B4-E4FC-93B4-0F1D61CDE472}|NorthWind\\NorthWind.Sales.WebApi\\NorthWind.Sales.WebApi.csproj|c:\\users\\stali\\documents\\northwind-main\\northwind-main\\northwind\\northwind.sales.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E2AFF75-B0B4-E4FC-93B4-0F1D61CDE472}|NorthWind\\NorthWind.Sales.WebApi\\NorthWind.Sales.WebApi.csproj|solutionrelative:northwind\\northwind.sales.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\stali\\Documents\\NorthWind-main\\NorthWind-main\\NorthWind\\NorthWind.Sales.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "NorthWind\\NorthWind.Sales.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\stali\\Documents\\NorthWind-main\\NorthWind-main\\NorthWind\\NorthWind.Sales.WebApi\\appsettings.json",
+              "RelativeToolTip": "NorthWind\\NorthWind.Sales.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-17T20:47:08.185Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

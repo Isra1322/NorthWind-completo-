@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "V5XFiyrp6Jo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stali\\Documents\\NorthWind-main\\NorthWind-main\\NorthWind.Membership\\NorthWind.Membership.Entities\\NorthWind.Membership.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.12\\microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\northwind.validation.entities\\2.0.0\\northwind.validation.entities.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

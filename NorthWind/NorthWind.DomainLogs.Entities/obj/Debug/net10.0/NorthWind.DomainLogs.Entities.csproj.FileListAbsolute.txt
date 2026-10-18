@@ -1,0 +1,36 @@
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.DomainLogs.Entities\bin\Debug\net10.0\NorthWind.DomainLogs.Entities.deps.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.DomainLogs.Entities\bin\Debug\net10.0\NorthWind.DomainLogs.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.DomainLogs.Entities\bin\Debug\net10.0\NorthWind.DomainLogs.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.DomainLogs.Entities\bin\Debug\net10.0\NorthWind.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.DomainLogs.Entities\bin\Debug\net10.0\NorthWind.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWind.DomainLogs.Entities.csproj.AssemblyReference.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWind.DomainLogs.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWind.DomainLogs.Entities.AssemblyInfoInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWind.DomainLogs.Entities.AssemblyInfo.cs
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWind.DomainLogs.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWin.B24B6788.Up2Date
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWind.DomainLogs.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\refint\NorthWind.DomainLogs.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWind.DomainLogs.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\ref\NorthWind.DomainLogs.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\NorthWind.DomainLogs.Entities.deps.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\NorthWind.DomainLogs.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\NorthWind.DomainLogs.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check-edit\NorthWind.DomainLogs.Entities.deps.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check-edit\NorthWind.DomainLogs.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check-edit\NorthWind.DomainLogs.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.DomainLogs.Entities\bin\Debug\net10.0\NorthWind.DomainLogs.Entities.deps.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.DomainLogs.Entities\bin\Debug\net10.0\NorthWind.DomainLogs.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.DomainLogs.Entities\bin\Debug\net10.0\NorthWind.DomainLogs.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.DomainLogs.Entities\bin\Debug\net10.0\NorthWind.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.DomainLogs.Entities\bin\Debug\net10.0\NorthWind.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWind.DomainLogs.Entities.csproj.AssemblyReference.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWind.DomainLogs.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWind.DomainLogs.Entities.AssemblyInfoInputs.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWind.DomainLogs.Entities.AssemblyInfo.cs
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWind.DomainLogs.Entities.csproj.CoreCompileInputs.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWin.B24B6788.Up2Date
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWind.DomainLogs.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\refint\NorthWind.DomainLogs.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\NorthWind.DomainLogs.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.DomainLogs.Entities\obj\Debug\net10.0\ref\NorthWind.DomainLogs.Entities.dll

@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Swagger",
+    "passed": true
+  },
+  {
+    "name": "API-1-three",
+    "passed": true,
+    "status": 200,
+    "smtpAttempts": 0,
+    "before": 22,
+    "after": 23,
+    "orderId": 25
+  },
+  {
+    "name": "API-2-duplicates",
+    "passed": true,
+    "status": 200,
+    "smtpAttempts": 0,
+    "before": 23,
+    "after": 24,
+    "orderId": 26
+  },
+  {
+    "name": "API-3-special-SMTP-failure",
+    "passed": true,
+    "status": 200,
+    "smtpAttempts": 1,
+    "before": 24,
+    "after": 25,
+    "orderId": 27
+  },
+  {
+    "name": "API-5-customer",
+    "passed": true,
+    "status": 400,
+    "smtpAttempts": 0,
+    "before": 25,
+    "after": 25,
+    "errors": [
+      {
+        "propertyName": "CustomerId",
+        "message": "El identificador de cliente proporcionado no existe."
+      }
+    ]
+  },
+  {
+    "name": "API-5-product",
+    "passed": true,
+    "status": 400,
+    "smtpAttempts": 0,
+    "before": 25,
+    "after": 25,
+    "errors": [
+      {
+        "propertyName": "OrderDetails[5].ProductId",
+        "message": "El producto 40 no existe."
+      }
+    ]
+  },
+  {
+    "name": "API-5-stock",
+    "passed": true,
+    "status": 400,
+    "smtpAttempts": 0,
+    "before": 25,
+    "after": 25,
+    "errors": [
+      {
+        "propertyName": "OrderDetails[0].Quantity",
+        "message": "Cantidad 100 de 120 no suficiente para producto 1."
+      }
+    ]
+  },
+  {
+    "name": "API-5-required",
+    "passed": true,
+    "status": 400,
+    "smtpAttempts": 0,
+    "before": 25,
+    "after": 25,
+    "errors": [
+      {
+        "propertyName": "CustomerId",
+        "message": "Debe especificar el identificador del cliente."
+      },
+      {
+        "propertyName": "ShipAddress",
+        "message": "Debe especificar la dirección de envío."
+      }
+    ]
+  },
+  {
+    "name": "Blazor-1-three",
+    "passed": true,
+    "status": 200,
+    "orderId": 28,
+    "smtpAttempts": 0
+  },
+  {
+    "name": "Blazor-2-duplicates",
+    "passed": true,
+    "status": 200,
+    "orderId": 29,
+    "smtpAttempts": 0
+  },
+  {
+    "name": "Blazor-3-special-SMTP-failure",
+    "passed": true,
+    "status": 200,
+    "orderId": 30,
+    "smtpAttempts": 1
+  },
+  {
+    "name": "Blazor-P7-P8-server-validation",
+    "passed": true,
+    "status": 400,
+    "smtpAttempts": 0
+  },
+  {
+    "name": "Blazor-P7-local-validation",
+    "passed": true,
+    "additionalPosts": 0,
+    "smtpAttempts": 0
+  },
+  {
+    "name": "Configuration-preserved",
+    "passed": true,
+    "smtpAttemptsTotal": 2
+  }
+]

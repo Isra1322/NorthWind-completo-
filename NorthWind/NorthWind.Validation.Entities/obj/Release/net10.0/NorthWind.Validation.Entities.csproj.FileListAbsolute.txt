@@ -1,0 +1,12 @@
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\bin\Release\net10.0\NorthWind.Validation.Entities.deps.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\bin\Release\net10.0\NorthWind.Validation.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\bin\Release\net10.0\NorthWind.Validation.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\obj\Release\net10.0\NorthWind.Validation.Entities.csproj.AssemblyReference.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\obj\Release\net10.0\NorthWind.Validation.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\obj\Release\net10.0\NorthWind.Validation.Entities.AssemblyInfoInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\obj\Release\net10.0\NorthWind.Validation.Entities.AssemblyInfo.cs
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\obj\Release\net10.0\NorthWind.Validation.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\obj\Release\net10.0\NorthWind.Validation.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\obj\Release\net10.0\refint\NorthWind.Validation.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\obj\Release\net10.0\NorthWind.Validation.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\obj\Release\net10.0\ref\NorthWind.Validation.Entities.dll

@@ -1,0 +1,39 @@
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net10.0\NorthWind.Membership.Backend.Core.deps.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net10.0\NorthWind.Membership.Backend.Core.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net10.0\NorthWind.Membership.Backend.Core.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.csproj.AssemblyReference.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.Resources.UserLoginMessages.resources
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.Resources.UserRegistrationMessages.resources
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.csproj.GenerateResource.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.AssemblyInfoInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.AssemblyInfo.cs
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.csproj.CoreCompileInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\refint\NorthWind.Membership.Backend.Core.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\ref\NorthWind.Membership.Backend.Core.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net10.0\NorthWind.Membership.Backend.Core.deps.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net10.0\NorthWind.Membership.Backend.Core.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net10.0\NorthWind.Membership.Backend.Core.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.csproj.AssemblyReference.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.Resources.UserLoginMessages.resources
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.Resources.UserRegistrationMessages.resources
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.csproj.GenerateResource.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.AssemblyInfoInputs.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.AssemblyInfo.cs
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.csproj.CoreCompileInputs.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\refint\NorthWind.Membership.Backend.Core.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWind.Membership.Backend.Core.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\ref\NorthWind.Membership.Backend.Core.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net10.0\NorthWind.Membership.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net10.0\NorthWind.Result.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net10.0\NorthWind.Validation.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net10.0\NorthWind.ValidationService.FluentValidation.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net10.0\NorthWind.Membership.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net10.0\NorthWind.Result.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net10.0\NorthWind.ValidationService.FluentValidation.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net10.0\NorthWind.Validation.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net10.0\NorthWin.7F9AD6B9.Up2Date

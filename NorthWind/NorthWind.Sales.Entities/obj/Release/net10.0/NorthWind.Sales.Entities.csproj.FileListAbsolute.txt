@@ -1,0 +1,11 @@
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Entities\bin\Release\net10.0\NorthWind.Sales.Entities.deps.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Entities\bin\Release\net10.0\NorthWind.Sales.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Entities\bin\Release\net10.0\NorthWind.Sales.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Entities\obj\Release\net10.0\NorthWind.Sales.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Entities\obj\Release\net10.0\NorthWind.Sales.Entities.AssemblyInfoInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Entities\obj\Release\net10.0\NorthWind.Sales.Entities.AssemblyInfo.cs
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Entities\obj\Release\net10.0\NorthWind.Sales.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Entities\obj\Release\net10.0\NorthWind.Sales.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Entities\obj\Release\net10.0\refint\NorthWind.Sales.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Entities\obj\Release\net10.0\NorthWind.Sales.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Entities\obj\Release\net10.0\ref\NorthWind.Sales.Entities.dll

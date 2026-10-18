@@ -1,0 +1,11 @@
+.product-removal-dialog[b-h0maqpxw3p] {
+    border: 0;
+    padding: 0;
+    border-radius: .5rem;
+    width: min(500px, calc(100vw - 2rem));
+    max-height: calc(100dvh - 2rem);
+}
+
+.product-removal-dialog[b-h0maqpxw3p]::backdrop {
+    background: rgba(0, 0, 0, .5);
+}

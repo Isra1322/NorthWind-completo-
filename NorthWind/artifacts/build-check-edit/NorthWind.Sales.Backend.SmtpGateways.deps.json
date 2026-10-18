@@ -1,0 +1,146 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "NorthWind.Sales.Backend.SmtpGateways/1.0.0": {
+        "dependencies": {
+          "NorthWind.Entities": "1.0.0",
+          "NorthWind.Sales.Backend.BusinessObjects": "1.0.0"
+        },
+        "runtime": {
+          "NorthWind.Sales.Backend.SmtpGateways.dll": {}
+        }
+      },
+      "NorthWind.DomainLogs.Entities/1.0.0": {
+        "dependencies": {
+          "NorthWind.Entities": "1.0.0"
+        },
+        "runtime": {
+          "NorthWind.DomainLogs.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NorthWind.Entities/1.0.0": {
+        "runtime": {
+          "NorthWind.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NorthWind.Events.Entities/1.0.0": {
+        "runtime": {
+          "NorthWind.Events.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NorthWind.Exceptions.Entities/1.0.0": {
+        "dependencies": {
+          "NorthWind.Validation.Entities": "2.0.0"
+        },
+        "runtime": {
+          "NorthWind.Exceptions.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NorthWind.Sales.Backend.BusinessObjects/1.0.0": {
+        "dependencies": {
+          "NorthWind.DomainLogs.Entities": "1.0.0",
+          "NorthWind.Entities": "1.0.0",
+          "NorthWind.Events.Entities": "1.0.0",
+          "NorthWind.Exceptions.Entities": "1.0.0",
+          "NorthWind.Sales.Entities": "1.0.0",
+          "NorthWind.Transactions.Entities": "1.0.0",
+          "NorthWind.Validation.Entities": "2.0.0"
+        },
+        "runtime": {
+          "NorthWind.Sales.Backend.BusinessObjects.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NorthWind.Sales.Entities/1.0.0": {
+        "runtime": {
+          "NorthWind.Sales.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NorthWind.Transactions.Entities/1.0.0": {
+        "runtime": {
+          "NorthWind.Transactions.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NorthWind.Validation.Entities/2.0.0": {
+        "runtime": {
+          "NorthWind.Validation.Entities.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NorthWind.Sales.Backend.SmtpGateways/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.DomainLogs.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Events.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Exceptions.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Sales.Backend.BusinessObjects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Sales.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Transactions.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Validation.Entities/2.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

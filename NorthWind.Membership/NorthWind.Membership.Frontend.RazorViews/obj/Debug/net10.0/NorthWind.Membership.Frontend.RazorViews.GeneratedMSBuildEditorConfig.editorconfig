@@ -1,0 +1,52 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NorthWind.Membership.Frontend.RazorViews
+build_property.RootNamespace = NorthWind.Membership.Frontend.RazorViews
+build_property.ProjectDir = C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind.Membership/NorthWind.Membership.Frontend.RazorViews/Components/LoginDisplayComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dpbkRpc3BsYXlDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind.Membership/NorthWind.Membership.Frontend.RazorViews/Components/UserLoginComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xVc2VyTG9naW5Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind.Membership/NorthWind.Membership.Frontend.RazorViews/Components/UserRegistrationComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xVc2VyUmVnaXN0cmF0aW9uQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind.Membership/NorthWind.Membership.Frontend.RazorViews/Pages/LogoutPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0UGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind.Membership/NorthWind.Membership.Frontend.RazorViews/Pages/UserLoginPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckxvZ2luUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind.Membership/NorthWind.Membership.Frontend.RazorViews/Pages/UserRegistrationPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclJlZ2lzdHJhdGlvblBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind.Membership/NorthWind.Membership.Frontend.RazorViews/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

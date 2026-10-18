@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Membership.Frontend.RazorViews</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Membership.Frontend.RazorViews</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="8.0.31" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Http" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.HttpDelegatingHandlers" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Membership.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.RazorComponents" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Validation.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.ValidationService.FluentValidation" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\bin\Debug\net8.0\NorthWind.Membership.Frontend.RazorViews.dll" target="lib\net8.0\NorthWind.Membership.Frontend.RazorViews.dll" />
+  </files>
+</package>

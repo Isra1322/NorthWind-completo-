@@ -1,0 +1,15 @@
+.bi { display: inline-block; width: 1.25rem; height: 1.25rem; background-repeat: no-repeat; background-position: center; background-size: contain; flex-shrink: 0; }
+.bi-house-door-fill { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M8 1 0 8h2v7h4v-5h4v5h4V8h2z'/%3E%3C/svg%3E"); }
+.bi-card-checklist { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M2 2h12v12H2zm1 1v10h10V3zM4 5h1v1H4zm3 0h5v1H7zM4 8h1v1H4zm3 0h5v1H7zM4 11h1v1H4zm3 0h5v1H7z'/%3E%3C/svg%3E"); }
+
+.shared-header-tools { display: flex; align-items: center; justify-content: flex-end; gap: .75rem; min-width: 0; }
+.shared-header-tools ::deep .current-clock { display: flex; align-items: center; gap: .6rem; padding: .35rem .65rem; border: 1px solid #dee2e6; border-radius: .6rem; background: #f8f9fa; color: #495057; font-size: .82rem; line-height: 1.2; white-space: nowrap; }
+.shared-header-tools ::deep .current-clock-part { display: inline-flex; align-items: center; gap: .35rem; }
+.shared-header-tools ::deep .current-clock-icon { width: .9rem; height: .9rem; flex: 0 0 auto; color: #6c757d; }
+.shared-header-tools ::deep .current-clock-divider { width: 1px; height: 1rem; background: #ced4da; }
+.shared-header-tools ::deep .current-clock-time { display: inline-block; width: 5.4em; font-variant-numeric: tabular-nums; }
+
+@media (max-width: 575.98px) {
+    .shared-header-tools { flex-wrap: wrap; justify-content: center; gap: .25rem .5rem; }
+    .shared-header-tools ::deep .current-clock { gap: .4rem; padding: .3rem .5rem; font-size: .75rem; }
+}

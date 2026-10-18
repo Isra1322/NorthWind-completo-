@@ -1,0 +1,4 @@
+wwwroot\confirmationDialog.js
+wwwroot\invoice.js
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Sales.Frontend.Views\wwwroot\confirmationDialog.js
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Sales.Frontend.Views\wwwroot\invoice.js

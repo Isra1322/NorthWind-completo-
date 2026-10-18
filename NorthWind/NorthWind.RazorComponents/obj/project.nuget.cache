@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "+P6BFsy7Zh8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stali\\Documents\\NorthWind-main\\NorthWind-main\\NorthWind\\NorthWind.RazorComponents\\NorthWind.RazorComponents.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.aspnetcore.authorization\\10.0.12\\microsoft.aspnetcore.authorization.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.aspnetcore.components\\10.0.12\\microsoft.aspnetcore.components.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\10.0.12\\microsoft.aspnetcore.components.analyzers.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\10.0.12\\microsoft.aspnetcore.components.forms.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.aspnetcore.components.web\\10.0.12\\microsoft.aspnetcore.components.web.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.aspnetcore.metadata\\10.0.12\\microsoft.aspnetcore.metadata.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.12\\microsoft.extensions.configuration.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.12\\microsoft.extensions.configuration.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.extensions.configuration.binder\\10.0.12\\microsoft.extensions.configuration.binder.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.12\\microsoft.extensions.dependencyinjection.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.12\\microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.extensions.diagnostics\\10.0.12\\microsoft.extensions.diagnostics.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\10.0.12\\microsoft.extensions.diagnostics.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.12\\microsoft.extensions.logging.abstractions.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.extensions.options\\10.0.12\\microsoft.extensions.options.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\10.0.12\\microsoft.extensions.options.configurationextensions.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.12\\microsoft.extensions.primitives.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.extensions.validation\\10.0.12\\microsoft.extensions.validation.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\microsoft.jsinterop\\10.0.12\\microsoft.jsinterop.10.0.12.nupkg.sha512",
+    "C:\\Users\\stali\\.nuget\\packages\\northwind.validation.entities\\2.0.0\\northwind.validation.entities.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

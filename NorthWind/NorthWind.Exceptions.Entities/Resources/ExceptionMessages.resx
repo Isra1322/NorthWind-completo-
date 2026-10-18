@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="ValidationExceptionTitle" xml:space="preserve"><value>Error en los datos de entrada.</value></data>
+  <data name="ValidationExceptionDetail" xml:space="preserve"><value>Se encontraron uno o más errores de validación de datos.</value></data>
+  <data name="UpdateExceptionTitle" xml:space="preserve"><value>Error de actualización.</value></data>
+  <data name="UpdateExceptionDetail" xml:space="preserve"><value>Se encontraron uno o más errores de actualización de datos. Consulte al administrador.</value></data>
+  <data name="UnhandledExceptionTitle" xml:space="preserve"><value>El servicio no se encuentra disponible.</value></data>
+  <data name="UnhandledExceptionDetail" xml:space="preserve"><value>Consulte al administrador.</value></data>
+  <data name="UnauthorizedAccessExceptionTitle" xml:space="preserve"><value>Acceso no autorizado.</value></data>
+  <data name="UnauthorizedAccessExceptionDetail" xml:space="preserve"><value>El acceso al recurso solicitado est&#225; restringido a usuarios autorizados.</value></data>
+</root>

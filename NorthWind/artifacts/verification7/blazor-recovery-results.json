@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "initialCount": 10,
+  "finalCount": 12,
+  "firstOrderId": 11,
+  "secondOrderId": 12,
+  "posts": 3,
+  "errorsClearedOnChange": true,
+  "serverErrorRecoveryPassed": true,
+  "duplicatedSubmissions": false
+}

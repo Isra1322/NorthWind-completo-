@@ -1,0 +1,56 @@
+@using Microsoft.JSInterop
+@implements IAsyncDisposable
+@inject IJSRuntime JS
+
+<dialog @ref="Dialog" class="product-removal-dialog" aria-labelledby="removeProductTitle" aria-describedby="removeProductMessage">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 id="removeProductTitle" class="modal-title fs-5">Confirmar eliminación</h2>
+        </div>
+        <div class="modal-body">
+            <p id="removeProductMessage" class="mb-0">¿Está seguro de que desea quitar el producto <strong>@ProductName</strong> de la orden?</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" autofocus disabled="@Closing" @onclick="() => Finish(false)">Cancelar</button>
+            <button type="button" class="btn btn-danger" disabled="@Closing" @onclick="() => Finish(true)">Sí, quitar</button>
+        </div>
+    </div>
+</dialog>
+
+@code {
+    [Parameter, EditorRequired] public string ProductName { get; set; } = string.Empty;
+    [Parameter] public EventCallback Confirm { get; set; }
+    [Parameter] public EventCallback Cancel { get; set; }
+    private ElementReference Dialog;
+    private IJSObjectReference? Module;
+    private DotNetObjectReference<ProductRemovalDialog>? Reference;
+    private bool Closing;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (!firstRender) return;
+        Module = await JS.InvokeAsync<IJSObjectReference>("import", "./_content/NorthWind.Sales.Frontend.Views/confirmationDialog.js");
+        Reference = DotNetObjectReference.Create(this);
+        await Module.InvokeVoidAsync("open", Dialog, Reference);
+    }
+
+    [JSInvokable] public Task CancelFromKeyboard() => InvokeAsync(() => Finish(false));
+
+    private async Task Finish(bool confirmed)
+    {
+        if (Closing) return;
+        Closing = true;
+        if (Module is not null) await Module.InvokeVoidAsync("close", Dialog, confirmed, "addOrderProduct");
+        await (confirmed ? Confirm : Cancel).InvokeAsync();
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (Module is not null)
+        {
+            await Module.InvokeVoidAsync("dispose", Dialog);
+            await Module.DisposeAsync();
+        }
+        Reference?.Dispose();
+    }
+}

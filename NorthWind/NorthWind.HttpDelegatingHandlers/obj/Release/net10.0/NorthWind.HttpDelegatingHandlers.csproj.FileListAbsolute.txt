@@ -1,0 +1,15 @@
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\bin\Release\net10.0\NorthWind.HttpDelegatingHandlers.deps.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\bin\Release\net10.0\NorthWind.HttpDelegatingHandlers.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\bin\Release\net10.0\NorthWind.HttpDelegatingHandlers.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\bin\Release\net10.0\NorthWind.Validation.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\bin\Release\net10.0\NorthWind.Validation.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\obj\Release\net10.0\NorthWind.HttpDelegatingHandlers.csproj.AssemblyReference.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\obj\Release\net10.0\NorthWind.HttpDelegatingHandlers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\obj\Release\net10.0\NorthWind.HttpDelegatingHandlers.AssemblyInfoInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\obj\Release\net10.0\NorthWind.HttpDelegatingHandlers.AssemblyInfo.cs
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\obj\Release\net10.0\NorthWind.HttpDelegatingHandlers.csproj.CoreCompileInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\obj\Release\net10.0\NorthWin.8C53A2A9.Up2Date
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\obj\Release\net10.0\NorthWind.HttpDelegatingHandlers.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\obj\Release\net10.0\refint\NorthWind.HttpDelegatingHandlers.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\obj\Release\net10.0\NorthWind.HttpDelegatingHandlers.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\obj\Release\net10.0\ref\NorthWind.HttpDelegatingHandlers.dll

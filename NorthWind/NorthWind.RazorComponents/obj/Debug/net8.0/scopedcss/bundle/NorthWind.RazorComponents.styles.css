@@ -1,0 +1,33 @@
+/* _content/NorthWind.RazorComponents/Exceptions/ExceptionDisplay.razor.rz.scp.css */
+.main[b-4pndjzk48q] {
+    overflow-wrap: anywhere;
+}
+/* _content/NorthWind.RazorComponents/Layouts/NavMenuLayout.razor.rz.scp.css */
+.page[b-yze00l5xte] { position: relative; display: flex; flex-direction: column; min-height: 100vh; }
+main[b-yze00l5xte] { flex: 1; min-width: 0; }
+.sidebar[b-yze00l5xte] { background-image: linear-gradient(180deg, #052767 0%, #3a0647 70%); }
+.top-row[b-yze00l5xte] { background-color: #f7f7f7; border-bottom: 1px solid #d6d5d5; justify-content: flex-end; height: 3.5rem; display: flex; align-items: center; }
+.content[b-yze00l5xte] { padding-top: 1.1rem; padding-bottom: 2rem; }
+@media (max-width: 640.98px) {
+    .top-row[b-yze00l5xte] { justify-content: space-between; }
+}
+@media (min-width: 641px) {
+    .page[b-yze00l5xte] { flex-direction: row; }
+    .sidebar[b-yze00l5xte] { width: 250px; height: 100vh; position: sticky; top: 0; }
+    .top-row[b-yze00l5xte] { position: sticky; top: 0; z-index: 1; }
+}
+/* _content/NorthWind.RazorComponents/NavBars/NavMenu.razor.rz.scp.css */
+.top-row[b-zij4r21d70] { min-height: 3.5rem; background-color: rgba(0,0,0,.4); }
+.navbar-brand[b-zij4r21d70] { font-size: 1.1rem; color: white; }
+.navbar-brand[b-zij4r21d70]  a { color: inherit; text-decoration: none; }
+.navbar-toggler[b-zij4r21d70] { background-color: rgba(255,255,255,.1); }
+@media (min-width: 641px) {
+    .navbar-toggler[b-zij4r21d70] { display: none; }
+    .collapse[b-zij4r21d70] { display: block; }
+    .nav-scrollable[b-zij4r21d70] { height: calc(100vh - 3.5rem); overflow-y: auto; }
+}
+/* _content/NorthWind.RazorComponents/NavBars/NavMenuItem.razor.rz.scp.css */
+.nav-item[b-gz4gyelbdq] { padding-bottom: .5rem; font-size: .95rem; }
+.nav-item[b-gz4gyelbdq]  .nav-link { color: #d7d7d7; border-radius: 4px; min-height: 3rem; display: flex; align-items: center; gap: .65rem; }
+.nav-item[b-gz4gyelbdq]  a.active { background-color: rgba(255,255,255,.25); color: white; }
+.nav-item[b-gz4gyelbdq]  .nav-link:hover { background-color: rgba(255,255,255,.1); color: white; }

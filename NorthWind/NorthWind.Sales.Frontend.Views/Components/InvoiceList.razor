@@ -1,0 +1,311 @@
+@using System.Globalization
+@using NorthWind.Sales.Entities.Dtos
+@using Microsoft.JSInterop
+@implements IAsyncDisposable
+@inject ICreateOrderGateway Gateway
+@inject NavigationManager Navigation
+@inject IJSRuntime JS
+
+<section class="card card-body mt-3" aria-label="Facturas guardadas" aria-busy="@Busy">
+    <form class="row g-2 align-items-end" @onsubmit="SearchAsync" @onsubmit:preventDefault>
+        <div class="col-12 col-md-4">
+            <label for="searchCriterion" class="form-label">Buscar por</label>
+            <select id="searchCriterion" class="form-select" value="@SelectedCriterion" @onchange="ChangeCriterion">
+                <option value="Identification">Número de cédula</option>
+                <option value="InvoiceNumber">Número de factura</option>
+            </select>
+        </div>
+        <div class="col-12 col-md-5">
+            <label for="invoiceSearchValue" class="form-label">@SearchLabel</label>
+            @if (SelectedCriterion == "Identification")
+            {
+                <input id="invoiceSearchValue" class="form-control" type="text" inputmode="numeric" maxlength="10" autocomplete="off"
+                       @bind:get="SearchValue" @bind:set="SetIdentification" @bind:event="oninput" />
+            }
+            else if (SelectedCriterion == "InvoiceNumber")
+            {
+                <input id="invoiceSearchValue" class="form-control" type="text" inputmode="numeric" maxlength="10" autocomplete="off"
+                       @bind:get="SearchValue" @bind:set="SetInvoiceNumber" @bind:event="oninput" />
+            }
+            @if (!string.IsNullOrEmpty(ValidationMessage))
+            {
+                <div class="text-danger small" role="alert">@ValidationMessage</div>
+            }
+        </div>
+        <div class="col-12 col-md-4">
+            <label for="invoiceIssueDate" class="form-label">Fecha de emisión</label>
+            <input id="invoiceIssueDate" class="form-control" type="date" lang="es-EC" max="@MaxDate"
+                   value="@IssueDateValue" @oninput="SetIssueDate" />
+            @if (!string.IsNullOrEmpty(DateValidationMessage))
+            {
+                <div class="text-danger small" role="alert">@DateValidationMessage</div>
+            }
+        </div>
+        <div class="col-12 col-md-auto d-flex flex-wrap gap-2">
+            <button type="submit" class="btn btn-primary" disabled="@Busy">Buscar</button>
+            <button type="button" class="btn btn-outline-secondary" @onclick="ClearAsync">Limpiar</button>
+        </div>
+    </form>
+    @if (Busy) { <p class="mt-3 mb-0" role="status">Cargando facturas…</p> }
+    @if (!string.IsNullOrEmpty(ErrorMessage)) { <p class="text-danger mt-3 mb-0" role="alert">@ErrorMessage</p> }
+    @if (Result is not null)
+    {
+        <p class="mt-3 mb-2" role="status">Facturas encontradas: @Result.TotalCount</p>
+        @if (Result.Items.Count == 0) { <p class="mb-0">No se encontraron facturas con los filtros ingresados.</p> }
+        else
+        {
+            <div class="table-responsive">
+                <table class="table table-hover align-middle" id="invoiceTable">
+                    <caption class="visually-hidden">Facturas guardadas, ordenadas de la más reciente a la más antigua</caption>
+                    <thead><tr><th scope="col" class="text-end">Número</th><th scope="col" class="text-start">Cliente</th><th scope="col" class="text-start">Cédula</th>
+                        <th scope="col" class="text-start">Fecha de emisión</th><th scope="col" class="text-end">Total</th><th scope="col">Acciones</th></tr></thead>
+                    <tbody>
+                        @foreach (var invoice in Result.Items)
+                        {
+                            <tr @key="invoice.Id">
+                                <td class="text-end">
+                                    <HighlightText Text="@invoice.Id.ToString()" SearchTerm="@(SelectedCriterion == "InvoiceNumber" ? SearchValue : null)" />
+                                </td>
+                                <td class="text-start">
+                                    <HighlightText Text="@(string.IsNullOrEmpty(invoice.CustomerName) ? "No disponible" : invoice.CustomerName)" SearchTerm="@(SelectedCriterion == "Identification" ? SearchValue : null)" />
+                                </td>
+                                <td class="text-start">
+                                    <HighlightText Text="@(invoice.CustomerIdentification ?? "No disponible")" SearchTerm="@(SelectedCriterion == "Identification" ? SearchValue : null)" />
+                                </td>
+                                <td class="text-start text-nowrap">@invoice.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
+                                <td class="text-end text-nowrap">@invoice.Total.ToString("N2")</td>
+                                <td class="d-flex flex-wrap gap-1"><button type="button" class="btn btn-outline-primary btn-sm text-nowrap" disabled="@(Busy || OpeningInvoice)"
+                                            aria-label="Ver PDF de factura @invoice.Id" @onclick="() => OpenInvoiceAsync(invoice.Id)">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" class="me-1">
+                                        <path d="M3 0h6l4 4v12H3V0zm1 1v14h8V5H8V1H4zm5 .5V4h2.5L9 1.5zM5 7h6v1H5zm0 3h6v1H5zm0 3h4v1H5z" />
+                                    </svg>Ver PDF
+                                </button><a class="btn btn-outline-secondary btn-sm text-nowrap" href="@($"/invoices/{invoice.Id}/edit")">Editar factura</a>
+                                <button type="button" class="btn btn-outline-info btn-sm text-nowrap" disabled="@Busy" @onclick="() => ShowHistoryAsync(invoice.Id)">Historial</button></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        <nav class="d-flex flex-wrap gap-2 align-items-center mt-3" aria-label="Paginación de facturas">
+            <button type="button" class="btn btn-outline-secondary" disabled="@(Busy || HasPendingCriteria || Result.Page <= 1)" @onclick="() => LoadAsync(Result.Page - 1)">Anterior</button>
+            <span>Página @Result.Page de @Result.TotalPages</span>
+            <button type="button" class="btn btn-outline-secondary" disabled="@(Busy || HasPendingCriteria || Result.Page >= Result.TotalPages)" @onclick="() => LoadAsync(Result.Page + 1)">Siguiente</button>
+        </nav>
+    }
+</section>
+
+@if (HistoryInvoiceId is not null)
+{
+    <div class="modal d-block" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="historyTitle">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable"><div class="modal-content">
+            <div class="modal-header"><h2 id="historyTitle" class="modal-title fs-5">Historial de factura @HistoryInvoiceId</h2><button class="btn-close" aria-label="Cerrar" @onclick="CloseHistory"></button></div>
+            <div class="modal-body">
+                @if (HistoryBusy) { <p role="status">Cargando historial…</p> }
+                @if (!string.IsNullOrEmpty(HistoryError)) { <p class="text-danger" role="alert">@HistoryError</p> }
+                <div class="table-responsive"><table class="table"><thead><tr><th class="text-end">Versión</th><th class="text-start">Fecha y hora</th><th class="text-start">Usuario</th><th>PDF</th></tr></thead><tbody>
+                    @foreach (var version in Versions)
+                    { <tr><td class="text-end">@version.VersionNumber</td><td class="text-start">@version.ModifiedAt.ToString("dd/MM/yyyy HH:mm:ss")</td><td class="text-start">@version.ModifiedBy</td><td><button class="btn btn-sm btn-outline-primary" disabled="@HistoryBusy" @onclick="() => OpenVersionAsync(version.VersionNumber)">Ver / descargar</button></td></tr> }
+                </tbody></table></div>
+                @if (HistoryPdfUrl is not null)
+                { <div class="d-flex gap-2 mb-2"><a class="btn btn-primary" href="@HistoryPdfUrl" download="@HistoryPdfFileName">Descargar PDF</a><button class="btn btn-outline-secondary" @onclick="PrintHistoryVersion">Imprimir</button></div><iframe id="historyInvoicePdf" title="Versión histórica de factura" src="@HistoryPdfUrl" style="width:100%;height:55vh;border:1px solid #ccc"></iframe> }
+            </div>
+            <div class="modal-footer"><button class="btn btn-secondary" @onclick="CloseHistory">Cerrar</button></div>
+        </div></div>
+    </div><div class="modal-backdrop show"></div>
+}
+
+@code {
+    [Parameter] public EventCallback<int> Selected { get; set; }
+    private string SelectedCriterion = "Identification";
+    private string SearchValue = "";
+    private string IssueDateValue = "";
+    private string ErrorMessage = "";
+    private string ValidationMessage = "";
+    private string DateValidationMessage = "";
+    private InvoicePage? Result;
+    private InvoiceSearchFilters AppliedFilters = new();
+    private bool Busy;
+    private bool OpeningInvoice;
+    private bool HasPendingCriteria;
+    private int Revision;
+    private CancellationTokenSource? Debounce, Request;
+    private int? HistoryInvoiceId;
+    private IReadOnlyList<InvoiceVersionInfo> Versions = [];
+    private bool HistoryBusy;
+    private string HistoryError = "";
+    private string? HistoryPdfUrl, HistoryPdfFileName;
+    private IJSObjectReference? HistoryModule;
+    private string MaxDate { get; set; } = DateTime.Today.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture);
+    private string SearchLabel => SelectedCriterion switch
+    {
+        "InvoiceNumber" => "Número de factura",
+        _ => "Número de cédula"
+    };
+
+    protected override Task OnInitializedAsync() => LoadAsync(1);
+
+    private Task ChangeCriterion(ChangeEventArgs args)
+    {
+        string criterion = args.Value?.ToString() ?? "Identification";
+        SelectedCriterion = criterion is "Identification" or "InvoiceNumber" ? criterion : "Identification";
+        SearchValue = "";
+        HasPendingCriteria = true;
+        ValidationMessage = ErrorMessage = "";
+        return ScheduleSearch();
+    }
+
+    private Task SetIdentification(string? value)
+    {
+        string raw = value ?? "";
+        SearchValue = SearchInputRules.CustomerCedula(raw);
+        HasPendingCriteria = true;
+        ErrorMessage = "";
+        ValidationMessage = "";
+        return ScheduleSearch();
+    }
+
+    private Task SetInvoiceNumber(string? value)
+    {
+        string raw = value ?? "";
+        SearchValue = SearchInputRules.NumericCode(raw, SearchValue);
+        HasPendingCriteria = true;
+        ErrorMessage = "";
+        ValidationMessage = "";
+        return ScheduleSearch();
+    }
+
+    private Task SetIssueDate(ChangeEventArgs args)
+    {
+        IssueDateValue = args.Value?.ToString() ?? "";
+        DateValidationMessage = "";
+        HasPendingCriteria = true;
+        ErrorMessage = "";
+        return ScheduleSearch();
+    }
+
+    private async Task ScheduleSearch()
+    {
+        Revision++;
+        Request?.Cancel();
+        Debounce?.Cancel();
+        Debounce?.Dispose();
+        Debounce = new();
+        var token = Debounce.Token;
+        Result = null;
+        Busy = true;
+        try { await Task.Delay(300, token); await SearchAsync(); }
+        catch (OperationCanceledException) { }
+    }
+
+    private async Task SearchAsync()
+    {
+        Debounce?.Cancel();
+        ValidationMessage = DateValidationMessage = "";
+        string identification = SelectedCriterion == "Identification" ? SearchValue : "";
+        string invoiceNumber = SelectedCriterion == "InvoiceNumber" ? SearchValue : "";
+        AppliedFilters = new InvoiceSearchFilters("", invoiceNumber, IssueDateValue, identification).Normalize();
+        var errors = SearchInputRules.ValidateInvoices(AppliedFilters, Result?.CurrentDate ?? DateOnly.FromDateTime(DateTime.Today));
+        if (errors.Count > 0)
+        {
+            if (errors.TryGetValue("IssueDate", out var dateError)) DateValidationMessage = dateError;
+            else ValidationMessage = errors.Values.First();
+            Busy = false;
+            Result = null;
+            return;
+        }
+        HasPendingCriteria = false;
+        await LoadAsync(1);
+    }
+
+    private async Task ClearAsync()
+    {
+        Revision++;
+        Debounce?.Cancel();
+        Request?.Cancel();
+        SearchValue = "";
+        IssueDateValue = "";
+        SelectedCriterion = "Identification";
+        HasPendingCriteria = false;
+        ValidationMessage = DateValidationMessage = ErrorMessage = "";
+        AppliedFilters = new();
+        await LoadAsync(1);
+    }
+
+    private async Task LoadAsync(int page)
+    {
+        int revision = ++Revision;
+        Request?.Cancel();
+        Request?.Dispose();
+        Request = new(TimeSpan.FromSeconds(30));
+        var token = Request.Token;
+        Busy = true;
+        ErrorMessage = "";
+        try
+        {
+            var result = await Gateway.FilterInvoicesAsync(AppliedFilters, Math.Max(1, page), token);
+            if (revision != Revision) return;
+            Result = result;
+            if (Result.CurrentDate is { } today) MaxDate = today.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture);
+        }
+        catch (Exception exception) when (exception is HttpRequestException or OperationCanceledException or TimeoutException)
+        {
+            if (revision != Revision) return;
+            Result = null;
+            ErrorMessage = "No se pudieron cargar las facturas. Verifique la conexión e intente nuevamente.";
+        }
+        finally { if (revision == Revision) Busy = false; }
+    }
+
+    private async Task OpenInvoiceAsync(int id)
+    {
+        if (OpeningInvoice || Busy) return;
+        OpeningInvoice = true;
+        try { await Selected.InvokeAsync(id); }
+        finally { OpeningInvoice = false; }
+    }
+
+    private async Task ShowHistoryAsync(int id)
+    {
+        if (Busy || HistoryBusy) return;
+        HistoryInvoiceId = id; HistoryBusy = true; HistoryError = ""; Versions = [];
+        try { Versions = await Gateway.GetInvoiceVersionsAsync(id).WaitAsync(TimeSpan.FromSeconds(30)); }
+        catch (Exception ex) when (ex is HttpRequestException or TaskCanceledException or TimeoutException) { HistoryError = "No se pudo cargar el historial de esta factura."; }
+        finally { HistoryBusy = false; }
+    }
+    private async Task OpenVersionAsync(int versionNumber)
+    {
+        if (HistoryBusy || HistoryInvoiceId is not int id) return;
+        HistoryBusy = true; HistoryError = "";
+        try
+        {
+            var version = await Gateway.GetInvoiceVersionAsync(id, versionNumber).WaitAsync(TimeSpan.FromSeconds(30));
+            if (version is null) { HistoryError = "No se encontró la versión solicitada."; return; }
+            HistoryModule ??= await JS.InvokeAsync<IJSObjectReference>("import", "./_content/NorthWind.Sales.Frontend.Views/invoice.js");
+            if (HistoryPdfUrl is not null) await HistoryModule.InvokeVoidAsync("releaseAfter", HistoryPdfUrl);
+            HistoryPdfUrl = await HistoryModule.InvokeAsync<string>("create", version.PdfContent);
+            HistoryPdfFileName = $"Factura_{id}_V{versionNumber}.pdf";
+        }
+        catch (Exception ex) when (ex is HttpRequestException or TaskCanceledException or TimeoutException or JSException) { HistoryError = "No se pudo abrir esta versión del PDF."; }
+        finally { HistoryBusy = false; }
+    }
+    private async Task CloseHistory()
+    {
+        HistoryInvoiceId = null; Versions = [];
+        if (HistoryPdfUrl is not null && HistoryModule is not null) { try { await HistoryModule.InvokeVoidAsync("releaseAfter", HistoryPdfUrl); } catch (JSException) { } }
+        HistoryPdfUrl = null;
+    }
+    private async Task PrintHistoryVersion()
+    {
+        try { HistoryModule ??= await JS.InvokeAsync<IJSObjectReference>("import", "./_content/NorthWind.Sales.Frontend.Views/invoice.js"); await HistoryModule.InvokeVoidAsync("print", "historyInvoicePdf"); }
+        catch (JSException) { HistoryError = "Utilice la opción de impresión del visor PDF."; }
+    }
+    public async ValueTask DisposeAsync()
+    {
+        Revision++;
+        Debounce?.Cancel(); Debounce?.Dispose();
+        Request?.Cancel(); Request?.Dispose();
+        await CloseHistory();
+        if (HistoryModule is not null) { try { await HistoryModule.DisposeAsync(); } catch (JSDisconnectedException) { } }
+    }
+}

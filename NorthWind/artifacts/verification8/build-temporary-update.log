@@ -1,0 +1,19 @@
+  NorthWind.Sales.Entities -> C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Entities\bin\Debug\net8.0\NorthWind.Sales.Entities.dll
+  NorthWind.Validation.Entities -> C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\bin\Debug\net8.0\NorthWind.Validation.Entities.dll
+  NorthWind.ValidationService.FluentValidation -> C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.ValidationService.FluentValidation\bin\Debug\net8.0\NorthWind.ValidationService.FluentValidation.dll
+  NorthWind.Sales.Validators.Entities -> C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Validators.Entities\bin\Debug\net8.0\NorthWind.Sales.Validators.Entities.dll
+  NorthWind.Exceptions.Entities -> C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Exceptions.Entities\bin\Debug\net8.0\NorthWind.Exceptions.Entities.dll
+  NorthWind.Sales.Backend.BusinessObjects -> C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.BusinessObjects\bin\Debug\net8.0\NorthWind.Sales.Backend.BusinessObjects.dll
+  NorthWind.Sales.Backend.Controllers -> C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.Controllers\bin\Debug\net8.0\NorthWind.Sales.Backend.Controllers.dll
+  NorthWind.Sales.Backend.Repositories -> C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.Repositories\bin\Debug\net8.0\NorthWind.Sales.Backend.Repositories.dll
+  NorthWind.Sales.Backend.Presenters -> C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.Presenters\bin\Debug\net8.0\NorthWind.Sales.Backend.Presenters.dll
+  NorthWind.Sales.Backend.DataContexts.EFCore -> C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.DataContexts.EFCore\bin\Debug\net8.0\NorthWind.Sales.Backend.DataContexts.EFCore.dll
+  NorthWind.Sales.Backend.UseCases -> C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.UseCases\bin\Debug\net8.0\NorthWind.Sales.Backend.UseCases.dll
+  NorthWind.Sales.Backend.IoC -> C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.IoC\bin\Debug\net8.0\NorthWind.Sales.Backend.IoC.dll
+  NorthWind.Sales.WebApi -> C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.WebApi\bin\Debug\net8.0\NorthWind.Sales.WebApi.dll
+
+Compilación correcta.
+    0 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:03.27

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\stali\\Documents\\NorthWind-main\\NorthWind-main\\NorthWind\\NorthWind.RazorComponents\\obj\\Debug\\net10.0\\scopedcss\\projectbundle\\NorthWind.RazorComponents.bundle.scp.css",
+      "PackagePath": "staticwebassets\\NorthWind.RazorComponents.e53w33r8zo.bundle.scp.css"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0\\staticwebassets\\msbuild.NorthWind.RazorComponents.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0\\staticwebassets\\msbuild.NorthWind.RazorComponents.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0\\staticwebassets\\msbuild.build.NorthWind.RazorComponents.props",
+      "PackagePath": "build\\NorthWind.RazorComponents.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0\\staticwebassets\\msbuild.buildMultiTargeting.NorthWind.RazorComponents.props",
+      "PackagePath": "buildMultiTargeting\\NorthWind.RazorComponents.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0\\staticwebassets\\msbuild.buildTransitive.NorthWind.RazorComponents.props",
+      "PackagePath": "buildTransitive\\NorthWind.RazorComponents.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

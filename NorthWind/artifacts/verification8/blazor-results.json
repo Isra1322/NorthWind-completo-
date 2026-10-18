@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Swagger-POST",
+    "passed": true,
+    "status": 200,
+    "orderId": 20
+  },
+  {
+    "name": "Blazor-1",
+    "passed": true,
+    "posts": 2,
+    "status": 400,
+    "before": 18,
+    "after": 18,
+    "fixtureDifference": false,
+    "duplicatedErrors": false
+  },
+  {
+    "name": "Blazor-2-ANTON",
+    "passed": true,
+    "posts": 2,
+    "status": 400,
+    "before": 18,
+    "after": 18,
+    "fixtureDifference": true,
+    "duplicatedErrors": false
+  },
+  {
+    "name": "Blazor-2-BONAP",
+    "passed": true,
+    "posts": 2,
+    "status": 400,
+    "before": 18,
+    "after": 18,
+    "fixtureDifference": false,
+    "duplicatedErrors": false
+  },
+  {
+    "name": "Blazor-3",
+    "passed": true,
+    "posts": 2,
+    "status": 400,
+    "before": 18,
+    "after": 18,
+    "fixtureDifference": true,
+    "duplicatedErrors": false
+  },
+  {
+    "name": "Blazor-4",
+    "passed": true,
+    "posts": 2,
+    "status": 400,
+    "before": 18,
+    "after": 18,
+    "fixtureDifference": true,
+    "duplicatedErrors": false
+  },
+  {
+    "name": "Blazor-4-Acumulacion",
+    "passed": true,
+    "posts": 2,
+    "status": 400,
+    "before": 18,
+    "after": 18,
+    "fixtureDifference": false,
+    "duplicatedErrors": false
+  },
+  {
+    "name": "P7-Local",
+    "passed": true,
+    "posts": 0,
+    "status": null,
+    "before": 18,
+    "after": 18,
+    "fixtureDifference": false,
+    "duplicatedErrors": false
+  },
+  {
+    "name": "Blazor-ValidacionCorregida",
+    "passed": true,
+    "status": 200,
+    "orderId": 21
+  }
+]

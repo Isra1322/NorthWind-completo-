@@ -1,0 +1,12 @@
+@page "/createorder"
+@attribute [Authorize]
+
+<PageTitle>@CreateOrderMessages.CreateOrderPageTitle</PageTitle>
+<h1>@CreateOrderMessages.CreateOrderPageTitle</h1>
+<ErrorBoundary @ref="Boundary">
+    <ChildContent><CreateOrderComponent Order="@Order" /></ChildContent>
+    <ErrorContent Context="exception">
+        <ExceptionDisplay Exception="@exception" />
+        <button type="button" class="btn btn-primary" @onclick="Recover">@CommonMessages.OK</button>
+    </ErrorContent>
+</ErrorBoundary>

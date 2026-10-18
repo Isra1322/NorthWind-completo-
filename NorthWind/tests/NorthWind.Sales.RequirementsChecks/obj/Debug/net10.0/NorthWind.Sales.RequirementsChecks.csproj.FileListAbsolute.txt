@@ -1,0 +1,292 @@
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.RazorComponents.staticwebassets.runtime.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.RazorComponents.staticwebassets.endpoints.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.Views.staticwebassets.runtime.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.Views.staticwebassets.endpoints.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\sales-appsettings.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.RequirementsChecks.exe
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.RequirementsChecks.deps.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.RequirementsChecks.runtimeconfig.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.RequirementsChecks.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.RequirementsChecks.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Azure.Core.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\FluentValidation.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Identity.Client.Broker.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.HttpDelegatingHandlers.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Membership.Backend.Core.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Membership.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Membership.Frontend.RazorViews.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Result.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\System.ClientModel.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\System.Memory.Data.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\linux-x64\native\libmsalruntime.so
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\osx-arm64\native\msalruntime_arm64.dylib
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\osx-x64\native\msalruntime.dylib
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.DomainLogs.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Events.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Exceptions.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.RazorComponents.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.BusinessObjects.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.Controllers.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.DataContexts.EFCore.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.IoC.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.Presenters.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.Repositories.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.SmtpGateways.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.UseCases.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.BusinessObjects.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.Views.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Validators.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Transactions.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.UserServices.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Validation.Entities.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.ValidationService.FluentValidation.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.IoC.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.Views.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.DomainLogs.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Events.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Exceptions.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.RazorComponents.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.BusinessObjects.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.Controllers.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.DataContexts.EFCore.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.Presenters.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.Repositories.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.SmtpGateways.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.UseCases.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.BusinessObjects.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Validators.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Transactions.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.UserServices.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Validation.Entities.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.ValidationService.FluentValidation.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.csproj.AssemblyReference.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.AssemblyInfoInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.AssemblyInfo.cs
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.csproj.CoreCompileInputs.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWin.D84158B2.Up2Date
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\refint\NorthWind.Sales.RequirementsChecks.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.genruntimeconfig.cache
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\ref\NorthWind.Sales.RequirementsChecks.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\NorthWind.RazorComponents.staticwebassets.runtime.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\NorthWind.RazorComponents.staticwebassets.endpoints.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\NorthWind.Sales.Frontend.Views.staticwebassets.runtime.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\NorthWind.Sales.Frontend.Views.staticwebassets.endpoints.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\sales-appsettings.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\NorthWind.Sales.RequirementsChecks.exe
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\NorthWind.Sales.RequirementsChecks.deps.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\NorthWind.Sales.RequirementsChecks.runtimeconfig.json
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\NorthWind.Sales.RequirementsChecks.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\artifacts\build-check\NorthWind.Sales.RequirementsChecks.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.WebApiGateways.dll
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.WebApiGateways.pdb
+C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.HttpDelegatingHandlers.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\sales-appsettings.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.RazorComponents.staticwebassets.runtime.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.RazorComponents.staticwebassets.endpoints.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.Views.staticwebassets.runtime.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.Views.staticwebassets.endpoints.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.RequirementsChecks.exe
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.RequirementsChecks.deps.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.RequirementsChecks.runtimeconfig.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.RequirementsChecks.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.RequirementsChecks.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Azure.Core.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\FluentValidation.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.AspNetCore.Components.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Configuration.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Diagnostics.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Http.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Logging.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Options.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Primitives.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Extensions.Validation.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Identity.Client.Broker.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.JSInterop.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Membership.Backend.Core.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Membership.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Membership.Frontend.RazorViews.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Result.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\System.ClientModel.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\System.Memory.Data.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\linux-x64\native\libmsalruntime.so
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\osx-arm64\native\msalruntime_arm64.dylib
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\osx-x64\native\msalruntime.dylib
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.DomainLogs.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Events.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Exceptions.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.HttpDelegatingHandlers.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.RazorComponents.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.BusinessObjects.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.Controllers.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.DataContexts.EFCore.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.IoC.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.Presenters.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.Repositories.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.SmtpGateways.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.UseCases.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.BusinessObjects.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.Views.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.WebApiGateways.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Validators.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Transactions.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.UserServices.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Validation.Entities.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.ValidationService.FluentValidation.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.IoC.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.Views.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.WebApiGateways.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.DomainLogs.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Events.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Exceptions.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.HttpDelegatingHandlers.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.RazorComponents.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.BusinessObjects.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.Controllers.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.DataContexts.EFCore.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.Presenters.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.Repositories.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.SmtpGateways.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Backend.UseCases.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Frontend.BusinessObjects.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Sales.Validators.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Transactions.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.UserServices.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Validation.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.ValidationService.FluentValidation.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.csproj.AssemblyReference.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.AssemblyInfoInputs.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.AssemblyInfo.cs
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.csproj.CoreCompileInputs.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWin.D84158B2.Up2Date
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\refint\NorthWind.Sales.RequirementsChecks.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\NorthWind.Sales.RequirementsChecks.genruntimeconfig.cache
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\obj\Debug\net10.0\ref\NorthWind.Sales.RequirementsChecks.dll
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Membership.Frontend.RazorViews.staticwebassets.runtime.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Membership.Frontend.RazorViews.staticwebassets.endpoints.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Membership.Backend.AspNetIdentity.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Membership.Backend.Core.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Membership.Entities.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Membership.Frontend.RazorViews.pdb
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\tests\NorthWind.Sales.RequirementsChecks\bin\Debug\net10.0\NorthWind.Result.Entities.pdb

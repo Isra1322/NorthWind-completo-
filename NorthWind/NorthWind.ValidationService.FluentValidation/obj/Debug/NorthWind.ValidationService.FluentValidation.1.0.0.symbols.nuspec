@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.ValidationService.FluentValidation</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.ValidationService.FluentValidation</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.Validation.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="FluentValidation" version="11.11.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.ValidationService.FluentValidation\bin\Debug\net8.0\NorthWind.ValidationService.FluentValidation.pdb" target="lib\net8.0\NorthWind.ValidationService.FluentValidation.pdb" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.ValidationService.FluentValidation\bin\Debug\net8.0\NorthWind.ValidationService.FluentValidation.dll" target="lib\net8.0\NorthWind.ValidationService.FluentValidation.dll" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.ValidationService.FluentValidation\AbstractValidatorImplementation.cs" target="src\NorthWind.ValidationService.FluentValidation\AbstractValidatorImplementation.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.ValidationService.FluentValidation\CollectionValidationRules.cs" target="src\NorthWind.ValidationService.FluentValidation\CollectionValidationRules.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.ValidationService.FluentValidation\DependencyContainer.cs" target="src\NorthWind.ValidationService.FluentValidation\DependencyContainer.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.ValidationService.FluentValidation\FluentValidationService.cs" target="src\NorthWind.ValidationService.FluentValidation\FluentValidationService.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.ValidationService.FluentValidation\GlobalUsings.cs" target="src\NorthWind.ValidationService.FluentValidation\GlobalUsings.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.ValidationService.FluentValidation\ValidationRules.cs" target="src\NorthWind.ValidationService.FluentValidation\ValidationRules.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.ValidationService.FluentValidation\obj\Debug\net8.0\NorthWind.ValidationService.FluentValidation.GlobalUsings.g.cs" target="src\NorthWind.ValidationService.FluentValidation\obj\Debug\net8.0\NorthWind.ValidationService.FluentValidation.GlobalUsings.g.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.ValidationService.FluentValidation\NorthWind.ValidationService.FluentValidation.csproj" target="src\NorthWind.ValidationService.FluentValidation\NorthWind.ValidationService.FluentValidation.csproj" />
+  </files>
+</package>

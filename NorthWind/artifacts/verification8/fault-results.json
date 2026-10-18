@@ -1,0 +1,62 @@
+[
+  {
+    "name": "API-6-General",
+    "passed": true,
+    "status": 500,
+    "body": {
+      "type": "https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.1",
+      "title": "El servicio no se encuentra disponible.",
+      "status": 500,
+      "detail": "Consulte al administrador.",
+      "instance": "ProblemDetails/InvalidOperationException"
+    },
+    "before": 15,
+    "after": 15
+  },
+  {
+    "name": "Blazor-5-General",
+    "passed": true,
+    "status": 500,
+    "friendlyMessage": "El servicio no se encuentra disponible. Consulte al administrador.",
+    "boundaryRecovery": true,
+    "before": 15,
+    "after": 15
+  },
+  {
+    "name": "API-7-Update",
+    "passed": true,
+    "status": 500,
+    "body": {
+      "type": "https://datatracker.ietf.org/doc/html/rfc7231#section-6.6.1",
+      "title": "Error de actualización.",
+      "status": 500,
+      "detail": "Se encontraron uno o más errores de actualización de datos. Consulte al administrador.",
+      "instance": "ProblemDetails/UpdateException"
+    },
+    "before": 15,
+    "after": 15
+  },
+  {
+    "name": "Blazor-6-Update",
+    "passed": true,
+    "status": 500,
+    "friendlyMessage": "Error de actualización. Se encontraron uno o más errores de actualización de datos. Consulte al administrador.",
+    "boundaryRecovery": true,
+    "before": 15,
+    "after": 15
+  },
+  {
+    "name": "API-8-Recuperacion",
+    "passed": true,
+    "status": 200,
+    "orderId": 18,
+    "before": 15,
+    "after": 16
+  },
+  {
+    "name": "Blazor-7-Recuperacion",
+    "passed": true,
+    "status": 200,
+    "orderId": 19
+  }
+]

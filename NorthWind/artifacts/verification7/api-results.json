@@ -1,0 +1,166 @@
+{
+  "initialCount": 6,
+  "finalCount": 9,
+  "results": [
+    {
+      "name": "A",
+      "description": "Datos válidos",
+      "status": 200,
+      "before": 6,
+      "after": 7,
+      "queryCount": 2,
+      "orderId": 7,
+      "passed": true
+    },
+    {
+      "name": "B",
+      "description": "Cliente vacío",
+      "status": 500,
+      "before": 7,
+      "after": 7,
+      "queryCount": 0,
+      "errors": "CustomerId: Debe especificar el identificador del cliente.",
+      "passed": true
+    },
+    {
+      "name": "C",
+      "description": "Cliente y productos vacíos",
+      "status": 500,
+      "before": 7,
+      "after": 7,
+      "queryCount": 0,
+      "errors": "CustomerId: Debe especificar el identificador del cliente. OrderDetails: Debe especificar al menos un producto de la orden.",
+      "passed": true
+    },
+    {
+      "name": "D",
+      "description": "Longitudes de envío",
+      "status": 500,
+      "before": 7,
+      "after": 7,
+      "queryCount": 0,
+      "errors": "CustomerId: El identificador del cliente debe tener 5 caracteres. ShipAddress: La longitud máxima de la dirección es 60. ShipCity: Debe especificar al menos 3 caracteres del nombre de la ciudad. ShipCountry: La longitud máxima del país es 15. ShipPostalCode: La longitud máxima del código postal es 10.",
+      "passed": true
+    },
+    {
+      "name": "E",
+      "description": "Producto, precio y cantidad inválidos",
+      "status": 500,
+      "before": 7,
+      "after": 7,
+      "queryCount": 0,
+      "errors": "OrderDetails[0].ProductId: Debe especificar el identificador del producto. OrderDetails[0].Quantity: Debe especificar la cantidad ordenada del producto. OrderDetails[0].UnitPrice: Debe especificarse el precio del producto.",
+      "passed": true
+    },
+    {
+      "name": "F",
+      "description": "Cliente inexistente",
+      "status": 500,
+      "before": 7,
+      "after": 7,
+      "queryCount": 2,
+      "errors": "CustomerId: El identificador de cliente proporcionado no existe.",
+      "passed": true
+    },
+    {
+      "name": "G",
+      "description": "Cliente con adeudo",
+      "status": 500,
+      "before": 7,
+      "after": 7,
+      "queryCount": 2,
+      "errors": "CustomerId: El cliente BONAP tiene un adeudo pendiente de 275,50.",
+      "passed": true
+    },
+    {
+      "name": "H",
+      "description": "Producto inexistente",
+      "status": 500,
+      "before": 7,
+      "after": 7,
+      "queryCount": 2,
+      "errors": "OrderDetails[0].ProductId: El producto 999 no existe.",
+      "passed": true
+    },
+    {
+      "name": "I",
+      "description": "Existencias insuficientes",
+      "status": 500,
+      "before": 7,
+      "after": 7,
+      "queryCount": 2,
+      "errors": "OrderDetails[0].Quantity: Cantidad 0 de 1 no suficiente para producto 2.",
+      "passed": true
+    },
+    {
+      "name": "J",
+      "description": "Cliente inexistente y producto sin existencias",
+      "status": 500,
+      "before": 7,
+      "after": 7,
+      "queryCount": 2,
+      "errors": "CustomerId: El identificador de cliente proporcionado no existe. OrderDetails[0].Quantity: Cantidad 0 de 1 no suficiente para producto 2.",
+      "passed": true
+    },
+    {
+      "name": "K",
+      "description": "Cliente inválido bloquea consultas SQL",
+      "status": 500,
+      "before": 7,
+      "after": 7,
+      "queryCount": 0,
+      "errors": "CustomerId: El identificador del cliente debe tener 5 caracteres.",
+      "passed": true
+    },
+    {
+      "name": "L",
+      "description": "Productos repetidos superan existencias",
+      "status": 500,
+      "before": 7,
+      "after": 7,
+      "queryCount": 2,
+      "errors": "OrderDetails[0].Quantity: Cantidad 10 de 12 no suficiente para producto 10.",
+      "passed": true
+    },
+    {
+      "name": "M",
+      "description": "OrderDetails null",
+      "status": 500,
+      "before": 7,
+      "after": 7,
+      "queryCount": 0,
+      "errors": "OrderDetails: Debe especificar los productos de la orden.",
+      "passed": true
+    },
+    {
+      "name": "N",
+      "description": "Código postal opcional null",
+      "status": 200,
+      "before": 7,
+      "after": 8,
+      "queryCount": 2,
+      "orderId": 8,
+      "passed": true
+    },
+    {
+      "name": "O",
+      "description": "Productos repetidos válidos se agrupan",
+      "status": 200,
+      "before": 8,
+      "after": 9,
+      "queryCount": 2,
+      "orderId": 9,
+      "passed": true
+    },
+    {
+      "name": "P",
+      "description": "Errores en segunda fila de productos",
+      "status": 500,
+      "before": 9,
+      "after": 9,
+      "queryCount": 0,
+      "errors": "OrderDetails[1].ProductId: Debe especificar el identificador del producto. OrderDetails[1].Quantity: Debe especificar la cantidad ordenada del producto. OrderDetails[1].UnitPrice: Debe especificarse el precio del producto.",
+      "passed": true
+    }
+  ]
+}

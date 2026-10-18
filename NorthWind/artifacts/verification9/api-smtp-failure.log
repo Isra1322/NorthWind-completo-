@@ -1,0 +1,86 @@
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: https://localhost:7154
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5254
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.WebApi
+fail: NorthWind.Sales.Backend.SmtpGateways.MailService[0]
+      Error al enviar la notificaci¢n de orden especial.
+      System.Net.Mail.SmtpException: Server does not support secure connections.
+         at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.SendEHelloCallback(IAsyncResult result)
+      --- End of stack trace from previous location ---
+         at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+      --- End of stack trace from previous location ---
+         at NorthWind.Sales.Backend.SmtpGateways.MailService.SendMailToAdministrator(String subject, String body) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.SmtpGateways\MailService.cs:line 30
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      NorthWind.Exceptions.Entities.Exceptions.ValidationException: Exception of type 'NorthWind.Exceptions.Entities.Exceptions.ValidationException' was thrown.
+         at NorthWind.Sales.Backend.BusinessObjects.Guards.GuardModel.AgainstNotValid[T](IModelValidatorHub`1 modelValidatorHub, T model) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.BusinessObjects\Guards\GuardModel.cs:line 11
+         at NorthWind.Sales.Backend.UseCases.CreateOrder.CreateOrderInteractor.Handle(CreateOrderDto orderDto) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.UseCases\CreateOrder\CreateOrderInteractor.cs:line 11
+         at Microsoft.AspNetCore.Builder.CreateOrderController.CreateOrder(CreateOrderDto orderDto, ICreateOrderInputPort inputPort, ICreateOrderOutputPort presenter) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.Controllers\CreateOrder\CreateOrderController.cs:line 18
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfTFast>g__ExecuteAwaited|132_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+         at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      NorthWind.Exceptions.Entities.Exceptions.ValidationException: Exception of type 'NorthWind.Exceptions.Entities.Exceptions.ValidationException' was thrown.
+         at NorthWind.Sales.Backend.BusinessObjects.Guards.GuardModel.AgainstNotValid[T](IModelValidatorHub`1 modelValidatorHub, T model) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.BusinessObjects\Guards\GuardModel.cs:line 11
+         at NorthWind.Sales.Backend.UseCases.CreateOrder.CreateOrderInteractor.Handle(CreateOrderDto orderDto) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.UseCases\CreateOrder\CreateOrderInteractor.cs:line 11
+         at Microsoft.AspNetCore.Builder.CreateOrderController.CreateOrder(CreateOrderDto orderDto, ICreateOrderInputPort inputPort, ICreateOrderOutputPort presenter) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.Controllers\CreateOrder\CreateOrderController.cs:line 18
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfTFast>g__ExecuteAwaited|132_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+         at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      NorthWind.Exceptions.Entities.Exceptions.ValidationException: Exception of type 'NorthWind.Exceptions.Entities.Exceptions.ValidationException' was thrown.
+         at NorthWind.Sales.Backend.BusinessObjects.Guards.GuardModel.AgainstNotValid[T](IModelValidatorHub`1 modelValidatorHub, T model) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.BusinessObjects\Guards\GuardModel.cs:line 11
+         at NorthWind.Sales.Backend.UseCases.CreateOrder.CreateOrderInteractor.Handle(CreateOrderDto orderDto) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.UseCases\CreateOrder\CreateOrderInteractor.cs:line 11
+         at Microsoft.AspNetCore.Builder.CreateOrderController.CreateOrder(CreateOrderDto orderDto, ICreateOrderInputPort inputPort, ICreateOrderOutputPort presenter) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.Controllers\CreateOrder\CreateOrderController.cs:line 18
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfTFast>g__ExecuteAwaited|132_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+         at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      NorthWind.Exceptions.Entities.Exceptions.ValidationException: Exception of type 'NorthWind.Exceptions.Entities.Exceptions.ValidationException' was thrown.
+         at NorthWind.Sales.Backend.BusinessObjects.Guards.GuardModel.AgainstNotValid[T](IModelValidatorHub`1 modelValidatorHub, T model) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.BusinessObjects\Guards\GuardModel.cs:line 11
+         at NorthWind.Sales.Backend.UseCases.CreateOrder.CreateOrderInteractor.Handle(CreateOrderDto orderDto) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.UseCases\CreateOrder\CreateOrderInteractor.cs:line 11
+         at Microsoft.AspNetCore.Builder.CreateOrderController.CreateOrder(CreateOrderDto orderDto, ICreateOrderInputPort inputPort, ICreateOrderOutputPort presenter) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.Controllers\CreateOrder\CreateOrderController.cs:line 18
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfTFast>g__ExecuteAwaited|132_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+         at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+fail: NorthWind.Sales.Backend.SmtpGateways.MailService[0]
+      Error al enviar la notificaci¢n de orden especial.
+      System.Net.Mail.SmtpException: Server does not support secure connections.
+         at System.Net.Mail.SmtpConnection.ConnectAndHandshakeAsyncResult.SendEHelloCallback(IAsyncResult result)
+      --- End of stack trace from previous location ---
+         at System.Net.Mail.SmtpClient.ConnectCallback(IAsyncResult result)
+      --- End of stack trace from previous location ---
+         at NorthWind.Sales.Backend.SmtpGateways.MailService.SendMailToAdministrator(String subject, String body) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.SmtpGateways\MailService.cs:line 30
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      NorthWind.Exceptions.Entities.Exceptions.ValidationException: Exception of type 'NorthWind.Exceptions.Entities.Exceptions.ValidationException' was thrown.
+         at NorthWind.Sales.Backend.BusinessObjects.Guards.GuardModel.AgainstNotValid[T](IModelValidatorHub`1 modelValidatorHub, T model) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.BusinessObjects\Guards\GuardModel.cs:line 11
+         at NorthWind.Sales.Backend.UseCases.CreateOrder.CreateOrderInteractor.Handle(CreateOrderDto orderDto) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.UseCases\CreateOrder\CreateOrderInteractor.cs:line 11
+         at Microsoft.AspNetCore.Builder.CreateOrderController.CreateOrder(CreateOrderDto orderDto, ICreateOrderInputPort inputPort, ICreateOrderOutputPort presenter) in C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Sales.Backend.Controllers\CreateOrder\CreateOrderController.cs:line 18
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.<ExecuteTaskOfTFast>g__ExecuteAwaited|132_0[T](Task`1 task, HttpContext httpContext, JsonTypeInfo`1 jsonTypeInfo)
+         at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+         at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)

@@ -1,0 +1,23 @@
+<CascadingAuthenticationState>
+<Router AppAssembly="@typeof(App).Assembly" AdditionalAssemblies="@AdditionalAssemblies">
+    <Found Context="routeData">
+        <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+    </Found>
+    <NotFound>
+        <PageTitle>No encontrado</PageTitle>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p role="alert">No se encontró la página.</p>
+        </LayoutView>
+    </NotFound>
+</Router>
+</CascadingAuthenticationState>
+
+@code {
+    Assembly[] AdditionalAssemblies =>
+        new Assembly[]
+        {
+            typeof(NorthWind.Sales.Frontend.Views.Pages.CreateOrder).Assembly,
+            MembershipPages.Assembly
+        };
+}

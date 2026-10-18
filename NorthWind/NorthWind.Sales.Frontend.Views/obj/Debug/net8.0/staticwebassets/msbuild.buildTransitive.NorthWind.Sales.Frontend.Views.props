@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\NorthWind.Sales.Frontend.Views.props" />
+</Project>

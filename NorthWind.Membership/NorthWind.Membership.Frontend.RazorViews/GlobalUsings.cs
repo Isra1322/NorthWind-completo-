@@ -1,0 +1,13 @@
+global using NorthWind.Membership.Entities.Dtos.UserLogin;
+global using NorthWind.Membership.Frontend.RazorViews.ViewModels.UserLogin;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.AspNetCore.Components;
+global using Microsoft.AspNetCore.Components.Web;
+global using NorthWind.Validation.Entities.Interfaces;
+global using NorthWind.Validation.Entities.Abstractions;
+global using NorthWind.Validation.Entities.ValueObjects;
+global using NorthWind.RazorComponents.Validators;
+global using NorthWind.Membership.Entities.Dtos.UserRegistration;
+global using NorthWind.Membership.Frontend.RazorViews.ViewModels.UserRegistration;
+global using NorthWind.Membership.Frontend.RazorViews.Resources;
+global using NorthWind.Membership.Frontend.RazorViews.WebApiGateways;

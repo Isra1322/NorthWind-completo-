@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "NorthWind.Exceptions.Entities/1.0.0": {
+        "dependencies": {
+          "NorthWind.Validation.Entities": "2.0.0"
+        },
+        "runtime": {
+          "NorthWind.Exceptions.Entities.dll": {}
+        }
+      },
+      "NorthWind.Validation.Entities/2.0.0": {
+        "runtime": {
+          "NorthWind.Validation.Entities.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NorthWind.Exceptions.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NorthWind.Validation.Entities/2.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

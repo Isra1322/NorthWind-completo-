@@ -1,0 +1,16 @@
+<div class="main alert alert-danger" role="alert">@UserMessage</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public Exception Exception { get; set; } = null!;
+    private string UserMessage => Exception switch
+    {
+        HttpRequestException { StatusCode: System.Net.HttpStatusCode.Unauthorized } => "Su sesión no es válida o ha expirado. Inicie sesión nuevamente.",
+        HttpRequestException { StatusCode: System.Net.HttpStatusCode.Forbidden } => "No tiene permiso para realizar esta operación.",
+        HttpRequestException error when error.Data["Errors"] is IEnumerable<NorthWind.Validation.Entities.ValueObjects.ValidationError> errors =>
+            string.Join(" ", errors.Select(e => e.Message).Distinct()),
+        OperationCanceledException => "La operación tardó demasiado. Intente nuevamente.",
+        HttpRequestException => "No se pudo completar la solicitud. Verifique la conexión e intente nuevamente.",
+        _ => "No se pudo completar la operación. Intente nuevamente."
+    };
+}

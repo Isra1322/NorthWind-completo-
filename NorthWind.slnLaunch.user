@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "NorthWind\\NorthWind.Sales.BlazorClient\\NorthWind.Sales.BlazorClient.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "NorthWind\\NorthWind.Sales.WebApi\\NorthWind.Sales.WebApi.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

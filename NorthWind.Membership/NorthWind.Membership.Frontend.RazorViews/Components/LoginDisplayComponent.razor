@@ -1,0 +1,14 @@
+<AuthorizeView>
+    <Authorized>
+        <span>@GetUserName(context)</span>
+        <a class="ms-3" href="user/logout">@CommonMessages.CloseSessionText</a>
+    </Authorized>
+    <NotAuthorized>
+        <a href="user/register">@CommonMessages.CreateAccountText</a>
+        <a class="ms-3" href="user/login">@CommonMessages.LoginText</a>
+    </NotAuthorized>
+</AuthorizeView>
+@code {
+    private string GetUserName(AuthenticationState context) =>
+        context.User.FindFirst("FullName")?.Value ?? context.User.Identity?.Name ?? string.Empty;
+}

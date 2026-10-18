@@ -1,0 +1,212 @@
+[
+  {
+    "name": "API-1",
+    "description": "Orden válida",
+    "status": 200,
+    "before": 12,
+    "after": 13,
+    "queryCount": 2,
+    "fixtureDifference": false,
+    "orderId": 13,
+    "passed": true
+  },
+  {
+    "name": "API-2",
+    "description": "Cliente ALFKQ inexistente",
+    "status": 400,
+    "before": 13,
+    "after": 13,
+    "queryCount": 2,
+    "fixtureDifference": false,
+    "errors": [
+      {
+        "propertyName": "CustomerId",
+        "message": "El identificador de cliente proporcionado no existe."
+      }
+    ],
+    "passed": true
+  },
+  {
+    "name": "API-3-ANTON",
+    "description": "ANTON no existe en los datos actuales",
+    "status": 400,
+    "before": 13,
+    "after": 13,
+    "queryCount": 2,
+    "fixtureDifference": true,
+    "errors": [
+      {
+        "propertyName": "CustomerId",
+        "message": "El identificador de cliente proporcionado no existe."
+      }
+    ],
+    "passed": true
+  },
+  {
+    "name": "API-3-BONAP",
+    "description": "Cliente existente con adeudo",
+    "status": 400,
+    "before": 13,
+    "after": 13,
+    "queryCount": 2,
+    "fixtureDifference": false,
+    "errors": [
+      {
+        "propertyName": "CustomerId",
+        "message": "El cliente BONAP tiene un adeudo pendiente de 275,50."
+      }
+    ],
+    "passed": true
+  },
+  {
+    "name": "API-4",
+    "description": "Productos 10, 40 y 3; solamente 40 es inexistente",
+    "status": 400,
+    "before": 13,
+    "after": 13,
+    "queryCount": 2,
+    "fixtureDifference": true,
+    "errors": [
+      {
+        "propertyName": "OrderDetails[1].ProductId",
+        "message": "El producto 40 no existe."
+      }
+    ],
+    "passed": true
+  },
+  {
+    "name": "API-5",
+    "description": "Cantidades indicadas; producto 2 sin existencias",
+    "status": 400,
+    "before": 13,
+    "after": 13,
+    "queryCount": 2,
+    "fixtureDifference": true,
+    "errors": [
+      {
+        "propertyName": "OrderDetails[1].Quantity",
+        "message": "Cantidad 0 de 1 no suficiente para producto 2."
+      }
+    ],
+    "passed": true
+  },
+  {
+    "name": "API-5-Acumulacion",
+    "description": "Producto 1 repetido: 60+60 supera 100",
+    "status": 400,
+    "before": 13,
+    "after": 13,
+    "queryCount": 2,
+    "fixtureDifference": false,
+    "errors": [
+      {
+        "propertyName": "OrderDetails[0].Quantity",
+        "message": "Cantidad 100 de 120 no suficiente para producto 1."
+      }
+    ],
+    "passed": true
+  },
+  {
+    "name": "P7-Basicos",
+    "description": "Regresión de campos y productos inválidos",
+    "status": 400,
+    "before": 13,
+    "after": 13,
+    "queryCount": 0,
+    "fixtureDifference": false,
+    "errors": [
+      {
+        "propertyName": "CustomerId",
+        "message": "Debe especificar el identificador del cliente."
+      },
+      {
+        "propertyName": "ShipAddress",
+        "message": "La longitud máxima de la dirección es 60."
+      },
+      {
+        "propertyName": "ShipCity",
+        "message": "Debe especificar al menos 3 caracteres del nombre de la ciudad."
+      },
+      {
+        "propertyName": "ShipCountry",
+        "message": "Debe especificar el país de envío."
+      },
+      {
+        "propertyName": "ShipPostalCode",
+        "message": "La longitud máxima del código postal es 10."
+      },
+      {
+        "propertyName": "OrderDetails[0].ProductId",
+        "message": "Debe especificar el identificador del producto."
+      },
+      {
+        "propertyName": "OrderDetails[0].Quantity",
+        "message": "Debe especificar la cantidad ordenada del producto."
+      },
+      {
+        "propertyName": "OrderDetails[0].UnitPrice",
+        "message": "Debe especificarse el precio del producto."
+      }
+    ],
+    "passed": true
+  },
+  {
+    "name": "P7-Coleccion",
+    "description": "Colección null",
+    "status": 400,
+    "before": 13,
+    "after": 13,
+    "queryCount": 0,
+    "fixtureDifference": false,
+    "errors": [
+      {
+        "propertyName": "OrderDetails",
+        "message": "Debe especificar los productos de la orden."
+      }
+    ],
+    "passed": true
+  },
+  {
+    "name": "P7-Vacia",
+    "description": "Colección vacía",
+    "status": 400,
+    "before": 13,
+    "after": 13,
+    "queryCount": 0,
+    "fixtureDifference": false,
+    "errors": [
+      {
+        "propertyName": "OrderDetails",
+        "message": "Debe especificar al menos un producto de la orden."
+      }
+    ],
+    "passed": true
+  },
+  {
+    "name": "P7-K",
+    "description": "Errores básicos bloquean consultas",
+    "status": 400,
+    "before": 13,
+    "after": 13,
+    "queryCount": 0,
+    "fixtureDifference": false,
+    "errors": [
+      {
+        "propertyName": "CustomerId",
+        "message": "El identificador del cliente debe tener 5 caracteres."
+      }
+    ],
+    "passed": true
+  },
+  {
+    "name": "P7-PostalOpcional",
+    "description": "Código postal opcional",
+    "status": 200,
+    "before": 13,
+    "after": 14,
+    "queryCount": 2,
+    "fixtureDifference": false,
+    "orderId": 14,
+    "passed": true
+  }
+]

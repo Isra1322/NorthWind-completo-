@@ -1,0 +1,2 @@
+wwwroot\confirmationDialog.js
+wwwroot\invoice.js

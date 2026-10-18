@@ -1,0 +1,149 @@
+<EditForm id="createOrderForm" novalidate EditContext="Order.FormContext" @key="Order.FormContext"
+          OnSubmit="@(_ => SubmitOrderAsync())">
+    <ModelValidator Validator="Order.Validator" OnValidSubmit="@(_ => SubmitValidatedOrderAsync())"
+                    OnInvalidSubmit="@(_ => Order.ClearInformationMessage())"
+                    @ref="Order.ModelValidatorComponentReference" />
+    <fieldset disabled="@(IsSubmitting || Order.IsSaving || Order.IsSelectingCustomer || Order.IsCancellationPending)">
+    <fieldset class="border rounded p-3 mb-3">
+        <legend class="float-none w-auto px-2 fs-6 fw-semibold">Datos del cliente (solo lectura)</legend>
+        <div class="d-flex justify-content-end mb-3">
+            <button type="button" class="btn btn-outline-primary" @onclick="() => OpenSearch(false)">Buscar cliente</button>
+        </div>
+        <div class="row g-3">
+            <div class="col-sm-4 col-lg-2">
+                <label for="customerId" class="form-label">Cédula del cliente</label>
+                <input id="customerId" class="form-control bg-body-tertiary" value="@Order.SelectedCustomer?.Identification" readonly />
+                <ValidationMessage For="@(() => Order.CustomerId)" />
+            </div>
+            <div class="col-sm-8 col-lg-6">
+                <label for="customerName" class="form-label">Nombre del cliente</label>
+                <input id="customerName" class="form-control bg-body-tertiary" value="@Order.SelectedCustomer?.Name" readonly />
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <label for="customerIdentification" class="form-label">Identificación</label>
+                <input id="customerIdentification" class="form-control bg-body-tertiary" value="@Order.SelectedCustomer?.Identification" readonly />
+            </div>
+            <div class="col-sm-6 col-lg-8">
+                <label for="customerEmail" class="form-label">Correo electrónico</label>
+                <input id="customerEmail" type="email" class="form-control bg-body-tertiary" value="@Order.SelectedCustomer?.Email" readonly />
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <label for="customerPhone" class="form-label">Teléfono</label>
+                <input id="customerPhone" type="tel" class="form-control bg-body-tertiary" value="@Order.SelectedCustomer?.Phone" readonly />
+            </div>
+        </div>
+    </fieldset>
+    <fieldset class="border rounded p-3">
+        <legend class="float-none w-auto px-2 fs-6 fw-semibold">Datos de entrega de la orden</legend>
+        <p class="form-text mt-0 mb-3">Puede editar estos datos para esta orden sin modificar el cliente.</p>
+        <div class="row g-3">
+            <div class="col-12">
+                <label for="shipAddress" class="form-label">@CreateOrderMessages.ShipAddressLabel</label>
+                <InputText id="shipAddress" maxlength="60" class="form-control" @bind-Value="Order.ShipAddress"
+                           @onblur="@(() => Order.ModelValidatorComponentReference!.ValidateFieldAsync(() => Order.ShipAddress))" />
+                <ValidationMessage For="@(() => Order.ShipAddress)" />
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <label for="shipCity" class="form-label">@CreateOrderMessages.ShipCityLabel</label>
+                <InputText id="shipCity" maxlength="15" class="form-control" @bind-Value="Order.ShipCity"
+                           @onblur="@(() => Order.ModelValidatorComponentReference!.ValidateFieldAsync(() => Order.ShipCity))" />
+                <ValidationMessage For="@(() => Order.ShipCity)" />
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <label for="shipCountry" class="form-label">@CreateOrderMessages.ShipCountryLabel</label>
+                <InputText id="shipCountry" maxlength="15" class="form-control" @bind-Value="Order.ShipCountry"
+                           @onblur="@(() => Order.ModelValidatorComponentReference!.ValidateFieldAsync(() => Order.ShipCountry))" />
+                <ValidationMessage For="@(() => Order.ShipCountry)" />
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <label for="shipPostalCode" class="form-label">@CreateOrderMessages.ShipPostalCodeLabel</label>
+                <input id="shipPostalCode" type="text" maxlength="10" inputmode="numeric" pattern="[0-9]*"
+                       class="form-control" @bind:get="Order.ShipPostalCode" @bind:set="SetPostalCode" @bind:event="oninput"
+                           @onblur="@(() => Order.ModelValidatorComponentReference!.ValidateFieldAsync(() => Order.ShipPostalCode))" />
+                <ValidationMessage For="@(() => Order.ShipPostalCode)" />
+            </div>
+        </div>
+    </fieldset>
+    <ValidationMessage For="@(() => Order.OrderDetails)" />
+    <div class="mt-4 mb-3">
+        <button id="addOrderProduct" type="button" class="btn btn-secondary me-2" @onclick="() => OpenSearch(true)">@CreateOrderMessages.AddProductButtonText</button>
+    </div>
+    <div class="table-responsive">
+        <table class="table">
+            <thead><tr>
+                <th><div class="order-product-cell"><span class="text-end">@CreateOrderMessages.ProductIdLabel</span><span class="text-start">Producto</span></div></th>
+                <th class="text-end">@CreateOrderMessages.UnitPriceLabel</th>
+                <th class="text-end">@CreateOrderMessages.QuantityLabel</th>
+                <th class="text-end">Stock</th><th class="text-end">Importe</th><th>Acciones</th>
+            </tr></thead>
+            <tbody>
+                @foreach (var detail in Order.OrderDetails)
+                {
+                    <tr @key="detail">
+                        <td><div class="order-product-cell"><span class="text-end">@detail.ProductId</span><span class="text-start">@detail.ProductName</span></div><ValidationMessage For="@(() => detail.ProductId)" /></td>
+                        <td class="text-end">@detail.UnitPrice.ToString("N2")<ValidationMessage For="@(() => detail.UnitPrice)" /></td>
+                        <td class="text-end"><InputNumber class="form-control text-end" ParsingErrorMessage="Ingrese una cantidad válida." aria-label="@CreateOrderMessages.QuantityLabel" min="1" max="@detail.UnitsInStock" @bind-Value="detail.Quantity"
+                                         @onblur="@(() => Order.ModelValidatorComponentReference!.ValidateFieldAsync(() => detail.Quantity))" /><ValidationMessage For="@(() => detail.Quantity)" /></td>
+                        <td class="text-end">@detail.UnitsInStock</td><td class="text-end">@((detail.UnitPrice * detail.Quantity).ToString("N2"))</td>
+                        <td><button type="button" class="btn btn-outline-primary btn-sm me-2" @onclick="() => OpenSearch(true, detail)">Cambiar</button>
+                            <button type="button" class="btn btn-outline-danger btn-sm" @onclick="() => RequestRemoval(detail)">Quitar</button></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="order-totals mb-3" aria-live="polite">
+        <span>Subtotal:</span><span>@Order.Subtotal.ToString("N2", System.Globalization.CultureInfo.GetCultureInfo("es-ES"))</span>
+        <span>IVA@(Order.TaxSettings is { } tax ? $" ({tax.Rate * 100:0.######} %)" : ""):</span><span>@(Order.TaxSettings is null ? "pendiente de configuración" : Order.TaxAmount.ToString("N2", System.Globalization.CultureInfo.GetCultureInfo("es-ES")))</span>
+        <strong>Total:</strong><strong>@(Order.TaxSettings is null ? "pendiente de configuración" : Order.Total.ToString("N2", System.Globalization.CultureInfo.GetCultureInfo("es-ES")))</strong>
+    </div>
+    <div class="d-flex flex-wrap gap-2">
+        <button type="submit" class="btn btn-primary" disabled="@(IsSubmitting || Order.IsSaving || IsPreparingInvoicePdf || Order.TaxSettings is null)">
+            @if (IsSubmitting || Order.IsSaving || IsPreparingInvoicePdf)
+            {
+                <span class="spinner-border spinner-border-sm me-2" aria-hidden="true"></span>
+                @(IsPreparingInvoicePdf ? "Preparando factura…" : "Guardando…")
+            }
+            else { @CreateOrderMessages.SendButtonText }
+        </button>
+        <button id="cancelOrderDraft" type="button" class="btn btn-outline-danger" @onclick="RequestDraftCancellation">Cancelar factura</button>
+    </div>
+    </fieldset>
+    @if (Order.TaxSettings is null) { <button type="button" class="btn btn-link" @onclick="Order.LoadTaxSettingsAsync">Reintentar carga de IVA</button> }
+    @if (!string.IsNullOrEmpty(Order.InformationMessage))
+    {
+        <div class="alert alert-success mt-3" role="status">@Order.InformationMessage</div>
+    }
+    @if (!string.IsNullOrEmpty(Order.ErrorMessage))
+    { <div class="alert alert-danger mt-3" role="alert">@Order.ErrorMessage</div> }
+    @if (!string.IsNullOrEmpty(InvoicePdfMessage))
+    { <div class="alert alert-warning mt-3" role="status">@InvoicePdfMessage</div> }
+    @if (InvoicePdfNeedsManualActions)
+    {
+        <div class="d-flex flex-wrap gap-2 mt-2">
+            @if (InvoiceUrl is not null && InvoiceUrlOrderId == Order.SavedOrderId)
+            {
+                <a class="btn btn-outline-primary" href="@InvoiceUrl" target="_blank" rel="noopener">Ver PDF</a>
+                <a class="btn btn-primary" href="@InvoiceUrl" download="@($"Factura_{InvoiceUrlOrderId}.pdf")">Descargar PDF</a>
+            }
+            else if (Order.SavedOrderId is not null)
+            {
+                <button type="button" class="btn btn-outline-primary" disabled="@IsPreparingInvoicePdf" @onclick="RetryInvoicePdfAsync">
+                    @(IsPreparingInvoicePdf ? "Preparando…" : "Reintentar PDF")
+                </button>
+            }
+        </div>
+    }
+</EditForm>
+@if (Order.IsCancellationPending)
+{
+    <DraftCancellationDialog Confirm="Order.ConfirmDraftCancellation" Cancel="Order.DismissDraftCancellation" />
+}
+@if (SearchOpen)
+{
+    <SalesSearchDialog Products="@SearchProducts" Order="@Order" Selected="SelectItem" Close="CloseSearch" />
+}
+@if (PendingRemoval is not null)
+{
+    <ProductRemovalDialog ProductName="@PendingRemoval.ProductName" Confirm="ConfirmRemoval" Cancel="CancelRemoval" />
+}

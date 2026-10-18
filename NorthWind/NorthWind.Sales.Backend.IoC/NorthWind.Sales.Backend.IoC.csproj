@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>12.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../NorthWind.Sales.Backend.UseCases/NorthWind.Sales.Backend.UseCases.csproj" />
+    <ProjectReference Include="../NorthWind.Sales.Backend.Controllers/NorthWind.Sales.Backend.Controllers.csproj" />
+    <ProjectReference Include="../NorthWind.Sales.Backend.Repositories/NorthWind.Sales.Backend.Repositories.csproj" />
+    <ProjectReference Include="../NorthWind.Sales.Backend.Presenters/NorthWind.Sales.Backend.Presenters.csproj" />
+    <ProjectReference Include="../NorthWind.Sales.Backend.DataContexts.EFCore/NorthWind.Sales.Backend.DataContexts.EFCore.csproj" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../NorthWind.ValidationService.FluentValidation/NorthWind.ValidationService.FluentValidation.csproj" />
+    <ProjectReference Include="../NorthWind.Sales.Validators.Entities/NorthWind.Sales.Validators.Entities.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../NorthWind.Exceptions.Entities/NorthWind.Exceptions.Entities.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../NorthWind.Events.Entities/NorthWind.Events.Entities.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../NorthWind.Sales.Backend.SmtpGateways/NorthWind.Sales.Backend.SmtpGateways.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../NorthWind.DomainLogs.Entities/NorthWind.DomainLogs.Entities.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../NorthWind.Transactions.Entities/NorthWind.Transactions.Entities.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../NorthWind.UserServices/NorthWind.UserServices.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../NorthWind.Membership/NorthWind.Membership.Backend.AspNetIdentity/NorthWind.Membership.Backend.AspNetIdentity.csproj" />
+  </ItemGroup>
+</Project>

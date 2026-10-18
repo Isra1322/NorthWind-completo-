@@ -1,0 +1,198 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NorthWind.Membership.Backend.Core/1.1.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.14.0",
+          "NorthWind.Membership.Entities": "1.1.2",
+          "NorthWind.Result.Entities": "1.0.0",
+          "NorthWind.ValidationService.FluentValidation": "1.0.3"
+        },
+        "runtime": {
+          "NorthWind.Membership.Backend.Core.dll": {}
+        }
+      },
+      "FluentValidation/11.11.0": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.11.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/8.14.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "8.14.0.0",
+            "fileVersion": "8.14.0.60815"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/8.14.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.14.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "8.14.0.0",
+            "fileVersion": "8.14.0.60815"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/8.14.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "8.14.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "8.14.0.0",
+            "fileVersion": "8.14.0.60815"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/8.14.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "8.14.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "8.14.0.0",
+            "fileVersion": "8.14.0.60815"
+          }
+        }
+      },
+      "NorthWind.Membership.Entities/1.1.2": {
+        "dependencies": {
+          "NorthWind.Validation.Entities": "1.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/NorthWind.Membership.Entities.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        }
+      },
+      "NorthWind.Result.Entities/1.0.0": {
+        "runtime": {
+          "lib/net8.0/NorthWind.Result.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NorthWind.Validation.Entities/1.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/NorthWind.Validation.Entities.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "NorthWind.ValidationService.FluentValidation/1.0.3": {
+        "dependencies": {
+          "FluentValidation": "11.11.0",
+          "NorthWind.Validation.Entities": "1.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/NorthWind.ValidationService.FluentValidation.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NorthWind.Membership.Backend.Core/1.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentValidation/11.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cyIVdQBwSipxWG8MA3Rqox7iNbUNUTK5bfJi9tIdm4CAfH71Oo5ABLP4/QyrUwuakqpUEPGtE43BDddvEehuYw==",
+      "path": "fluentvalidation/11.11.0",
+      "hashPath": "fluentvalidation.11.11.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.2",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Abstractions/8.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iwbCpSjD3ehfTwBhtSNEtKPK0ICun6ov7Ibx6ISNA9bfwIyzI2Siwyi9eJFCJBwxowK9xcA1mj+jBWiigeqgcQ==",
+      "path": "microsoft.identitymodel.abstractions/8.14.0",
+      "hashPath": "microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/8.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4jOpiA4THdtpLyMdAb24dtj7+6GmvhOhxf5XHLYWmPKF8ApEnApal1UnJsKO4HxUWRXDA6C4WQVfYyqsRhpNpQ==",
+      "path": "microsoft.identitymodel.jsonwebtokens/8.14.0",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/8.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eqqnemdW38CKZEHS6diA50BV94QICozDZEvSrsvN3SJXUFwVB9gy+/oz76gldP7nZliA16IglXjXTCTdmU/Ejg==",
+      "path": "microsoft.identitymodel.logging/8.14.0",
+      "hashPath": "microsoft.identitymodel.logging.8.14.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/8.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lKIZiBiGd36k02TCdMHp1KlNWisyIvQxcYJvIkz7P4gSQ9zi8dgh6S5Grj8NNG7HWYIPfQymGyoZ6JB5d1Lo1g==",
+      "path": "microsoft.identitymodel.tokens/8.14.0",
+      "hashPath": "microsoft.identitymodel.tokens.8.14.0.nupkg.sha512"
+    },
+    "NorthWind.Membership.Entities/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L63WejMXYzD0AG1px6O1fwOxsX+9nlyDlpp5TLoWuaPePAVTYp7ixmMCI/lBPkj5lKTVbXhf1xIINvjfgF0uLw==",
+      "path": "northwind.membership.entities/1.1.2",
+      "hashPath": "northwind.membership.entities.1.1.2.nupkg.sha512"
+    },
+    "NorthWind.Result.Entities/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xAHQRVw/eB2j8CqBoB8rjT+1q/cfvPeXGHCTnoRSDHevdlayUPz4jVNClIcg+SzLFpBRBkVAmZ0+HOnPdyN6mQ==",
+      "path": "northwind.result.entities/1.0.0",
+      "hashPath": "northwind.result.entities.1.0.0.nupkg.sha512"
+    },
+    "NorthWind.Validation.Entities/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N7loTFMbmMNwZFsEF27pc+fUMoVjmonkmFuLZz0VDST95/LjiNWbcYQPKgw/pixB9TiZ/YK7KR3bqJwrhwMhJQ==",
+      "path": "northwind.validation.entities/1.0.2",
+      "hashPath": "northwind.validation.entities.1.0.2.nupkg.sha512"
+    },
+    "NorthWind.ValidationService.FluentValidation/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ez26m7wOabAVYL9hnCOyQx6uURwl6AOekhGmzXDRq95EzyXTUdrHSJHGy2v3P8Ll2hJ77z59gqeoKY0E1jsKjA==",
+      "path": "northwind.validationservice.fluentvalidation/1.0.3",
+      "hashPath": "northwind.validationservice.fluentvalidation.1.0.3.nupkg.sha512"
+    }
+  }
+}

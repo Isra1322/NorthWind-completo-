@@ -1,0 +1,31 @@
+Id    CurrentBalance
+----- --------------
+ALFKI            .00
+ANATR            .00
+BONAP         275.50
+Id          UnitsInStock
+----------- ------------
+          1          100
+          2            0
+          3          100
+          4          100
+          5            5
+         10           10
+OrdersCount
+-----------
+         28
+MigrationId                                                                                                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------------
+20261010194120_InitialCreate                                                                                                                          
+20261010202250_AddProductAndCustomer                                                                                                                  
+Id          CustomerId DifferentProducts Product1Quantity
+----------- ---------- ----------------- ----------------
+         22 ALFKI                      3               10
+         23 ALFKI                      3               15
+         24 ALFKI                      4               15
+         25 ALFKI                      3               10
+         26 ALFKI                      3               15
+         27 ALFKI                      4               15
+         28 ALFKI                      3               10
+         29 ALFKI                      3               15
+         30 ALFKI                      4               15

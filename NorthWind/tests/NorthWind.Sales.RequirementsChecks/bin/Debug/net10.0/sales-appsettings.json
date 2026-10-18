@@ -1,0 +1,38 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "SalesTax": {
+    "Enabled": true,
+    "Rate": 0.15
+  },
+  "SmtpOptions": {
+    "SmtpHost": "sandbox.smtp.mailtrap.io",
+    "SmtpHostPort": 2525,
+    "SmtpUserName": "34329bc33a9e50",
+    "SmtpPassword": "27cb8b7ff3d78b",
+    "SenderEmail": "no-reply@northwind.com",
+    "AdministratorEmail": "admin@northwind.com"
+  },
+  "DBOptions": {
+    "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=NorthWindDB",
+    "DomainLogsConnectionString": "Server=(localdb)\\mssqllocaldb;Database=NorthWindLogsDB"
+  },
+  "MembershipDBOptions": {
+    "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=NorthWindUsersDB"
+  },
+  "JwtOptions": {
+    "SecurityKey": "NorthWindSecretKey_CleanArchitecture_2026_UTA_POS_System!",
+    "ValidIssuer": "NorthWindSales",
+    "ValidAudience": "NorthWindSalesClient",
+    "ExpireInMinutes": 1440,
+    "ValidateIssuer": true,
+    "ValidateAudience": true,
+    "ValidateLifetime": true,
+    "ValidateIssuerSigningKey": true
+  }
+}

@@ -1,0 +1,14 @@
+<EditForm novalidate Model="ViewModel" OnSubmit="@(_ => ViewModel.ModelValidatorComponentReference!.ValidateFormAsync())">
+    <ModelValidator Validator="ViewModel.Validator" OnValidSubmit="@(_ => ViewModel.Login())" @ref="ViewModel.ModelValidatorComponentReference" />
+    <div class="mb-3">
+        <label for="Email" class="form-label">@CommonMessages.EmailLabel</label>
+        <InputText id="Email" class="form-control" placeholder="@CommonMessages.EmailLabel" @bind-Value="ViewModel.Email" @onblur="@(() => ViewModel.ModelValidatorComponentReference!.ValidateFieldAsync(() => ViewModel.Email))" />
+        <ValidationMessage For="@(() => ViewModel.Email)" />
+    </div>
+    <div class="mb-3">
+        <label for="Password" class="form-label">@CommonMessages.PasswordLabel</label>
+        <InputText id="Password" class="form-control" placeholder="@CommonMessages.PasswordLabel" type="password" @bind-Value="ViewModel.Password" @onblur="@(() => ViewModel.ModelValidatorComponentReference!.ValidateFieldAsync(() => ViewModel.Password))" />
+        <ValidationMessage For="@(() => ViewModel.Password)" />
+    </div>
+    <button type="submit" class="btn btn-primary" disabled="@(ViewModel.ModelValidatorComponentReference?.IsSubmitting == true)">@UserLoginMessages.LoginButtonText</button>
+</EditForm>

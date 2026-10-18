@@ -1,0 +1,10 @@
+@attribute [Route(RouteTemplate)]
+<PageTitle>@UserLoginMessages.LoginButtonText</PageTitle>
+<h1>@UserLoginMessages.LoginButtonText</h1>
+<ErrorBoundary @ref="ErrorBoundaryRef">
+    <ChildContent><UserLoginComponent ViewModel="ViewModel" /></ChildContent>
+    <ErrorContent>
+        <ExceptionDisplay Exception="context" />
+        <button class="btn btn-danger" @onclick="Recover">@CommonMessages.OK</button>
+    </ErrorContent>
+</ErrorBoundary>

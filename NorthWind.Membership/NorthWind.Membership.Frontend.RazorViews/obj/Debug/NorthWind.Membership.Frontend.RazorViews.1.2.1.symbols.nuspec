@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Membership.Frontend.RazorViews</id>
+    <version>1.2.1</version>
+    <authors>NorthWind.Membership.Frontend.RazorViews</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.AspNetCore.Components.Authorization" version="8.0.31" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="8.0.31" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Http" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.IdentityModel.JsonWebTokens" version="8.14.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.HttpDelegatingHandlers" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Membership.Entities" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.RazorComponents" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Validation.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.ValidationService.FluentValidation" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\bin\Debug\net8.0\NorthWind.Membership.Frontend.RazorViews.pdb" target="lib\net8.0\NorthWind.Membership.Frontend.RazorViews.pdb" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\bin\Debug\net8.0\NorthWind.Membership.Frontend.RazorViews.dll" target="lib\net8.0\NorthWind.Membership.Frontend.RazorViews.dll" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\AuthenticationStateProviders\JWTAuthenticationStateProvider.cs" target="src\NorthWind.Membership.Frontend.RazorViews\AuthenticationStateProviders\JWTAuthenticationStateProvider.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\Components\UserLoginComponent.razor.cs" target="src\NorthWind.Membership.Frontend.RazorViews\Components\UserLoginComponent.razor.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\Components\UserRegistrationComponent.razor.cs" target="src\NorthWind.Membership.Frontend.RazorViews\Components\UserRegistrationComponent.razor.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\DependencyContainer.cs" target="src\NorthWind.Membership.Frontend.RazorViews\DependencyContainer.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\Extensions\MembershipPages.cs" target="src\NorthWind.Membership.Frontend.RazorViews\Extensions\MembershipPages.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\GlobalUsings.cs" target="src\NorthWind.Membership.Frontend.RazorViews\GlobalUsings.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\HttpMessageHandlers\MembershipBearerTokenHandler.cs" target="src\NorthWind.Membership.Frontend.RazorViews\HttpMessageHandlers\MembershipBearerTokenHandler.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\Interfaces\ITokenStorage.cs" target="src\NorthWind.Membership.Frontend.RazorViews\Interfaces\ITokenStorage.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\Pages\LogoutPage.razor.cs" target="src\NorthWind.Membership.Frontend.RazorViews\Pages\LogoutPage.razor.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\Pages\UserLoginPage.razor.cs" target="src\NorthWind.Membership.Frontend.RazorViews\Pages\UserLoginPage.razor.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\Pages\UserRegistrationPage.razor.cs" target="src\NorthWind.Membership.Frontend.RazorViews\Pages\UserRegistrationPage.razor.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\Resources\CommonMessages.cs" target="src\NorthWind.Membership.Frontend.RazorViews\Resources\CommonMessages.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\Resources\UserLoginMessages.Designer.cs" target="src\NorthWind.Membership.Frontend.RazorViews\Resources\UserLoginMessages.Designer.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\Resources\UserRegistrationMessages.Designer.cs" target="src\NorthWind.Membership.Frontend.RazorViews\Resources\UserRegistrationMessages.Designer.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\Services\TokenLocalStorage.cs" target="src\NorthWind.Membership.Frontend.RazorViews\Services\TokenLocalStorage.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\ViewModels\UserLogin\UserLoginViewModel.cs" target="src\NorthWind.Membership.Frontend.RazorViews\ViewModels\UserLogin\UserLoginViewModel.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\ViewModels\UserLogin\UserLoginViewModelDtoValidator.cs" target="src\NorthWind.Membership.Frontend.RazorViews\ViewModels\UserLogin\UserLoginViewModelDtoValidator.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\ViewModels\UserRegistration\UserRegistrationViewModel.cs" target="src\NorthWind.Membership.Frontend.RazorViews\ViewModels\UserRegistration\UserRegistrationViewModel.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\ViewModels\UserRegistration\UserRegistrationViewModelDtoValidator.cs" target="src\NorthWind.Membership.Frontend.RazorViews\ViewModels\UserRegistration\UserRegistrationViewModelDtoValidator.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\ViewModels\UserRegistration\UserRegistrationViewModelValidator.cs" target="src\NorthWind.Membership.Frontend.RazorViews\ViewModels\UserRegistration\UserRegistrationViewModelValidator.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\WebApiGateways\MembershipGateway.cs" target="src\NorthWind.Membership.Frontend.RazorViews\WebApiGateways\MembershipGateway.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\obj\Debug\net8.0\NorthWind.Membership.Frontend.RazorViews.GlobalUsings.g.cs" target="src\NorthWind.Membership.Frontend.RazorViews\obj\Debug\net8.0\NorthWind.Membership.Frontend.RazorViews.GlobalUsings.g.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\Resources\CommonMessages.resx" target="src\NorthWind.Membership.Frontend.RazorViews\Resources\CommonMessages.resx" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\Resources\UserLoginMessages.resx" target="src\NorthWind.Membership.Frontend.RazorViews\Resources\UserLoginMessages.resx" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\Resources\UserRegistrationMessages.resx" target="src\NorthWind.Membership.Frontend.RazorViews\Resources\UserRegistrationMessages.resx" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Frontend.RazorViews\NorthWind.Membership.Frontend.RazorViews.csproj" target="src\NorthWind.Membership.Frontend.RazorViews\NorthWind.Membership.Frontend.RazorViews.csproj" />
+  </files>
+</package>

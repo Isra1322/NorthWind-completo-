@@ -1,0 +1,943 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 8 /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 6941 >>
+stream
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 794 Tm (NorthWind Sales) Tj ET
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 464 794 Tm (FACTURA) Tj ET
+BT /F2 12 Tf 0.12 0.17 0.23 rg 1 0 0 1 519.384 766 Tm (N.º 91) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 766 Tm (Emisión: 11/10/2026 20:44) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 750 m 555 750 l S
+BT /F2 11 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 724 Tm (DATOS DEL CLIENTE) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 701 Tm (Cliente: ALFKI) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 685 Tm (Dirección: Dirección México) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 669 Tm (Ciudad: Puebla) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 653 Tm (País: México) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 637 Tm (Código postal: 72100) Tj ET
+0.92 0.95 0.97 rg 40 592 515 27 re f
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 601 Tm (Código) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 601 Tm (Producto) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 327.642 601 Tm (Precio unitario) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 421.548 601 Tm (Cantidad) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 511.398 601 Tm (Importe) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 569 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 569 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 555 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 569 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 569 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 569 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 541 m 555 541 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 529 Tm (2) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 529 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 515 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 529 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 529 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 529 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 501 m 555 501 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 489 Tm (3) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 489 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 475 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 489 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 489 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 489 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 461 m 555 461 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 449 Tm (4) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 449 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 435 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 449 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 449 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 449 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 421 m 555 421 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 409 Tm (5) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 409 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 395 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 409 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 409 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 409 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 381 m 555 381 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 369 Tm (6) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 369 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 355 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 369 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 369 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 369 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 341 m 555 341 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 329 Tm (7) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 329 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 315 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 329 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 329 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 329 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 301 m 555 301 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 289 Tm (8) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 289 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 275 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 289 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 289 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 289 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 261 m 555 261 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 249 Tm (9) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 249 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 235 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 249 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 249 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 249 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 221 m 555 221 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 209 Tm (10) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 209 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 195 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 209 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 209 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 209 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 181 m 555 181 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 169 Tm (11) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 169 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 155 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 169 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 169 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 169 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 141 m 555 141 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 129 Tm (12) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 129 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 115 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 129 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 129 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 129 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 101 m 555 101 l S
+0.82 0.85 0.88 RG 0.5 w 40 54 m 555 54 l S
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 36 Tm (NorthWind Sales) Tj ET
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 494.034 36 Tm (Página 1 de 8) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 7517 >>
+stream
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 794 Tm (NorthWind Sales) Tj ET
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 464 794 Tm (FACTURA) Tj ET
+BT /F2 12 Tf 0.12 0.17 0.23 rg 1 0 0 1 519.384 766 Tm (N.º 91) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 766 Tm (Emisión: 11/10/2026 20:44) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 750 m 555 750 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 724 Tm (Cliente: ALFKI · Continuación) Tj ET
+0.92 0.95 0.97 rg 40 687 515 27 re f
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 696 Tm (Código) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 696 Tm (Producto) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 327.642 696 Tm (Precio unitario) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 421.548 696 Tm (Cantidad) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 511.398 696 Tm (Importe) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 664 Tm (13) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 664 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 650 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 664 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 664 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 664 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 636 m 555 636 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 624 Tm (14) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 624 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 610 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 624 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 624 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 624 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 596 m 555 596 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 584 Tm (15) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 584 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 570 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 584 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 584 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 584 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 556 m 555 556 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 544 Tm (16) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 544 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 530 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 544 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 544 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 544 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 516 m 555 516 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 504 Tm (17) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 504 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 490 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 504 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 504 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 504 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 476 m 555 476 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 464 Tm (18) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 464 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 450 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 464 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 464 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 464 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 436 m 555 436 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 424 Tm (19) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 424 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 410 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 424 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 424 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 424 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 396 m 555 396 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 384 Tm (20) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 384 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 370 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 384 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 384 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 384 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 356 m 555 356 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 344 Tm (21) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 344 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 330 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 344 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 344 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 344 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 316 m 555 316 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 304 Tm (22) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 304 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 290 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 304 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 304 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 304 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 276 m 555 276 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 264 Tm (23) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 264 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 250 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 264 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 264 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 264 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 236 m 555 236 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 224 Tm (24) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 224 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 210 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 224 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 224 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 224 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 196 m 555 196 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 184 Tm (25) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 184 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 170 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 184 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 184 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 184 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 156 m 555 156 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 144 Tm (26) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 144 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 130 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 144 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 144 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 144 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 116 m 555 116 l S
+0.82 0.85 0.88 RG 0.5 w 40 54 m 555 54 l S
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 36 Tm (NorthWind Sales) Tj ET
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 494.034 36 Tm (Página 2 de 8) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 7517 >>
+stream
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 794 Tm (NorthWind Sales) Tj ET
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 464 794 Tm (FACTURA) Tj ET
+BT /F2 12 Tf 0.12 0.17 0.23 rg 1 0 0 1 519.384 766 Tm (N.º 91) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 766 Tm (Emisión: 11/10/2026 20:44) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 750 m 555 750 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 724 Tm (Cliente: ALFKI · Continuación) Tj ET
+0.92 0.95 0.97 rg 40 687 515 27 re f
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 696 Tm (Código) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 696 Tm (Producto) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 327.642 696 Tm (Precio unitario) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 421.548 696 Tm (Cantidad) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 511.398 696 Tm (Importe) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 664 Tm (27) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 664 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 650 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 664 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 664 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 664 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 636 m 555 636 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 624 Tm (28) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 624 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 610 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 624 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 624 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 624 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 596 m 555 596 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 584 Tm (29) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 584 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 570 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 584 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 584 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 584 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 556 m 555 556 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 544 Tm (30) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 544 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 530 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 544 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 544 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 544 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 516 m 555 516 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 504 Tm (31) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 504 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 490 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 504 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 504 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 504 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 476 m 555 476 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 464 Tm (32) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 464 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 450 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 464 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 464 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 464 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 436 m 555 436 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 424 Tm (33) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 424 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 410 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 424 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 424 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 424 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 396 m 555 396 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 384 Tm (34) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 384 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 370 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 384 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 384 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 384 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 356 m 555 356 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 344 Tm (35) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 344 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 330 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 344 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 344 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 344 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 316 m 555 316 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 304 Tm (36) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 304 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 290 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 304 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 304 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 304 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 276 m 555 276 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 264 Tm (37) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 264 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 250 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 264 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 264 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 264 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 236 m 555 236 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 224 Tm (38) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 224 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 210 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 224 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 224 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 224 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 196 m 555 196 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 184 Tm (39) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 184 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 170 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 184 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 184 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 184 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 156 m 555 156 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 144 Tm (40) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 144 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 130 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 144 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 144 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 144 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 116 m 555 116 l S
+0.82 0.85 0.88 RG 0.5 w 40 54 m 555 54 l S
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 36 Tm (NorthWind Sales) Tj ET
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 494.034 36 Tm (Página 3 de 8) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 7517 >>
+stream
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 794 Tm (NorthWind Sales) Tj ET
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 464 794 Tm (FACTURA) Tj ET
+BT /F2 12 Tf 0.12 0.17 0.23 rg 1 0 0 1 519.384 766 Tm (N.º 91) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 766 Tm (Emisión: 11/10/2026 20:44) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 750 m 555 750 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 724 Tm (Cliente: ALFKI · Continuación) Tj ET
+0.92 0.95 0.97 rg 40 687 515 27 re f
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 696 Tm (Código) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 696 Tm (Producto) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 327.642 696 Tm (Precio unitario) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 421.548 696 Tm (Cantidad) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 511.398 696 Tm (Importe) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 664 Tm (41) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 664 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 650 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 664 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 664 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 664 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 636 m 555 636 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 624 Tm (42) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 624 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 610 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 624 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 624 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 624 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 596 m 555 596 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 584 Tm (43) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 584 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 570 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 584 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 584 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 584 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 556 m 555 556 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 544 Tm (44) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 544 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 530 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 544 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 544 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 544 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 516 m 555 516 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 504 Tm (45) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 504 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 490 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 504 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 504 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 504 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 476 m 555 476 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 464 Tm (46) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 464 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 450 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 464 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 464 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 464 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 436 m 555 436 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 424 Tm (47) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 424 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 410 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 424 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 424 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 424 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 396 m 555 396 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 384 Tm (48) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 384 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 370 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 384 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 384 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 384 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 356 m 555 356 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 344 Tm (49) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 344 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 330 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 344 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 344 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 344 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 316 m 555 316 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 304 Tm (50) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 304 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 290 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 304 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 304 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 304 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 276 m 555 276 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 264 Tm (51) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 264 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 250 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 264 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 264 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 264 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 236 m 555 236 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 224 Tm (52) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 224 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 210 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 224 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 224 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 224 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 196 m 555 196 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 184 Tm (53) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 184 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 170 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 184 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 184 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 184 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 156 m 555 156 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 144 Tm (54) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 144 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 130 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 144 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 144 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 144 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 116 m 555 116 l S
+0.82 0.85 0.88 RG 0.5 w 40 54 m 555 54 l S
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 36 Tm (NorthWind Sales) Tj ET
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 494.034 36 Tm (Página 4 de 8) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 7517 >>
+stream
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 794 Tm (NorthWind Sales) Tj ET
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 464 794 Tm (FACTURA) Tj ET
+BT /F2 12 Tf 0.12 0.17 0.23 rg 1 0 0 1 519.384 766 Tm (N.º 91) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 766 Tm (Emisión: 11/10/2026 20:44) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 750 m 555 750 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 724 Tm (Cliente: ALFKI · Continuación) Tj ET
+0.92 0.95 0.97 rg 40 687 515 27 re f
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 696 Tm (Código) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 696 Tm (Producto) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 327.642 696 Tm (Precio unitario) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 421.548 696 Tm (Cantidad) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 511.398 696 Tm (Importe) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 664 Tm (55) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 664 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 650 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 664 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 664 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 664 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 636 m 555 636 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 624 Tm (56) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 624 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 610 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 624 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 624 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 624 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 596 m 555 596 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 584 Tm (57) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 584 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 570 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 584 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 584 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 584 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 556 m 555 556 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 544 Tm (58) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 544 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 530 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 544 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 544 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 544 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 516 m 555 516 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 504 Tm (59) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 504 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 490 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 504 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 504 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 504 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 476 m 555 476 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 464 Tm (60) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 464 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 450 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 464 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 464 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 464 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 436 m 555 436 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 424 Tm (61) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 424 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 410 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 424 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 424 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 424 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 396 m 555 396 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 384 Tm (62) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 384 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 370 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 384 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 384 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 384 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 356 m 555 356 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 344 Tm (63) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 344 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 330 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 344 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 344 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 344 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 316 m 555 316 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 304 Tm (64) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 304 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 290 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 304 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 304 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 304 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 276 m 555 276 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 264 Tm (65) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 264 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 250 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 264 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 264 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 264 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 236 m 555 236 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 224 Tm (66) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 224 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 210 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 224 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 224 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 224 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 196 m 555 196 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 184 Tm (67) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 184 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 170 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 184 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 184 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 184 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 156 m 555 156 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 144 Tm (68) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 144 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 130 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 144 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 144 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 144 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 116 m 555 116 l S
+0.82 0.85 0.88 RG 0.5 w 40 54 m 555 54 l S
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 36 Tm (NorthWind Sales) Tj ET
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 494.034 36 Tm (Página 5 de 8) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 7517 >>
+stream
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 794 Tm (NorthWind Sales) Tj ET
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 464 794 Tm (FACTURA) Tj ET
+BT /F2 12 Tf 0.12 0.17 0.23 rg 1 0 0 1 519.384 766 Tm (N.º 91) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 766 Tm (Emisión: 11/10/2026 20:44) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 750 m 555 750 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 724 Tm (Cliente: ALFKI · Continuación) Tj ET
+0.92 0.95 0.97 rg 40 687 515 27 re f
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 696 Tm (Código) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 696 Tm (Producto) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 327.642 696 Tm (Precio unitario) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 421.548 696 Tm (Cantidad) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 511.398 696 Tm (Importe) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 664 Tm (69) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 664 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 650 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 664 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 664 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 664 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 636 m 555 636 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 624 Tm (70) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 624 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 610 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 624 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 624 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 624 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 596 m 555 596 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 584 Tm (71) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 584 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 570 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 584 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 584 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 584 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 556 m 555 556 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 544 Tm (72) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 544 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 530 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 544 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 544 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 544 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 516 m 555 516 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 504 Tm (73) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 504 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 490 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 504 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 504 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 504 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 476 m 555 476 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 464 Tm (74) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 464 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 450 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 464 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 464 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 464 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 436 m 555 436 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 424 Tm (75) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 424 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 410 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 424 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 424 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 424 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 396 m 555 396 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 384 Tm (76) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 384 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 370 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 384 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 384 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 384 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 356 m 555 356 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 344 Tm (77) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 344 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 330 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 344 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 344 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 344 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 316 m 555 316 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 304 Tm (78) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 304 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 290 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 304 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 304 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 304 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 276 m 555 276 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 264 Tm (79) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 264 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 250 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 264 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 264 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 264 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 236 m 555 236 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 224 Tm (80) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 224 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 210 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 224 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 224 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 224 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 196 m 555 196 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 184 Tm (81) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 184 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 170 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 184 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 184 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 184 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 156 m 555 156 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 144 Tm (82) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 144 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 130 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 144 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 144 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 144 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 116 m 555 116 l S
+0.82 0.85 0.88 RG 0.5 w 40 54 m 555 54 l S
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 36 Tm (NorthWind Sales) Tj ET
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 494.034 36 Tm (Página 6 de 8) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 7517 >>
+stream
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 794 Tm (NorthWind Sales) Tj ET
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 464 794 Tm (FACTURA) Tj ET
+BT /F2 12 Tf 0.12 0.17 0.23 rg 1 0 0 1 519.384 766 Tm (N.º 91) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 766 Tm (Emisión: 11/10/2026 20:44) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 750 m 555 750 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 724 Tm (Cliente: ALFKI · Continuación) Tj ET
+0.92 0.95 0.97 rg 40 687 515 27 re f
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 696 Tm (Código) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 696 Tm (Producto) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 327.642 696 Tm (Precio unitario) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 421.548 696 Tm (Cantidad) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 511.398 696 Tm (Importe) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 664 Tm (83) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 664 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 650 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 664 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 664 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 664 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 636 m 555 636 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 624 Tm (84) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 624 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 610 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 624 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 624 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 624 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 596 m 555 596 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 584 Tm (85) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 584 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 570 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 584 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 584 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 584 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 556 m 555 556 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 544 Tm (86) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 544 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 530 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 544 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 544 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 544 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 516 m 555 516 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 504 Tm (87) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 504 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 490 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 504 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 504 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 504 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 476 m 555 476 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 464 Tm (88) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 464 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 450 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 464 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 464 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 464 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 436 m 555 436 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 424 Tm (89) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 424 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 410 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 424 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 424 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 424 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 396 m 555 396 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 384 Tm (90) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 384 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 370 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 384 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 384 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 384 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 356 m 555 356 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 344 Tm (91) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 344 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 330 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 344 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 344 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 344 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 316 m 555 316 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 304 Tm (92) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 304 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 290 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 304 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 304 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 304 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 276 m 555 276 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 264 Tm (93) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 264 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 250 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 264 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 264 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 264 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 236 m 555 236 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 224 Tm (94) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 224 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 210 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 224 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 224 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 224 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 196 m 555 196 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 184 Tm (95) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 184 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 170 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 184 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 184 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 184 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 156 m 555 156 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 144 Tm (96) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 144 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 130 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 144 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 144 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 144 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 116 m 555 116 l S
+0.82 0.85 0.88 RG 0.5 w 40 54 m 555 54 l S
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 36 Tm (NorthWind Sales) Tj ET
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 494.034 36 Tm (Página 7 de 8) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 3745 >>
+stream
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 794 Tm (NorthWind Sales) Tj ET
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 464 794 Tm (FACTURA) Tj ET
+BT /F2 12 Tf 0.12 0.17 0.23 rg 1 0 0 1 519.384 766 Tm (N.º 91) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 766 Tm (Emisión: 11/10/2026 20:44) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 750 m 555 750 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 724 Tm (Cliente: ALFKI · Continuación) Tj ET
+0.92 0.95 0.97 rg 40 687 515 27 re f
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 696 Tm (Código) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 696 Tm (Producto) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 327.642 696 Tm (Precio unitario) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 421.548 696 Tm (Cantidad) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 511.398 696 Tm (Importe) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 664 Tm (97) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 664 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 650 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 664 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 664 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 664 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 636 m 555 636 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 624 Tm (98) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 624 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 610 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 624 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 624 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 624 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 596 m 555 596 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 584 Tm (99) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 584 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 570 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 584 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 584 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 584 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 556 m 555 556 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 544 Tm (100) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 544 Tm (Producto español con nombre largo) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 530 Tm (y descripción) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 544 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 544 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 544 Tm (35,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 516 m 555 516 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 305 480 Tm (Subtotal) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 480 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 305 456 Tm (Descuento) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 529.54 456 Tm (0,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 305 432 Tm (Base imponible) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 432 Tm (35,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 305 408 Tm (IVA \(0 %\)) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 529.54 408 Tm (0,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 392 m 555 392 l S
+BT /F2 12 Tf 0.12 0.17 0.23 rg 1 0 0 1 305 374 Tm (TOTAL A PAGAR) Tj ET
+BT /F2 12 Tf 0.12 0.17 0.23 rg 1 0 0 1 518.976 374 Tm (35,00) Tj ET
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 342 Tm (Esta orden se guardó con IVA 0 %. Se conservan sus importes originales; no se aplican tasas actuales.) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 54 m 555 54 l S
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 36 Tm (NorthWind Sales) Tj ET
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 494.034 36 Tm (Página 8 de 8) Tj ET
+endstream
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000168 00000 n 
+0000000265 00000 n 
+0000000367 00000 n 
+0000000503 00000 n 
+0000007495 00000 n 
+0000007631 00000 n 
+0000015199 00000 n 
+0000015336 00000 n 
+0000022905 00000 n 
+0000023043 00000 n 
+0000030612 00000 n 
+0000030750 00000 n 
+0000038319 00000 n 
+0000038457 00000 n 
+0000046026 00000 n 
+0000046164 00000 n 
+0000053733 00000 n 
+0000053871 00000 n 
+trailer
+<< /Size 21 /Root 1 0 R >>
+startxref
+57668
+%%EOF

@@ -1,0 +1,9 @@
+{
+  "status": 200,
+  "orderId": 4,
+  "message": "Orden 4 creada.",
+  "errors": [],
+  "frontend": "https://localhost:7254/createorder",
+  "backend": "https://localhost:7154/CreateOrder",
+  "certificateErrorsIgnored": false
+}

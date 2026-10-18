@@ -1,0 +1,92 @@
+@using Microsoft.JSInterop
+@using NorthWind.Membership.Frontend.RazorViews.AuthenticationStateProviders
+@implements IAsyncDisposable
+@inject JWTAuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager Navigation
+@inject IJSRuntime JS
+
+<AuthorizeView>
+    <Authorized Context="session">
+        <span>@(session.User.FindFirst("FullName")?.Value ?? session.User.Identity?.Name)</span>
+        <button type="button" class="btn btn-outline-primary btn-sm ms-3" @onclick="OpenConfirmation"
+                aria-haspopup="dialog" disabled="@IsClosing">Cerrar sesión</button>
+        <dialog @ref="Dialog" class="logout-dialog" aria-labelledby="logoutTitle" aria-describedby="logoutMessage">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="logoutTitle" class="modal-title fs-5">¿Cerrar sesión?</h2>
+                </div>
+                <div class="modal-body">
+                    <p id="logoutMessage" class="mb-0">¿Estás seguro de que deseas cerrar tu sesión?</p>
+                    @if (!string.IsNullOrEmpty(ErrorMessage))
+                    {
+                        <p class="text-danger mt-3 mb-0" role="alert">@ErrorMessage</p>
+                    }
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" autofocus disabled="@IsClosing" @onclick="CancelConfirmation">Cancelar</button>
+                    <button type="button" class="btn btn-primary" disabled="@IsClosing" @onclick="ConfirmLogoutAsync">
+                        @(IsClosing ? "Cerrando sesión…" : "Sí, cerrar sesión")
+                    </button>
+                </div>
+            </div>
+        </dialog>
+    </Authorized>
+    <NotAuthorized>
+        <LoginDisplayComponent />
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    private ElementReference Dialog;
+    private IJSObjectReference? Module;
+    private DotNetObjectReference<SessionMenu>? Reference;
+    private bool IsClosing;
+    private string ErrorMessage = string.Empty;
+
+    private async Task OpenConfirmation()
+    {
+        if (IsClosing) return;
+        ErrorMessage = string.Empty;
+        Module ??= await JS.InvokeAsync<IJSObjectReference>("import", "./_content/NorthWind.Sales.Frontend.Views/confirmationDialog.js");
+        Reference ??= DotNetObjectReference.Create(this);
+        await Module.InvokeVoidAsync("dispose", Dialog);
+        await Module.InvokeVoidAsync("open", Dialog, Reference);
+    }
+
+    [JSInvokable]
+    public Task CancelFromKeyboard() => InvokeAsync(CancelConfirmation);
+
+    private async Task CancelConfirmation()
+    {
+        if (IsClosing || Module is null) return;
+        await Module.InvokeVoidAsync("close", Dialog, false);
+        ErrorMessage = string.Empty;
+    }
+
+    private async Task ConfirmLogoutAsync()
+    {
+        if (IsClosing) return;
+        IsClosing = true;
+        ErrorMessage = string.Empty;
+        try
+        {
+            await AuthenticationStateProvider.LogoutAsync();
+            Navigation.NavigateTo("/user/login", replace: true);
+        }
+        catch (JSException)
+        {
+            ErrorMessage = "No se pudo cerrar la sesión. Inténtalo nuevamente.";
+        }
+        finally { IsClosing = false; }
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (Module is not null)
+        {
+            await Module.InvokeVoidAsync("dispose", Dialog);
+            await Module.DisposeAsync();
+        }
+        Reference?.Dispose();
+    }
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "name": "1",
+    "description": "Orden válida",
+    "passed": true,
+    "posts": 1,
+    "status": 200,
+    "orderId": 10,
+    "before": 9,
+    "after": 10,
+    "certificateErrorsIgnored": false
+  },
+  {
+    "name": "2",
+    "description": "Cliente inexistente",
+    "passed": true,
+    "posts": 1,
+    "status": 500,
+    "orderId": null,
+    "before": 10,
+    "after": 10,
+    "certificateErrorsIgnored": false
+  },
+  {
+    "name": "3",
+    "description": "Cliente con adeudo",
+    "passed": true,
+    "posts": 1,
+    "status": 500,
+    "orderId": null,
+    "before": 10,
+    "after": 10,
+    "certificateErrorsIgnored": false
+  },
+  {
+    "name": "4",
+    "description": "Producto inexistente",
+    "passed": true,
+    "posts": 1,
+    "status": 500,
+    "orderId": null,
+    "before": 10,
+    "after": 10,
+    "certificateErrorsIgnored": false
+  },
+  {
+    "name": "5",
+    "description": "Producto sin existencias",
+    "passed": true,
+    "posts": 1,
+    "status": 500,
+    "orderId": null,
+    "before": 10,
+    "after": 10,
+    "certificateErrorsIgnored": false
+  },
+  {
+    "name": "6",
+    "description": "Campos obligatorios vacíos",
+    "passed": true,
+    "posts": 0,
+    "status": null,
+    "orderId": null,
+    "before": 10,
+    "after": 10,
+    "certificateErrorsIgnored": false
+  },
+  {
+    "name": "7",
+    "description": "Datos de envío cortos y largos",
+    "passed": true,
+    "posts": 0,
+    "status": null,
+    "orderId": null,
+    "before": 10,
+    "after": 10,
+    "certificateErrorsIgnored": false
+  },
+  {
+    "name": "8",
+    "description": "Cantidad cero",
+    "passed": true,
+    "posts": 0,
+    "status": null,
+    "orderId": null,
+    "before": 10,
+    "after": 10,
+    "certificateErrorsIgnored": false
+  },
+  {
+    "name": "9",
+    "description": "Precio cero",
+    "passed": true,
+    "posts": 0,
+    "status": null,
+    "orderId": null,
+    "before": 10,
+    "after": 10,
+    "certificateErrorsIgnored": false
+  },
+  {
+    "name": "10",
+    "description": "Productos vacíos",
+    "passed": true,
+    "posts": 0,
+    "status": null,
+    "orderId": null,
+    "before": 10,
+    "after": 10,
+    "certificateErrorsIgnored": false
+  },
+  {
+    "name": "11",
+    "description": "Múltiples errores simultáneos y segunda fila",
+    "passed": true,
+    "posts": 0,
+    "status": null,
+    "orderId": null,
+    "before": 10,
+    "after": 10,
+    "certificateErrorsIgnored": false
+  }
+]

@@ -1,0 +1,66 @@
+<Solution>
+  <Folder Name="/1. Enterprise Business Rules/">
+    <Project Path="NorthWind/NorthWind.Result.Entities/NorthWind.Result.Entities.csproj" />
+    <Project Path="NorthWind/NorthWind.Sales.Entities/NorthWind.Sales.Entities.csproj" />
+    <Project Path="NorthWind/NorthWind.Validation.Entities/NorthWind.Validation.Entities.csproj" />
+    <Project Path="NorthWind/NorthWind.Sales.Validators.Entities/NorthWind.Sales.Validators.Entities.csproj" />
+    <Project Path="NorthWind/NorthWind.Transactions.Entities/NorthWind.Transactions.Entities.csproj" />
+    <Project Path="NorthWind/NorthWind.DomainLogs.Entities/NorthWind.DomainLogs.Entities.csproj" />
+    <Project Path="NorthWind/NorthWind.Entities/NorthWind.Entities.csproj" />
+    <Project Path="NorthWind/NorthWind.Events.Entities/NorthWind.Events.Entities.csproj" />
+    <Project Path="NorthWind/NorthWind.Exceptions.Entities/NorthWind.Exceptions.Entities.csproj" />
+    <Project Path="NorthWind/NorthWind.HttpDelegatingHandlers/NorthWind.HttpDelegatingHandlers.csproj" />
+    <Project Path="NorthWind.Membership/NorthWind.Membership.Entities/NorthWind.Membership.Entities.csproj" />
+  </Folder>
+  <Folder Name="/2. Application Business Rules/">
+    <Project Path="NorthWind/NorthWind.Sales.Backend.BusinessObjects/NorthWind.Sales.Backend.BusinessObjects.csproj" />
+    <Project Path="NorthWind/NorthWind.Sales.Backend.UseCases/NorthWind.Sales.Backend.UseCases.csproj" />
+    <Project Path="NorthWind/NorthWind.Sales.Frontend.BusinessObjects/NorthWind.Sales.Frontend.BusinessObjects.csproj" />
+    <Project Path="NorthWind.Membership/NorthWind.Membership.Backend.Core/NorthWind.Membership.Backend.Core.csproj" />
+  </Folder>
+  <Folder Name="/3. Interface Adapters/" />
+  <Folder Name="/3. Interface Adapters/Gateways/" />
+  <Folder Name="/3. Interface Adapters/Gateways/WebApiGateways/">
+    <Project Path="NorthWind/NorthWind.Sales.Frontend.WebApiGateways/NorthWind.Sales.Frontend.WebApiGateways.csproj" />
+  </Folder>
+  <Folder Name="/3. Interface Adapters/Gateways/Repositories/">
+    <Project Path="NorthWind/NorthWind.Sales.Backend.Repositories/NorthWind.Sales.Backend.Repositories.csproj" />
+  </Folder>
+  <Folder Name="/3. Interface Adapters/Gateways/EmailGateways/">
+    <Project Path="NorthWind/NorthWind.Sales.Backend.SmtpGateways/NorthWind.Sales.Backend.SmtpGateways.csproj" />
+  </Folder>
+  <Folder Name="/3. Interface Adapters/Presenters/">
+    <Project Path="NorthWind/NorthWind.Sales.Backend.Presenters/NorthWind.Sales.Backend.Presenters.csproj" />
+  </Folder>
+  <Folder Name="/3. Interface Adapters/Controllers/">
+    <Project Path="NorthWind/NorthWind.Sales.Backend.Controllers/NorthWind.Sales.Backend.Controllers.csproj" />
+  </Folder>
+  <Folder Name="/3. Interface Adapters/Views/">
+    <Project Path="NorthWind/NorthWind.RazorComponents/NorthWind.RazorComponents.csproj" />
+    <Project Path="NorthWind/NorthWind.Sales.Frontend.Views/NorthWind.Sales.Frontend.Views.csproj" />
+    <Project Path="NorthWind.Membership/NorthWind.Membership.Frontend.RazorViews/NorthWind.Membership.Frontend.RazorViews.csproj" />
+  </Folder>
+  <Folder Name="/4. Frameworks And Drivers/" />
+  <Folder Name="/4. Frameworks And Drivers/Libraries/">
+    <Project Path="NorthWind/NorthWind.ValidationService.FluentValidation/NorthWind.ValidationService.FluentValidation.csproj" />
+    <Project Path="NorthWind/NorthWind.UserServices/NorthWind.UserServices.csproj" />
+  </Folder>
+  <Folder Name="/4. Frameworks And Drivers/Frameworks/" />
+  <Folder Name="/4. Frameworks And Drivers/Frameworks/DataContexts/">
+    <Project Path="NorthWind/NorthWind.Sales.Backend.DataContexts.EFCore/NorthWind.Sales.Backend.DataContexts.EFCore.csproj" />
+  </Folder>
+  <Folder Name="/4. Frameworks And Drivers/Frameworks/Identity/">
+    <Project Path="NorthWind.Membership/NorthWind.Membership.Backend.AspNetIdentity/NorthWind.Membership.Backend.AspNetIdentity.csproj" />
+  </Folder>
+  <Folder Name="/4. Frameworks And Drivers/IoC/">
+    <Project Path="NorthWind/NorthWind.Sales.Backend.IoC/NorthWind.Sales.Backend.IoC.csproj" />
+    <Project Path="NorthWind/NorthWind.Sales.Frontend.IoC/NorthWind.Sales.Frontend.IoC.csproj" />
+  </Folder>
+  <Folder Name="/4. Frameworks And Drivers/UI/">
+    <Project Path="NorthWind/NorthWind.Sales.WebApi/NorthWind.Sales.WebApi.csproj" />
+    <Project Path="NorthWind/NorthWind.Sales.BlazorClient/NorthWind.Sales.BlazorClient.csproj" />
+  </Folder>
+  <Folder Name="/4. Frameworks And Drivers/Drivers/">
+    <Project Path="NorthWind/tests/NorthWind.Sales.RequirementsChecks/NorthWind.Sales.RequirementsChecks.csproj" />
+  </Folder>
+</Solution>

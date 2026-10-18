@@ -1,0 +1,79 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 1 /Kids [5 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2827 >>
+stream
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 794 Tm (NorthWind Sales) Tj ET
+BT /F2 20 Tf 0.12 0.17 0.23 rg 1 0 0 1 464 794 Tm (FACTURA) Tj ET
+BT /F2 12 Tf 0.12 0.17 0.23 rg 1 0 0 1 512.712 766 Tm (N.º 100) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 766 Tm (Emisión: 11/10/2026 20:44) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 750 m 555 750 l S
+BT /F2 11 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 724 Tm (DATOS DEL CLIENTE) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 701 Tm (Cliente: ALFKI) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 685 Tm (Dirección: Calle 123) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 669 Tm (Ciudad: Quito) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 653 Tm (País: Ecuador) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 637 Tm (Código postal: 170101) Tj ET
+0.92 0.95 0.97 rg 40 592 515 27 re f
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 601 Tm (Código) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 601 Tm (Producto) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 327.642 601 Tm (Precio unitario) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 421.548 601 Tm (Cantidad) Tj ET
+BT /F2 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 511.398 601 Tm (Importe) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 569 Tm (1) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 569 Tm (Producto A) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 569 Tm (20,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 569 Tm (2) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 569 Tm (40,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 551 m 555 551 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 46 539 Tm (2) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 100 539 Tm (Producto B) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 376.98 539 Tm (30,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 459.44 539 Tm (2) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 539 Tm (60,00) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 521 m 555 521 l S
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 305 485 Tm (Subtotal) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 518.42 485 Tm (100,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 305 461 Tm (Descuento) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 461 Tm (10,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 305 437 Tm (Base imponible) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 437 Tm (90,00) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 305 413 Tm (IVA \(15 %\)) Tj ET
+BT /F1 10 Tf 0.12 0.17 0.23 rg 1 0 0 1 523.98 413 Tm (13,50) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 397 m 555 397 l S
+BT /F2 12 Tf 0.12 0.17 0.23 rg 1 0 0 1 305 379 Tm (TOTAL A PAGAR) Tj ET
+BT /F2 12 Tf 0.12 0.17 0.23 rg 1 0 0 1 512.304 379 Tm (103,50) Tj ET
+0.82 0.85 0.88 RG 0.5 w 40 54 m 555 54 l S
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 40 36 Tm (NorthWind Sales) Tj ET
+BT /F1 9 Tf 0.12 0.17 0.23 rg 1 0 0 1 494.034 36 Tm (Página 1 de 1) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000218 00000 n 
+0000000320 00000 n 
+0000000456 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3334
+%%EOF

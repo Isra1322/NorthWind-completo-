@@ -1,0 +1,26 @@
+@using NorthWind.Membership.Entities.Dtos.UserRegistration
+<EditForm novalidate EditContext="ViewModel.FormContext" @key="ViewModel.FormContext" OnSubmit="@(_ => ViewModel.ModelValidatorComponentReference!.ValidateFormAsync())">
+    <ModelValidator Validator="ViewModel.Validator" OnValidSubmit="@(_ => ViewModel.Register())" OnInvalidSubmit="@(_ => ViewModel.ClearInformationMessage())" FieldDependencies="ValidationDependencies" @ref="ViewModel.ModelValidatorComponentReference" />
+    <fieldset disabled="@ViewModel.IsRegistering">
+    <div class="mb-3"><label for="registrationFirstName" class="form-label">@UserRegistrationMessages.FirstNameLabel</label>
+        <InputText id="registrationFirstName" maxlength="@RegistrationLimits.FirstName" type="text" class="form-control" @bind-Value="ViewModel.FirstName" @onblur="@(() => ViewModel.ModelValidatorComponentReference!.ValidateFieldAsync(() => ViewModel.FirstName))" />
+        <ValidationMessage For="@(() => ViewModel.FirstName)" /></div>
+    <div class="mb-3"><label for="registrationLastName" class="form-label">@UserRegistrationMessages.LastNameLabel</label>
+        <InputText id="registrationLastName" maxlength="@RegistrationLimits.LastName" type="text" class="form-control" @bind-Value="ViewModel.LastName" @onblur="@(() => ViewModel.ModelValidatorComponentReference!.ValidateFieldAsync(() => ViewModel.LastName))" />
+        <ValidationMessage For="@(() => ViewModel.LastName)" /></div>
+    <div class="mb-3"><label for="registrationEmail" class="form-label">@UserRegistrationMessages.EmailLabel</label>
+        <InputText id="registrationEmail" maxlength="@RegistrationLimits.Email" type="email" class="form-control" @bind-Value="ViewModel.Email" @onblur="@(() => ViewModel.ModelValidatorComponentReference!.ValidateFieldAsync(() => ViewModel.Email))" />
+        <ValidationMessage For="@(() => ViewModel.Email)" /></div>
+    <div class="mb-3"><label for="registrationPassword" class="form-label">@UserRegistrationMessages.PasswordLabel</label>
+        <InputText id="registrationPassword" type="password" class="form-control" @bind-Value="ViewModel.Password" @onblur="@(() => ViewModel.ModelValidatorComponentReference!.ValidateFieldAsync(() => ViewModel.Password))" />
+        <ValidationMessage For="@(() => ViewModel.Password)" /></div>
+    <div class="mb-3"><label for="registrationPasswordConfirmation" class="form-label">@UserRegistrationMessages.PasswordConfirmationLabel</label>
+        <InputText id="registrationPasswordConfirmation" type="password" class="form-control" @bind-Value="ViewModel.PasswordConfirmation" @onblur="@(() => ViewModel.ModelValidatorComponentReference!.ValidateFieldAsync(() => ViewModel.PasswordConfirmation))" />
+        <ValidationMessage For="@(() => ViewModel.PasswordConfirmation)" /></div>
+    <button type="submit" class="btn btn-primary" disabled="@ViewModel.IsRegistering">@UserRegistrationMessages.RegisterButton</button>
+    </fieldset>
+    @if (!string.IsNullOrEmpty(ViewModel.InformationMessage))
+    {
+        <div class="alert alert-success mt-3" role="status">@ViewModel.InformationMessage</div>
+    }
+</EditForm>

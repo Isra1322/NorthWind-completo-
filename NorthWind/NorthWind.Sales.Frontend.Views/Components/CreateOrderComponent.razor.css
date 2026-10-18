@@ -1,0 +1,18 @@
+.order-product-cell {
+    display: grid;
+    grid-template-columns: minmax(7rem, 1fr) minmax(0, 2fr);
+    gap: .5rem;
+    overflow-wrap: anywhere;
+}
+
+.order-totals {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: .35rem 1.5rem;
+    width: fit-content;
+    max-width: 100%;
+    margin-left: auto;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    overflow-wrap: anywhere;
+}

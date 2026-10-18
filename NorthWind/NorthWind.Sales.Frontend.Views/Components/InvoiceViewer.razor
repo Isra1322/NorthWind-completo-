@@ -1,0 +1,83 @@
+@using Microsoft.JSInterop
+@using NorthWind.Sales.Entities.Dtos
+@implements IAsyncDisposable
+@inject ICreateOrderGateway Gateway
+@inject IJSRuntime JS
+
+@if (Busy || Invoice is not null || !string.IsNullOrEmpty(Error))
+{
+<section @ref="Preview" tabindex="-1" class="card card-body mt-3" aria-label="Consulta de facturas">
+    @if (!string.IsNullOrEmpty(Error)) { <p id="invoiceError" role="alert" class="text-danger mt-2">@Error</p> }
+    @if (Busy) { <p role="status">Cargando factura…</p> }
+    @if (Invoice is not null && Url is not null)
+    {
+        <p class="mt-3">Factura @Invoice.Id · Cliente @Invoice.CustomerDisplayName · Total @Invoice.Total.ToString("N2")</p>
+        <dl class="row">
+            <dt class="col-sm-4">Subtotal</dt><dd class="col-sm-8">@Invoice.Subtotal.ToString("N2")</dd>
+            <dt class="col-sm-4">@Invoice.TaxLabel</dt><dd class="col-sm-8">@(Invoice.TaxRecorded ? Invoice.TaxAmount.ToString("N2") : "—")</dd>
+            <dt class="col-sm-4">Total</dt><dd class="col-sm-8">@Invoice.Total.ToString("N2")</dd>
+        </dl>
+        @if (Invoice.HistoricalNote is { } note)
+        { <p class="small text-muted">@note</p> }
+        <div class="d-flex gap-2 mb-2">
+            <a class="btn btn-primary" href="@Url" download="@($"factura-{Invoice.Id}.pdf")">Descargar PDF</a>
+            <button type="button" class="btn btn-outline-secondary" @onclick="Print">Imprimir</button>
+        </div>
+        <iframe id="invoicePdf" title="Factura en PDF" src="@Url" style="width:100%;height:650px;border:1px solid #ccc"></iframe>
+    }
+</section>
+}
+
+@code {
+    private bool Busy;
+    private string Error = "";
+    private string? Url;
+    private InvoiceDto? Invoice;
+    private IJSObjectReference? Module;
+    private ElementReference Preview;
+    private async Task Load(int invoiceId)
+    {
+        if (Busy) return;
+        Error = "";
+        Busy = true;
+        try
+        {
+            Invoice = null;
+            if (Url is not null && Module is not null) await Module.InvokeVoidAsync("release", Url);
+            Url = null;
+            var invoice = await Gateway.GetInvoiceAsync(invoiceId);
+            if (invoice is null) { Error = "No se encontró la factura."; return; }
+            byte[] bytes = await Gateway.GetInvoicePdfAsync(invoiceId);
+            Module ??= await JS.InvokeAsync<IJSObjectReference>("import", "./_content/NorthWind.Sales.Frontend.Views/invoice.js");
+            Url = await Module.InvokeAsync<string>("create", bytes);
+            Invoice = invoice;
+        }
+        catch (HttpRequestException) { Error = "No se pudo consultar la factura. Intente nuevamente."; }
+        catch (JSException) { Error = "No se pudo abrir el visor PDF en este navegador."; }
+        finally { Busy = false; }
+    }
+    public async Task ShowInvoiceAsync(int id)
+    {
+        if (Busy) return;
+        var loading = Load(id);
+        await InvokeAsync(StateHasChanged);
+        await loading;
+        await InvokeAsync(StateHasChanged);
+        await Preview.FocusAsync();
+    }
+    private async Task Print()
+    {
+        try { if (Module is not null) await Module.InvokeVoidAsync("print", "invoicePdf"); }
+        catch (JSException) { Error = "Utilice la opción de impresión del visor PDF o descargue el archivo."; }
+    }
+    public async ValueTask DisposeAsync()
+    {
+        if (Module is null) return;
+        try
+        {
+            if (Url is not null) await Module.InvokeVoidAsync("release", Url);
+            await Module.DisposeAsync();
+        }
+        catch (JSDisconnectedException) { }
+    }
+}

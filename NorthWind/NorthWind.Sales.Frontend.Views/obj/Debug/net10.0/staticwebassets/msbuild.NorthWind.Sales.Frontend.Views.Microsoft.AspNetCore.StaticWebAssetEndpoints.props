@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/NorthWind.Sales.Frontend.Views/confirmationDialog.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\confirmationDialog.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ylt0I7jNnPQOYOVUEBJCyiYA/7MEuKZwo3m8m2LdXt0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1474"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ylt0I7jNnPQOYOVUEBJCyiYA/7MEuKZwo3m8m2LdXt0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Oct 2026 14:25:34 GMT"},{"Name":"Vary","Value":"Accept-Encoding"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NorthWind.Sales.Frontend.Views/confirmationDialog.qwvpmey0xe.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\confirmationDialog.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qwvpmey0xe"},{"Name":"integrity","Value":"sha256-ylt0I7jNnPQOYOVUEBJCyiYA/7MEuKZwo3m8m2LdXt0="},{"Name":"label","Value":"_content/NorthWind.Sales.Frontend.Views/confirmationDialog.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1474"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ylt0I7jNnPQOYOVUEBJCyiYA/7MEuKZwo3m8m2LdXt0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Oct 2026 14:25:34 GMT"},{"Name":"Vary","Value":"Accept-Encoding"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NorthWind.Sales.Frontend.Views/invoice.ct5txq3qz0.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\invoice.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ct5txq3qz0"},{"Name":"integrity","Value":"sha256-sNvJfACAbzsjyuGqhMPcHAhVMiSza7uqddg/gnaEF4M="},{"Name":"label","Value":"_content/NorthWind.Sales.Frontend.Views/invoice.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2564"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022sNvJfACAbzsjyuGqhMPcHAhVMiSza7uqddg/gnaEF4M=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Oct 2026 14:25:34 GMT"},{"Name":"Vary","Value":"Accept-Encoding"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NorthWind.Sales.Frontend.Views/invoice.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\invoice.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-sNvJfACAbzsjyuGqhMPcHAhVMiSza7uqddg/gnaEF4M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2564"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022sNvJfACAbzsjyuGqhMPcHAhVMiSza7uqddg/gnaEF4M=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Oct 2026 14:25:34 GMT"},{"Name":"Vary","Value":"Accept-Encoding"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NorthWind.Sales.Frontend.Views/NorthWind.Sales.Frontend.Views.248p9q6wj3.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NorthWind.Sales.Frontend.Views.248p9q6wj3.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"248p9q6wj3"},{"Name":"integrity","Value":"sha256-Uqaebo4Nq8N4dimjTHtUKz027OLCyKbPxFV49xRlBHo="},{"Name":"label","Value":"_content/NorthWind.Sales.Frontend.Views/NorthWind.Sales.Frontend.Views.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4023"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Uqaebo4Nq8N4dimjTHtUKz027OLCyKbPxFV49xRlBHo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Oct 2026 18:31:47 GMT"},{"Name":"Vary","Value":"Accept-Encoding"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/NorthWind.Sales.Frontend.Views/NorthWind.Sales.Frontend.Views.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\NorthWind.Sales.Frontend.Views.248p9q6wj3.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Uqaebo4Nq8N4dimjTHtUKz027OLCyKbPxFV49xRlBHo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4023"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Uqaebo4Nq8N4dimjTHtUKz027OLCyKbPxFV49xRlBHo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 17 Oct 2026 18:31:47 GMT"},{"Name":"Vary","Value":"Accept-Encoding"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

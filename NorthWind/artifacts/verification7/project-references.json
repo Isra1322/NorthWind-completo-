@@ -1,0 +1,280 @@
+﻿[
+    {
+        "Name":  "NorthWind.Sales.Entities",
+        "Path":  "NorthWind.Sales.Entities/NorthWind.Sales.Entities.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+
+                       ],
+        "Packages":  [
+
+                     ]
+    },
+    {
+        "Name":  "NorthWind.Validation.Entities",
+        "Path":  "NorthWind.Validation.Entities/NorthWind.Validation.Entities.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+
+                       ],
+        "Packages":  [
+                         {
+                             "Name":  "Microsoft.Extensions.DependencyInjection.Abstractions",
+                             "Version":  "8.0.2"
+                         }
+                     ]
+    },
+    {
+        "Name":  "NorthWind.Sales.Validators.Entities",
+        "Path":  "NorthWind.Sales.Validators.Entities/NorthWind.Sales.Validators.Entities.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Validation.Entities",
+                           "NorthWind.Sales.Entities"
+                       ],
+        "Packages":  [
+
+                     ]
+    },
+    {
+        "Name":  "NorthWind.Sales.Backend.BusinessObjects",
+        "Path":  "NorthWind.Sales.Backend.BusinessObjects/NorthWind.Sales.Backend.BusinessObjects.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Sales.Entities",
+                           "NorthWind.Validation.Entities"
+                       ],
+        "Packages":  [
+
+                     ]
+    },
+    {
+        "Name":  "NorthWind.Sales.Backend.UseCases",
+        "Path":  "NorthWind.Sales.Backend.UseCases/NorthWind.Sales.Backend.UseCases.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Sales.Backend.BusinessObjects"
+                       ],
+        "Packages":  [
+                         {
+                             "Name":  "Microsoft.Extensions.DependencyInjection.Abstractions",
+                             "Version":  "8.0.2"
+                         }
+                     ]
+    },
+    {
+        "Name":  "NorthWind.Sales.Frontend.BusinessObjects",
+        "Path":  "NorthWind.Sales.Frontend.BusinessObjects/NorthWind.Sales.Frontend.BusinessObjects.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Sales.Entities"
+                       ],
+        "Packages":  [
+
+                     ]
+    },
+    {
+        "Name":  "NorthWind.Sales.Frontend.WebApiGateways",
+        "Path":  "NorthWind.Sales.Frontend.WebApiGateways/NorthWind.Sales.Frontend.WebApiGateways.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Sales.Frontend.BusinessObjects"
+                       ],
+        "Packages":  [
+                         {
+                             "Name":  "Microsoft.Extensions.DependencyInjection.Abstractions",
+                             "Version":  "8.0.2"
+                         },
+                         {
+                             "Name":  "Microsoft.Extensions.Http",
+                             "Version":  "8.0.1"
+                         }
+                     ]
+    },
+    {
+        "Name":  "NorthWind.Sales.Backend.Repositories",
+        "Path":  "NorthWind.Sales.Backend.Repositories/NorthWind.Sales.Backend.Repositories.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Sales.Backend.BusinessObjects"
+                       ],
+        "Packages":  [
+                         {
+                             "Name":  "Microsoft.Extensions.DependencyInjection.Abstractions",
+                             "Version":  "8.0.2"
+                         }
+                     ]
+    },
+    {
+        "Name":  "NorthWind.Sales.Backend.Presenters",
+        "Path":  "NorthWind.Sales.Backend.Presenters/NorthWind.Sales.Backend.Presenters.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Sales.Backend.BusinessObjects"
+                       ],
+        "Packages":  [
+                         {
+                             "Name":  "Microsoft.Extensions.DependencyInjection.Abstractions",
+                             "Version":  "8.0.2"
+                         }
+                     ]
+    },
+    {
+        "Name":  "NorthWind.Sales.Backend.Controllers",
+        "Path":  "NorthWind.Sales.Backend.Controllers/NorthWind.Sales.Backend.Controllers.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Sales.Backend.BusinessObjects"
+                       ],
+        "Packages":  [
+
+                     ]
+    },
+    {
+        "Name":  "NorthWind.ValidationService.FluentValidation",
+        "Path":  "NorthWind.ValidationService.FluentValidation/NorthWind.ValidationService.FluentValidation.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Validation.Entities"
+                       ],
+        "Packages":  [
+                         {
+                             "Name":  "FluentValidation",
+                             "Version":  "11.11.0"
+                         }
+                     ]
+    },
+    {
+        "Name":  "NorthWind.RazorComponents",
+        "Path":  "NorthWind.RazorComponents/NorthWind.RazorComponents.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Validation.Entities"
+                       ],
+        "Packages":  [
+                         {
+                             "Name":  "Microsoft.AspNetCore.Components.Web",
+                             "Version":  "8.0.31"
+                         }
+                     ]
+    },
+    {
+        "Name":  "NorthWind.Sales.Frontend.Views",
+        "Path":  "NorthWind.Sales.Frontend.Views/NorthWind.Sales.Frontend.Views.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Sales.Frontend.BusinessObjects",
+                           "NorthWind.RazorComponents",
+                           "NorthWind.Validation.Entities"
+                       ],
+        "Packages":  [
+                         {
+                             "Name":  "Microsoft.AspNetCore.Components.Web",
+                             "Version":  "8.0.31"
+                         },
+                         {
+                             "Name":  "Microsoft.Extensions.DependencyInjection.Abstractions",
+                             "Version":  "8.0.2"
+                         }
+                     ]
+    },
+    {
+        "Name":  "NorthWind.Sales.Backend.DataContexts.EFCore",
+        "Path":  "NorthWind.Sales.Backend.DataContexts.EFCore/NorthWind.Sales.Backend.DataContexts.EFCore.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Sales.Backend.Repositories"
+                       ],
+        "Packages":  [
+                         {
+                             "Name":  "Microsoft.EntityFrameworkCore.SqlServer",
+                             "Version":  "8.0.22"
+                         },
+                         {
+                             "Name":  "Microsoft.EntityFrameworkCore.Tools",
+                             "Version":  "8.0.22"
+                         }
+                     ]
+    },
+    {
+        "Name":  "NorthWind.Sales.Backend.IoC",
+        "Path":  "NorthWind.Sales.Backend.IoC/NorthWind.Sales.Backend.IoC.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Sales.Backend.UseCases",
+                           "NorthWind.Sales.Backend.Controllers",
+                           "NorthWind.Sales.Backend.Repositories",
+                           "NorthWind.Sales.Backend.Presenters",
+                           "NorthWind.Sales.Backend.DataContexts.EFCore",
+                           "NorthWind.ValidationService.FluentValidation",
+                           "NorthWind.Sales.Validators.Entities"
+                       ],
+        "Packages":  [
+
+                     ]
+    },
+    {
+        "Name":  "NorthWind.Sales.Frontend.IoC",
+        "Path":  "NorthWind.Sales.Frontend.IoC/NorthWind.Sales.Frontend.IoC.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Sales.Frontend.WebApiGateways",
+                           "NorthWind.Sales.Frontend.Views",
+                           "NorthWind.ValidationService.FluentValidation",
+                           "NorthWind.Sales.Validators.Entities"
+                       ],
+        "Packages":  [
+
+                     ]
+    },
+    {
+        "Name":  "NorthWind.Sales.WebApi",
+        "Path":  "NorthWind.Sales.WebApi/NorthWind.Sales.WebApi.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Sales.Backend.IoC"
+                       ],
+        "Packages":  [
+                         {
+                             "Name":  "Swashbuckle.AspNetCore",
+                             "Version":  "6.6.2"
+                         }
+                     ]
+    },
+    {
+        "Name":  "NorthWind.Sales.BlazorClient",
+        "Path":  "NorthWind.Sales.BlazorClient/NorthWind.Sales.BlazorClient.csproj",
+        "Framework":  "net8.0",
+        "Language":  "12.0",
+        "References":  [
+                           "NorthWind.Sales.Frontend.IoC"
+                       ],
+        "Packages":  [
+                         {
+                             "Name":  "Microsoft.AspNetCore.Components.WebAssembly",
+                             "Version":  "8.0.31"
+                         },
+                         {
+                             "Name":  "Microsoft.AspNetCore.Components.WebAssembly.DevServer",
+                             "Version":  "8.0.31"
+                         }
+                     ]
+    }
+]

@@ -1,0 +1,9 @@
+.top-row[b-zij4r21d70] { min-height: 3.5rem; background-color: rgba(0,0,0,.4); }
+.navbar-brand[b-zij4r21d70] { font-size: 1.1rem; color: white; }
+.navbar-brand[b-zij4r21d70]  a { color: inherit; text-decoration: none; }
+.navbar-toggler[b-zij4r21d70] { background-color: rgba(255,255,255,.1); }
+@media (min-width: 641px) {
+    .navbar-toggler[b-zij4r21d70] { display: none; }
+    .collapse[b-zij4r21d70] { display: block; }
+    .nav-scrollable[b-zij4r21d70] { height: calc(100vh - 3.5rem); overflow-y: auto; }
+}

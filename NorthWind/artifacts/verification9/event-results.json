@@ -1,0 +1,41 @@
+[
+  {
+    "name": "one",
+    "passed": true,
+    "mailCalls": 0
+  },
+  {
+    "name": "two",
+    "passed": true,
+    "mailCalls": 0
+  },
+  {
+    "name": "three",
+    "passed": true,
+    "mailCalls": 0
+  },
+  {
+    "name": "duplicates",
+    "passed": true,
+    "mailCalls": 0
+  },
+  {
+    "name": "special",
+    "passed": true,
+    "mailCalls": 1
+  },
+  {
+    "name": "validation",
+    "passed": true,
+    "mailCalls": 0
+  },
+  {
+    "name": "persistence",
+    "passed": true,
+    "mailCalls": 0
+  },
+  {
+    "name": "sequential-handlers",
+    "passed": true
+  }
+]

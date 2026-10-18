@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Result.Entities</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Result.Entities</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Result.Entities\bin\Debug\net8.0\NorthWind.Result.Entities.pdb" target="lib\net8.0\NorthWind.Result.Entities.pdb" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Result.Entities\bin\Debug\net8.0\NorthWind.Result.Entities.dll" target="lib\net8.0\NorthWind.Result.Entities.dll" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Result.Entities\ResultErrorOnly.cs" target="src\NorthWind.Result.Entities\ResultErrorOnly.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Result.Entities\ResultSuccessAndError.cs" target="src\NorthWind.Result.Entities\ResultSuccessAndError.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Result.Entities\obj\Debug\net8.0\NorthWind.Result.Entities.GlobalUsings.g.cs" target="src\NorthWind.Result.Entities\obj\Debug\net8.0\NorthWind.Result.Entities.GlobalUsings.g.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Result.Entities\NorthWind.Result.Entities.csproj" target="src\NorthWind.Result.Entities\NorthWind.Result.Entities.csproj" />
+  </files>
+</package>

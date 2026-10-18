@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.ValidationService.FluentValidation</id>
+    <version>1.0.2</version>
+    <authors>NorthWind.ValidationService.FluentValidation</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.Validation.Entities" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="FluentValidation" version="11.11.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.ValidationService.FluentValidation\bin\Debug\net8.0\NorthWind.ValidationService.FluentValidation.dll" target="lib\net8.0\NorthWind.ValidationService.FluentValidation.dll" />
+  </files>
+</package>

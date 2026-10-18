@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Membership.Backend.Core</id>
+    <version>1.1.0</version>
+    <authors>NorthWind.Membership.Backend.Core</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.IdentityModel.JsonWebTokens" version="8.14.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Membership.Entities" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.Result.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="NorthWind.ValidationService.FluentValidation" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net8.0\NorthWind.Membership.Backend.Core.pdb" target="lib\net8.0\NorthWind.Membership.Backend.Core.pdb" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\bin\Debug\net8.0\NorthWind.Membership.Backend.Core.dll" target="lib\net8.0\NorthWind.Membership.Backend.Core.dll" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Controllers\UserLogin\UserLoginController.cs" target="src\NorthWind.Membership.Backend.Core\Controllers\UserLogin\UserLoginController.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Controllers\UserRegistration\UserRegistrationController.cs" target="src\NorthWind.Membership.Backend.Core\Controllers\UserRegistration\UserRegistrationController.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\DependencyContainer.cs" target="src\NorthWind.Membership.Backend.Core\DependencyContainer.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Dtos\UserDto.cs" target="src\NorthWind.Membership.Backend.Core\Dtos\UserDto.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\EndpointsContainer.cs" target="src\NorthWind.Membership.Backend.Core\EndpointsContainer.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\GlobalUsings.cs" target="src\NorthWind.Membership.Backend.Core\GlobalUsings.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Interfaces\Common\IMembershipService.cs" target="src\NorthWind.Membership.Backend.Core\Interfaces\Common\IMembershipService.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Interfaces\UserLogin\IUserLoginInputPort.cs" target="src\NorthWind.Membership.Backend.Core\Interfaces\UserLogin\IUserLoginInputPort.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Interfaces\UserLogin\IUserLoginOutputPort.cs" target="src\NorthWind.Membership.Backend.Core\Interfaces\UserLogin\IUserLoginOutputPort.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Interfaces\UserRegistration\IUserRegistrationInputPort.cs" target="src\NorthWind.Membership.Backend.Core\Interfaces\UserRegistration\IUserRegistrationInputPort.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Interfaces\UserRegistration\IUserRegistrationOutputPort.cs" target="src\NorthWind.Membership.Backend.Core\Interfaces\UserRegistration\IUserRegistrationOutputPort.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Options\JwtOptions.cs" target="src\NorthWind.Membership.Backend.Core\Options\JwtOptions.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Presenters\UserLogin\UserLoginPresenter.cs" target="src\NorthWind.Membership.Backend.Core\Presenters\UserLogin\UserLoginPresenter.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Presenters\UserRegistration\UserRegistrationPresenter.cs" target="src\NorthWind.Membership.Backend.Core\Presenters\UserRegistration\UserRegistrationPresenter.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Resources\UserLoginMessages.Designer.cs" target="src\NorthWind.Membership.Backend.Core\Resources\UserLoginMessages.Designer.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Resources\UserRegistrationMessages.Designer.cs" target="src\NorthWind.Membership.Backend.Core\Resources\UserRegistrationMessages.Designer.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Services\JwtService.cs" target="src\NorthWind.Membership.Backend.Core\Services\JwtService.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\UseCases\UserLogin\UserLoginInteractor.cs" target="src\NorthWind.Membership.Backend.Core\UseCases\UserLogin\UserLoginInteractor.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\UseCases\UserRegistration\UserRegistrationInteractor.cs" target="src\NorthWind.Membership.Backend.Core\UseCases\UserRegistration\UserRegistrationInteractor.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\obj\Debug\net8.0\NorthWind.Membership.Backend.Core.GlobalUsings.g.cs" target="src\NorthWind.Membership.Backend.Core\obj\Debug\net8.0\NorthWind.Membership.Backend.Core.GlobalUsings.g.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Resources\UserLoginMessages.resx" target="src\NorthWind.Membership.Backend.Core\Resources\UserLoginMessages.resx" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\Resources\UserRegistrationMessages.resx" target="src\NorthWind.Membership.Backend.Core\Resources\UserRegistrationMessages.resx" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind.Membership\NorthWind.Membership.Backend.Core\NorthWind.Membership.Backend.Core.csproj" target="src\NorthWind.Membership.Backend.Core\NorthWind.Membership.Backend.Core.csproj" />
+  </files>
+</package>

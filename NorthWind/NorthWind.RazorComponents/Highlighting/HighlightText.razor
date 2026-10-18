@@ -1,0 +1,11 @@
+@namespace NorthWind.RazorComponents.Highlighting
+
+@HighlightHelper.Highlight(Text, SearchTerm)
+
+@code {
+    [Parameter]
+    public string? Text { get; set; }
+
+    [Parameter]
+    public string? SearchTerm { get; set; }
+}

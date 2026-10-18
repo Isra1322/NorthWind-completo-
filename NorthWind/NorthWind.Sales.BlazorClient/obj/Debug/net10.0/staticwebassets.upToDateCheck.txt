@@ -1,0 +1,14 @@
+wwwroot\inputFilters.js
+wwwroot\index.html
+wwwroot\icon-192.png
+wwwroot\favicon.png
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\app.css
+wwwroot\appsettings.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Sales.BlazorClient\wwwroot\index.html
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Sales.BlazorClient\wwwroot\css\app.css
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Sales.BlazorClient\wwwroot\appsettings.json
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Sales.BlazorClient\wwwroot\inputFilters.js
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Sales.BlazorClient\wwwroot\css\bootstrap\bootstrap.min.css.map
+C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Sales.BlazorClient\wwwroot\css\bootstrap\bootstrap.min.css

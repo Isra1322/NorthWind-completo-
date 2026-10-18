@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.HttpDelegatingHandlers</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.HttpDelegatingHandlers</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.Validation.Entities" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\bin\Debug\net8.0\NorthWind.HttpDelegatingHandlers.pdb" target="lib\net8.0\NorthWind.HttpDelegatingHandlers.pdb" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\bin\Debug\net8.0\NorthWind.HttpDelegatingHandlers.dll" target="lib\net8.0\NorthWind.HttpDelegatingHandlers.dll" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\DependencyContainer.cs" target="src\NorthWind.HttpDelegatingHandlers\DependencyContainer.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\ExceptionDelegatingHandler.cs" target="src\NorthWind.HttpDelegatingHandlers\ExceptionDelegatingHandler.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\GlobalUsings.cs" target="src\NorthWind.HttpDelegatingHandlers\GlobalUsings.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\obj\Debug\net8.0\NorthWind.HttpDelegatingHandlers.GlobalUsings.g.cs" target="src\NorthWind.HttpDelegatingHandlers\obj\Debug\net8.0\NorthWind.HttpDelegatingHandlers.GlobalUsings.g.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.HttpDelegatingHandlers\NorthWind.HttpDelegatingHandlers.csproj" target="src\NorthWind.HttpDelegatingHandlers\NorthWind.HttpDelegatingHandlers.csproj" />
+  </files>
+</package>

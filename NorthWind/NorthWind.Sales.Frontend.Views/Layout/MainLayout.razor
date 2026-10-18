@@ -1,0 +1,29 @@
+@inherits NavMenuLayout
+
+<SectionContent SectionId="@NavBarBrandSection">
+    <a href="/">@CommonMessages.NavBarBrandTitle</a>
+</SectionContent>
+<SectionContent SectionId="@NavBarItemsSection">
+    <NavMenuItem HRef="" Match="NavLinkMatch.All">
+        <span class="bi bi-house-door-fill" aria-hidden="true"></span>@CommonMessages.HomeMenuItemTitle
+    </NavMenuItem>
+    <AuthorizeView>
+    <Authorized>
+    <NavMenuItem HRef="createorder">
+        <span class="bi bi-card-checklist" aria-hidden="true"></span>@CreateOrderMessages.CreateOrderMenuItemTitle
+    </NavMenuItem>
+    <NavMenuItem HRef="invoices">
+        <svg class="bi bi-file-earmark-text" width="20" height="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+            <path d="M3 0h6l4 4v12H3V0zm1 1v14h8V5H8V1H4zm5 .5V4h2.5L9 1.5zM5 7h6v1H5zm0 3h6v1H5zm0 3h4v1H5z" />
+        </svg>Consultar facturas
+    </NavMenuItem>
+    </Authorized>
+    </AuthorizeView>
+</SectionContent>
+<SectionContent SectionId="@HeaderSection">
+    <div class="shared-header-tools">
+        <CurrentDateTimeClock />
+        <SessionMenu />
+    </div>
+</SectionContent>
+@((RenderFragment)(builder => base.BuildRenderTree(builder)))

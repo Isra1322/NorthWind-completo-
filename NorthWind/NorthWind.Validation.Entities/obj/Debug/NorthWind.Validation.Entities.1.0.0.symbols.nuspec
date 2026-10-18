@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Validation.Entities</id>
+    <version>1.0.0</version>
+    <authors>NorthWind.Validation.Entities</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="8.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\bin\Debug\net8.0\NorthWind.Validation.Entities.pdb" target="lib\net8.0\NorthWind.Validation.Entities.pdb" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\bin\Debug\net8.0\NorthWind.Validation.Entities.dll" target="lib\net8.0\NorthWind.Validation.Entities.dll" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\Abstractions\AbstractModelValidator.cs" target="src\NorthWind.Validation.Entities\Abstractions\AbstractModelValidator.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\Abstractions\AbstractViewModelValidator.cs" target="src\NorthWind.Validation.Entities\Abstractions\AbstractViewModelValidator.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\DependencyContainer.cs" target="src\NorthWind.Validation.Entities\DependencyContainer.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\Enums\ValidationConstraint.cs" target="src\NorthWind.Validation.Entities\Enums\ValidationConstraint.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\GlobalUsings.cs" target="src\NorthWind.Validation.Entities\GlobalUsings.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\Interfaces\ICollectionValidationRules.cs" target="src\NorthWind.Validation.Entities\Interfaces\ICollectionValidationRules.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\Interfaces\IModelValidator.cs" target="src\NorthWind.Validation.Entities\Interfaces\IModelValidator.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\Interfaces\IModelValidatorHub.cs" target="src\NorthWind.Validation.Entities\Interfaces\IModelValidatorHub.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\Interfaces\IValidationRules.cs" target="src\NorthWind.Validation.Entities\Interfaces\IValidationRules.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\Interfaces\IValidationService.cs" target="src\NorthWind.Validation.Entities\Interfaces\IValidationService.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\ModelValidatorHub.cs" target="src\NorthWind.Validation.Entities\ModelValidatorHub.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\ValueObjects\ValidationError.cs" target="src\NorthWind.Validation.Entities\ValueObjects\ValidationError.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\obj\Debug\net8.0\NorthWind.Validation.Entities.GlobalUsings.g.cs" target="src\NorthWind.Validation.Entities\obj\Debug\net8.0\NorthWind.Validation.Entities.GlobalUsings.g.cs" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Validation.Entities\NorthWind.Validation.Entities.csproj" target="src\NorthWind.Validation.Entities\NorthWind.Validation.Entities.csproj" />
+  </files>
+</package>

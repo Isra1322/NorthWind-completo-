@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.Result.Entities</id>
+    <version>2.0.0</version>
+    <authors>NorthWind.Result.Entities</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net10.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.Result.Entities\bin\Release\net10.0\NorthWind.Result.Entities.dll" target="lib\net10.0\NorthWind.Result.Entities.dll" />
+  </files>
+</package>

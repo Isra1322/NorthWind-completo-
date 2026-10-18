@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NorthWind.RazorComponents</id>
+    <version>1.0.2</version>
+    <authors>NorthWind.RazorComponents</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NorthWind.Validation.Entities" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="8.0.31" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.RazorComponents\bin\Debug\net8.0\NorthWind.RazorComponents.pdb" target="lib\net8.0\NorthWind.RazorComponents.pdb" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.RazorComponents\bin\Debug\net8.0\NorthWind.RazorComponents.dll" target="lib\net8.0\NorthWind.RazorComponents.dll" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\scopedcss\projectbundle\NorthWind.RazorComponents.bundle.scp.css" target="staticwebassets\NorthWind.RazorComponents.e53w33r8zo.bundle.scp.css" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\staticwebassets\msbuild.NorthWind.RazorComponents.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" target="build\Microsoft.AspNetCore.StaticWebAssetEndpoints.props" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\staticwebassets\msbuild.NorthWind.RazorComponents.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\staticwebassets\msbuild.build.NorthWind.RazorComponents.props" target="build\NorthWind.RazorComponents.props" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NorthWind.RazorComponents.props" target="buildMultiTargeting\NorthWind.RazorComponents.props" />
+    <file src="C:\Users\Asus Tuf F16\Desktop\Michael\UNIVERSIDAD\Sexto Semestre\Soporte de deciciones\NorthWind\NorthWind.RazorComponents\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NorthWind.RazorComponents.props" target="buildTransitive\NorthWind.RazorComponents.props" />
+  </files>
+</package>

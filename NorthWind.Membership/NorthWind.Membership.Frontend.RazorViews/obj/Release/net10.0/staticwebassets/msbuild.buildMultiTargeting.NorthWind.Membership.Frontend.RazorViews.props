@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NorthWind.Membership.Frontend.RazorViews.props" />
+</Project>

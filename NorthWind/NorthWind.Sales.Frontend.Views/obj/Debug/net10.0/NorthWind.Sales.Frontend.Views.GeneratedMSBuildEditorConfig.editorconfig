@@ -1,0 +1,76 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NorthWind.Sales.Frontend.Views
+build_property.RootNamespace = NorthWind.Sales.Frontend.Views
+build_property.ProjectDir = C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Sales.Frontend.Views\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\stali\Documents\NorthWind-main\NorthWind-main\NorthWind\NorthWind.Sales.Frontend.Views
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind/NorthWind.Sales.Frontend.Views/Components/CurrentDateTimeClock.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDdXJyZW50RGF0ZVRpbWVDbG9jay5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind/NorthWind.Sales.Frontend.Views/Components/InvoiceList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbnZvaWNlTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind/NorthWind.Sales.Frontend.Views/Components/InvoiceViewer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbnZvaWNlVmlld2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind/NorthWind.Sales.Frontend.Views/Components/SalesSearchDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTYWxlc1NlYXJjaERpYWxvZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind/NorthWind.Sales.Frontend.Views/Pages/CreateOrder.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlT3JkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind/NorthWind.Sales.Frontend.Views/Pages/InvoiceEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52b2ljZUVkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind/NorthWind.Sales.Frontend.Views/Pages/Invoices.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52b2ljZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind/NorthWind.Sales.Frontend.Views/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind/NorthWind.Sales.Frontend.Views/Components/CreateOrderComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDcmVhdGVPcmRlckNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-s96n8qn9me
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind/NorthWind.Sales.Frontend.Views/Components/DraftCancellationDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEcmFmdENhbmNlbGxhdGlvbkRpYWxvZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-690jnypt2g
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind/NorthWind.Sales.Frontend.Views/Components/ProductRemovalDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9kdWN0UmVtb3ZhbERpYWxvZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-h0maqpxw3p
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind/NorthWind.Sales.Frontend.Views/Components/SessionMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZXNzaW9uTWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-rqjv5a2714
+
+[C:/Users/stali/Documents/NorthWind-main/NorthWind-main/NorthWind/NorthWind.Sales.Frontend.Views/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ze8kpqtb99

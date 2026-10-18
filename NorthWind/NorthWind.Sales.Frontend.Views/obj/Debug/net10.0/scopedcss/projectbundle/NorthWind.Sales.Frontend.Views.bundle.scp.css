@@ -1,0 +1,94 @@
+/* _content/NorthWind.Sales.Frontend.Views/Components/CreateOrderComponent.razor.rz.scp.css */
+.order-product-cell[b-s96n8qn9me] {
+    display: grid;
+    grid-template-columns: minmax(7rem, 1fr) minmax(0, 2fr);
+    gap: .5rem;
+    overflow-wrap: anywhere;
+}
+
+.order-totals[b-s96n8qn9me] {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: .35rem 1.5rem;
+    width: fit-content;
+    max-width: 100%;
+    margin-left: auto;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    overflow-wrap: anywhere;
+}
+/* _content/NorthWind.Sales.Frontend.Views/Components/DraftCancellationDialog.razor.rz.scp.css */
+.draft-cancellation-dialog[b-690jnypt2g] {
+    border: 0;
+    padding: 0;
+    border-radius: .5rem;
+    width: min(500px, calc(100vw - 2rem));
+    max-height: calc(100dvh - 2rem);
+}
+
+.draft-cancellation-dialog[b-690jnypt2g]::backdrop {
+    background: rgba(0, 0, 0, .5);
+}
+/* _content/NorthWind.Sales.Frontend.Views/Components/ProductRemovalDialog.razor.rz.scp.css */
+.product-removal-dialog[b-h0maqpxw3p] {
+    border: 0;
+    padding: 0;
+    border-radius: .5rem;
+    width: min(500px, calc(100vw - 2rem));
+    max-height: calc(100dvh - 2rem);
+}
+
+.product-removal-dialog[b-h0maqpxw3p]::backdrop {
+    background: rgba(0, 0, 0, .5);
+}
+/* _content/NorthWind.Sales.Frontend.Views/Components/SessionMenu.razor.rz.scp.css */
+.logout-dialog[b-rqjv5a2714] {
+    border: 0;
+    padding: 0;
+    border-radius: 1rem;
+    width: min(460px, calc(100vw - 2rem));
+    max-height: calc(100dvh - 2rem);
+    box-shadow: 0 1.5rem 4rem rgba(15, 23, 42, .25);
+    color: #1e293b;
+}
+
+.logout-dialog[b-rqjv5a2714]::backdrop {
+    background: rgba(15, 23, 42, .45);
+}
+
+.modal-header[b-rqjv5a2714],
+.modal-body[b-rqjv5a2714],
+.modal-footer[b-rqjv5a2714] {
+    padding: 1.25rem 1.5rem;
+}
+
+.modal-header[b-rqjv5a2714] {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.modal-footer[b-rqjv5a2714] {
+    border-top: 1px solid #e2e8f0;
+    background: #f8fafc;
+    gap: .5rem;
+}
+
+.modal-footer .btn[b-rqjv5a2714] {
+    margin: 0;
+}
+/* _content/NorthWind.Sales.Frontend.Views/Layout/MainLayout.razor.rz.scp.css */
+.bi[b-ze8kpqtb99] { display: inline-block; width: 1.25rem; height: 1.25rem; background-repeat: no-repeat; background-position: center; background-size: contain; flex-shrink: 0; }
+.bi-house-door-fill[b-ze8kpqtb99] { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M8 1 0 8h2v7h4v-5h4v5h4V8h2z'/%3E%3C/svg%3E"); }
+.bi-card-checklist[b-ze8kpqtb99] { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M2 2h12v12H2zm1 1v10h10V3zM4 5h1v1H4zm3 0h5v1H7zM4 8h1v1H4zm3 0h5v1H7zM4 11h1v1H4zm3 0h5v1H7z'/%3E%3C/svg%3E"); }
+
+.shared-header-tools[b-ze8kpqtb99] { display: flex; align-items: center; justify-content: flex-end; gap: .75rem; min-width: 0; }
+.shared-header-tools[b-ze8kpqtb99]  .current-clock { display: flex; align-items: center; gap: .6rem; padding: .35rem .65rem; border: 1px solid #dee2e6; border-radius: .6rem; background: #f8f9fa; color: #495057; font-size: .82rem; line-height: 1.2; white-space: nowrap; }
+.shared-header-tools[b-ze8kpqtb99]  .current-clock-part { display: inline-flex; align-items: center; gap: .35rem; }
+.shared-header-tools[b-ze8kpqtb99]  .current-clock-icon { width: .9rem; height: .9rem; flex: 0 0 auto; color: #6c757d; }
+.shared-header-tools[b-ze8kpqtb99]  .current-clock-divider { width: 1px; height: 1rem; background: #ced4da; }
+.shared-header-tools[b-ze8kpqtb99]  .current-clock-time { display: inline-block; width: 5.4em; font-variant-numeric: tabular-nums; }
+
+@media (max-width: 575.98px) {
+    .shared-header-tools[b-ze8kpqtb99] { flex-wrap: wrap; justify-content: center; gap: .25rem .5rem; }
+    .shared-header-tools[b-ze8kpqtb99]  .current-clock { gap: .4rem; padding: .3rem .5rem; font-size: .75rem; }
+}
